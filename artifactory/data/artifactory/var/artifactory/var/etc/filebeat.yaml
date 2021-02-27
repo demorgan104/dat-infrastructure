@@ -1,0 +1,211 @@
+path.data: ${ARTIFACTORY_HOME}/var/data/filebeat
+filebeat.inputs:
+
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
+      - ${ARTIFACTORY_HOME}/var/log/artifactory-metrics.log
+      - ${ARTIFACTORY_HOME}/var/log/access-metrics.log
+      - ${ARTIFACTORY_HOME}/var/log/event-metrics.log
+      - ${ARTIFACTORY_HOME}/var/log/metadata-metrics.log
+      - ${ARTIFACTORY_HOME}/var/log/router-metrics.log
+    include_lines: ['^jfrt_db_connections', '^jfrt_runtime_heap', '^jfrt_http_connections','^sys_cpu_totaltime', '^app_disk']
+    processors:
+      - drop_event:
+          when.regexp.message: "^#.*"
+      - add_fields:
+          when.contains.message: "jfrt_db_connections"
+          target: ''
+          fields:
+            record_type: "jfrt_db_connections"
+      - add_fields:
+          when.contains.message: "jfrt_runtime_heap"
+          target: ''
+          fields:
+            record_type: "jfrt_runtime_heap"
+      - add_fields:
+          when.contains.message: "jfrt_http_connections"
+          target: ''
+          fields:
+            record_type: "jfrt_http_connections"
+      - add_fields:
+          when.contains.message: "sys_cpu_totaltime"
+          target: ''
+          fields:
+            record_type: "system_metrics"
+      - add_fields:
+          when.contains.message: "app_disk"
+          target: ''
+          fields:
+            record_type: "system_metrics"
+      - add_fields:
+          when.contains.log.file.path: "access-metrics"
+          target: ''
+          fields:
+            micro_service: "jfac"
+      - add_fields:
+          when.contains.log.file.path: "event-metrics"
+          target: ''
+          fields:
+            micro_service: "jfevt"
+      - add_fields:
+          when.contains.log.file.path: "metadata-metrics"
+          target: ''
+          fields:
+            micro_service: "jfmd"
+      - add_fields:
+          when.contains.log.file.path: "router-metrics"
+          target: ''
+          fields:
+            micro_service: "jfrou"
+      - add_fields:
+          when.contains.log.file.path: "artifactory-metrics"
+          target: ''
+          fields:
+            micro_service: "jfrt"
+      - if:
+          not.contains.message: "jfrt_http_connections"
+        then:
+          - dissect:
+              tokenizer: "%{metric_name} %{metric_value} %{timestamp}"
+              target_prefix: ""
+        else:
+          - dissect:
+              tokenizer: "%{metric_name}{max=\"%{http_max}\",pool=\"%{http_pool}\"} %{metric_value} %{timestamp}"
+              target_prefix: ""
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+    fields_under_root: true
+
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
+      - ${ARTIFACTORY_HOME}/var/log/artifactory-request.log
+    processors:
+      - dissect:
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          target_prefix: ""
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+      record_type: "jfrt"
+    fields_under_root: true
+
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
+      - ${ARTIFACTORY_HOME}/var/log/metadata-request.log
+    processors:
+      - dissect:
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          target_prefix: ""
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+      record_type: "jfmd"
+    fields_under_root: true
+
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
+      - ${ARTIFACTORY_HOME}/var/log/event-request.log
+    processors:
+      - dissect:
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          target_prefix: ""
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+      record_type: "jfevt"
+    fields_under_root: true
+
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
+      - ${ARTIFACTORY_HOME}/var/log/access-request.log
+    processors:
+      - dissect:
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          target_prefix: ""
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+      record_type: "jfac"
+    fields_under_root: true
+
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
+      - ${ARTIFACTORY_HOME}/var/log/frontend-request.log
+    processors:
+      - dissect:
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          target_prefix: ""
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+      record_type: "jffe"
+    fields_under_root: true
+
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
+      - ${ARTIFACTORY_HOME}/var/log/artifactory-metrics_events.log
+    processors:
+      - drop_event:
+          when:
+            not:
+              contains:
+                message: "jfrt_artifacts_gc"
+      - drop_event:
+          when:
+            regexp:
+              message: "^#.*"
+      - dissect:
+          tokenizer: "%{metric_name}{end=\"%{end_time}\",start=\"%{start_time}\",status=\"%{gc_status}\",type=\"%{gc_type}\"} %{metric_value} %{timestamp}"
+          target_prefix: ""
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+      record_type: "jfrt_artifacts_gc"
+    fields_under_root: true
+setup.template.enabled: false
+setup.ilm.enabled: false
+output.elasticsearch:
+  hosts: ["${ELASTICSEARCH_URL}"]
+  username: "${ELASTICSEARCH_USERNAME}"
+  password: "${ELASTICSEARCH_PASSWORD}"
+  indices:
+    - index: "active_metrics_data"
+      when.or:
+        - equals:
+            record_type: "jfrt_db_connections"
+        - equals:
+            record_type: "jfrt_http_connections"
+        - equals:
+            record_type: "jfrt_runtime_heap"
+        - equals:
+            record_type: "jfrt_artifacts_gc"
+        - equals:
+            record_type: "system_metrics"
+    - index: "active_request_data"
+      when.or:
+        - equals:
+            record_type: "jfmd"
+        - equals:
+            record_type: "jfac"
+        - equals:
+            record_type: "jfrt"
+        - equals:
+            record_type: "jfevt"
+        - equals:
+            record_type: "jffe"
+
+logging.level: ${FILEBEAT_LOG_LEVEL:info}
+logging.to_files: ${FILEBEAT_LOG_TOFILES:false}
+logging.files:
+  path: ${FILEBEAT_LOG_PATH:${ARTIFACTORY_HOME}/var/log}
+  name: filebeat.log
+  keepfiles: ${FILEBEAT_LOG_KEEPFILES:2}
+  permissions: 0644

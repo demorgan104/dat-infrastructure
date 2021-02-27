@@ -1,0 +1,15 @@
+endpoints:
+  - paths:
+      - match: /ui/(.*)
+        replace: /$1
+      - match: /ui
+        replace: /
+      - match: /
+        replace: ""
+    port: 8070
+    protocol: 1
+healthcheckendpoint:
+    path: /health
+    port: 8070
+nodeid: c3a0b52974de
+serviceid: jffe@000

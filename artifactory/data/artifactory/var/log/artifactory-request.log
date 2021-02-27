@@ -1,0 +1,539 @@
+2021-02-26T22:15:09.181Z|12ff2b158b094a2e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|258|JFrog-Frontend/1.15.5
+2021-02-26T22:15:09.252Z|42291b23a9ce5d4c|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|46|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:09.850Z|530845f9baccd9da|127.0.0.1|jffe@000|GET|/api/auth/screen/footer|200|-1|0|336|JFrog-Frontend/1.15.5
+2021-02-26T22:15:09.944Z|1c6697f1c0649c79|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|71|JFrog-Frontend/1.15.5
+2021-02-26T22:15:09.950Z|7ad7a7e16a7c4101|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|76|JFrog-Frontend/1.15.5
+2021-02-26T22:15:09.949Z|c8f7f75ab467631|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|74|JFrog-Frontend/1.15.5
+2021-02-26T22:15:09.963Z|4363e5f6cf6864a2|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|93|JFrog-Frontend/1.15.5
+2021-02-26T22:15:11.203Z|ace617e81c64a9c7|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:12.006Z|7905750ae4bd2361|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|24|JFrog-Frontend/1.15.5
+2021-02-26T22:15:12.012Z|b75ac9b3865286e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|30|JFrog-Frontend/1.15.5
+2021-02-26T22:15:12.017Z|7b93e44470ef31be|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|29|JFrog-Frontend/1.15.5
+2021-02-26T22:15:12.020Z|1b4fd35ba4b83e90|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|39|JFrog-Frontend/1.15.5
+2021-02-26T22:15:12.892Z|4da7a8e3b12aa35c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-26T22:15:13.203Z|37d038f08c20674f|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|0|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:15.206Z|1c16cd2ee6be96de|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|0|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:17.039Z|62bbce15bf62e89b|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:17.898Z|4e7a9f10d9d9323a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|25|JFrog-Router/7.15.2-1
+2021-02-26T22:15:22.907Z|460b9fb8c1e3dea6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|30|JFrog-Router/7.15.2-1
+2021-02-26T22:15:27.897Z|da1648034b794c3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-26T22:15:32.903Z|1278ab44a8d61847|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-26T22:15:37.296Z|361614dca4486809|172.17.0.1|anonymous|GET|/api/auth/screen/footer|200|-1|0|102|JFrog-Frontend/1.15.5
+2021-02-26T22:15:37.342Z|361614dca4486809|172.17.0.1|anonymous|GET|/api/system/version|200|-1|0|146|JFrog-Frontend/1.15.5
+2021-02-26T22:15:37.382Z|3c17bc79ef40979|172.17.0.1|anonymous|GET|/api/auth/current|200|-1|0|186|JFrog-Frontend/1.15.5
+2021-02-26T22:15:37.406Z|381b81b1a4131f63|172.17.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|212|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:37.513Z|149b5f41ea247dd|172.17.0.1|anonymous|POST|/ui/auth/logout|200|2|0|27|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:37.890Z|182318f8717f71ed|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/7.15.2-1
+2021-02-26T22:15:37.957Z|245c8a46c1af18a0|172.17.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|20|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:38Z|5a36fc3d7c7e9430|172.17.0.1|anonymous|GET|/api/auth/screen/footer|200|-1|0|65|JFrog-Frontend/1.15.5
+2021-02-26T22:15:38.008Z|2ac162dc97cb7586|172.17.0.1|anonymous|GET|/ui/oauth2/loginRequestPlatform|404|2|0|71|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:38.024Z|5a36fc3d7c7e9430|172.17.0.1|anonymous|GET|/api/system/version|200|-1|0|89|JFrog-Frontend/1.15.5
+2021-02-26T22:15:38.993Z|12b0ba5247da3a3d|172.17.0.1|anonymous|GET|/api/auth/current|200|-1|0|65|JFrog-Frontend/1.15.5
+2021-02-26T22:15:42.059Z|51b2ff2e2f3e64c6|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|69|JFrog-Frontend/1.15.5
+2021-02-26T22:15:42.060Z|29d44c6fb75db5e0|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|74|JFrog-Frontend/1.15.5
+2021-02-26T22:15:42.070Z|4b054c68320c7db6|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|79|JFrog-Frontend/1.15.5
+2021-02-26T22:15:42.083Z|4f5a80e926b932ba|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|96|JFrog-Frontend/1.15.5
+2021-02-26T22:15:42.907Z|3071c97edd0c0fdc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-26T22:15:44.411Z|15b98c5d8646db72|172.17.0.1|anonymous|POST|/ui/auth/login|200|53|0|136|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.470Z|15b98c5d8646db72|172.17.0.1|admin|GET|/api/auth/current|200|-1|0|18|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.516Z|15b98c5d8646db72|172.17.0.1|admin|POST|/api/auth/logout|200|0|0|14|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.674Z|6a23bfc02267bf04|172.17.0.1|admin|GET|/api/system/version|200|-1|0|38|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.706Z|6a23bfc02267bf04|172.17.0.1|admin|GET|/api/auth/screen/footer|200|-1|0|61|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.764Z|28d2b281eaa61845|172.17.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|136|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.843Z|6a13c3fc33f5218e|172.17.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:44.843Z|692b7767fdb2d04e|172.17.0.1|admin|GET|/api/auth/screen/footer|200|-1|0|5|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.845Z|692b7767fdb2d04e|172.17.0.1|admin|GET|/api/system/version|200|-1|0|5|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.875Z|6fd9a7ef37464a02|172.17.0.1|admin|GET|/api/auth/current|200|-1|0|29|JFrog-Frontend/1.15.5
+2021-02-26T22:15:44.962Z|54f570b0a096a0cb|172.17.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|44|JFrog-Frontend/1.15.5
+2021-02-26T22:15:45.010Z|70ba3aee881221e1|172.17.0.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|24|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:45.069Z|319ae2ed4b55d4cf|172.17.0.1|admin|GET|/api/repodata|200|2|0|22|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:45.228Z|13bbb1ded9012fb2|172.17.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|38|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:46.707Z|1449d8928d428d4d|172.17.0.1|admin|GET|/api/admin/repositories/distribution/info|200|2|0|29|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:46.719Z|5dd7d10237e93792|172.17.0.1|admin|GET|/api/admin/repositories/remote/info|200|2|0|57|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:46.727Z|2dfce106c87b260d|172.17.0.1|admin|GET|/api/admin/repositories/virtual/info|200|2|0|63|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:46.735Z|1b2483b4466f3692|172.17.0.1|admin|GET|/api/admin/repositories/local/info|200|2|0|78|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:46.738Z|58d6130028ff3698|172.17.0.1|admin|GET|/api/global/replications/config|200|2|0|74|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:47.912Z|4eea14a84890f86d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-26T22:15:49.119Z|21184b9035775832|172.17.0.1|admin|GET|/api/global/replications/config|200|2|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:49.177Z|2db16cefcccb3f67|172.17.0.1|admin|GET|/api/generalConfig|200|2|0|63|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:49.282Z|5c14c2b31f6fc989|172.17.0.1|admin|GET|/api/admin/repositories/defaultvalues|200|2|0|168|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:49.446Z|54a0292c3d0d8db8|172.17.0.1|admin|GET|/api/admin/repositories/availablechoices|200|2|0|79|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:49.507Z|65f04315207ffd10|172.17.0.1|admin|GET|/api/propertysets|200|2|0|19|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:15:52.910Z|99c36113567a1ea|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/7.15.2-1
+2021-02-26T22:15:57.908Z|67997ee481affdae|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-26T22:16:02.912Z|54b2197490dbbb64|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|26|JFrog-Router/7.15.2-1
+2021-02-26T22:16:07.912Z|4bb96184b355bc07|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/7.15.2-1
+2021-02-26T22:16:11.735Z|361e208b924b2e57|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|102|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:16:12.061Z|7c1943c047b0a421|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|62|JFrog-Frontend/1.15.5
+2021-02-26T22:16:12.069Z|163eb349e6492cc9|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|76|JFrog-Frontend/1.15.5
+2021-02-26T22:16:12.070Z|19179fd73c5a5047|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|76|JFrog-Frontend/1.15.5
+2021-02-26T22:16:12.083Z|2a231ec48e0cb535|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|84|JFrog-Frontend/1.15.5
+2021-02-26T22:16:12.911Z|36ee5bb4b7ac4132|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-26T22:16:17.916Z|272340581be942b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|28|JFrog-Router/7.15.2-1
+2021-02-26T22:16:22.925Z|6a2ef52e876a6cdf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|33|JFrog-Router/7.15.2-1
+2021-02-26T22:16:27.914Z|42103ea670b3d58b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/7.15.2-1
+2021-02-26T22:16:32.917Z|ec63c0b652ec43c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-26T22:16:36.657Z|6e8e24990422395b|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|32|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:16:37.919Z|1f9597dbdeb65f18|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-26T22:16:42.043Z|138fa84a5d31af16|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|51|JFrog-Frontend/1.15.5
+2021-02-26T22:16:42.043Z|714151dbbd4f387a|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|51|JFrog-Frontend/1.15.5
+2021-02-26T22:16:42.044Z|7c94862ca67550e6|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-26T22:16:42.060Z|3c00cb258bd42b8|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|68|JFrog-Frontend/1.15.5
+2021-02-26T22:16:42.914Z|3444c84bde74a270|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-26T22:16:47.921Z|1f85adbade1c59d1|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-26T22:16:52.919Z|42ee3b62468c8aa8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-26T22:16:57.924Z|418a1856889b656a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-26T22:17:01.022Z|461bc3f2e9d6522e|172.17.0.1|admin|GET|/api/auth/current|200|-1|0|48|JFrog-Frontend/1.15.5
+2021-02-26T22:17:01.100Z|7d8b44a85104f369|172.17.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|25|JFrog-Frontend/1.15.5
+2021-02-26T22:17:01.627Z|68c7b637b91a0633|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:02.925Z|37c47c72435d7063|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-26T22:17:04.271Z|6508c69d7546473e|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:07.920Z|699653511fabb1bb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-26T22:17:10.644Z|7436fdb4a7e7a935|172.17.0.1|admin|GET|/api/admin/repositories/validatereponame|200|2|0|44|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:12.059Z|660b6634994cde24|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|66|JFrog-Frontend/1.15.5
+2021-02-26T22:17:12.059Z|2d9a6d088d43e7aa|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|66|JFrog-Frontend/1.15.5
+2021-02-26T22:17:12.067Z|c7603bf207117a3|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|74|JFrog-Frontend/1.15.5
+2021-02-26T22:17:12.070Z|332dd28f64039eee|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|77|JFrog-Frontend/1.15.5
+2021-02-26T22:17:12.915Z|541848a3b19cd130|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/7.15.2-1
+2021-02-26T22:17:13.045Z|506adc15212e62a3|172.17.0.1|admin|POST|/api/admin/repositories|200|650|0|501|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:13.192Z|21c12dda006a6f85|172.17.0.1|admin|GET|/api/admin/repositories/virtual/info|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:13.192Z|790f96bacdf75c3|172.17.0.1|admin|GET|/api/admin/repositories/distribution/info|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:13.199Z|7aefcd9e8f9250f0|172.17.0.1|admin|GET|/api/admin/repositories/remote/info|200|2|0|10|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:13.200Z|517ca955f27ce635|172.17.0.1|admin|GET|/api/admin/repositories/local/info|200|2|0|11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:13.224Z|715db198f4eab10e|172.17.0.1|admin|GET|/api/repodata|200|2|0|34|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:13.323Z|4a5227a6f2db8c98|172.17.0.1|admin|GET|/api/repodata|200|2|0|10|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:17.916Z|38445be41d2c070b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/7.15.2-1
+2021-02-26T22:17:17.987Z|3960f065052a97fb|172.17.0.1|admin|GET|/api/admin/repositories/remote/info|200|2|0|66|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:18.019Z|63b23efa47e65728|172.17.0.1|admin|GET|/api/admin/repositories/local/info|200|2|0|92|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:18.024Z|793bef36d9a4a361|172.17.0.1|admin|GET|/api/securityconfig|200|2|0|107|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:18.032Z|48fb236862eb8ac8|172.17.0.1|admin|GET|/api/admin/repositories/distribution/info|200|2|0|99|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:18.034Z|2e15d07fe98d68ec|172.17.0.1|admin|GET|/api/users|200|2|0|231|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:18.066Z|58b760b6267f29d|172.17.0.1|admin|GET|/api/users/groups|200|2|0|147|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:18.237Z|3494fdc3ccd3a6fc|172.17.0.1|admin|POST|/api/groupPermission|200|22|0|64|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:21.317Z|11eceae4257ef199|172.17.0.1|admin|GET|/api/validations/name|200|2|0|44|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:22.926Z|36a59ad154477ac4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-26T22:17:26.655Z|32cf726f0d5a1284|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|31|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:27.508Z|58539fcfa1aaacfc|172.17.0.1|admin|GET|/api/users|200|2|0|35|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:27.920Z|6d299855c13cbac|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-26T22:17:28.884Z|7c843ed454f106|172.17.0.1|admin|GET|/api/admin/repositories/distribution/info|200|2|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:28.887Z|409bd2c4e4086b34|172.17.0.1|admin|GET|/api/admin/repositories/virtual/info|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:28.888Z|7050c999ef7aa07|172.17.0.1|admin|GET|/api/admin/repositories/local/info|200|2|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:28.892Z|5dacf36db54bda56|172.17.0.1|admin|GET|/api/admin/repositories/remote/info|200|2|0|11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:28.902Z|39754d0aba7b5d90|172.17.0.1|admin|GET|/api/global/replications/config|200|2|0|16|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:30.537Z|46649f7f0d148a98|172.17.0.1|admin|GET|/api/global/replications/config|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:30.539Z|27e5c2c2eb83d70e|172.17.0.1|admin|GET|/api/generalConfig|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:30.586Z|4fecac6291a060d|172.17.0.1|admin|GET|/api/admin/repositories/local/test|200|2|0|51|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:30.611Z|689e1e6151077618|172.17.0.1|admin|GET|/api/admin/repositories/availablechoices|200|2|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:30.746Z|66cd25d20739e06e|172.17.0.1|admin|GET|/api/propertysets|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:32.930Z|5b10f9b56152d598|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-26T22:17:35.041Z|54fc488fbf23b422|172.17.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|49|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.123Z|7bc0907566deaffa|172.17.0.1|admin|POST|/api/treebrowser|200|152|0|133|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.274Z|218e2be459f0351b|172.17.0.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.276Z|29b64eb360cbad95|172.17.0.1|admin|GET|/api/repodata|200|2|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.278Z|1b8860b71ae5e923|172.17.0.1|admin|GET|/api/repodata|200|2|0|9|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.317Z|723c166666eedcc|172.17.0.1|admin|GET|/api/setMeUp|200|2|0|48|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.341Z|ad36dd49478074|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|102|0|28|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.360Z|1e23cf086978dec2|172.17.0.1|admin|GET|/api/repodata|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.382Z|4afb3b11320f1223|172.17.0.1|admin|GET|/api/generalConfig|200|2|0|9|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.431Z|222f9e916885c6a6|172.17.0.1|admin|GET|/api/artifactsearch/property/keyvalue|200|2|0|19|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.449Z|24156eed7606e6b6|172.17.0.1|admin|POST|/api/artifactactions/download|200|46|0|36|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.472Z|276c8f90d7ad6eff|172.17.0.1|admin|HEAD|/api/userApiKey|404|-1|0|40|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.615Z|7182a060250fdc50|172.17.0.1|admin|POST|/api/artifactgeneral|200|66|0|68|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.641Z|359737018012c3b4|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:35.694Z|539b701c0fad7aab|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|76|0|32|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:36.164Z|dfb5469e96c4e70|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|80|0|13|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:36.189Z|464f36f41f48daba|172.17.0.1|admin|POST|/api/artifactactions/download|200|28|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:36.270Z|4df7fee9030a094a|172.17.0.1|admin|POST|/api/artifactgeneral|200|48|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:36.289Z|5b7f6a135ef38b6f|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:36.310Z|63caa4ff3633123a|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|40|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:37.922Z|63ecc0e216883bba|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-26T22:17:42.048Z|777c64a7a501fc73|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|54|JFrog-Frontend/1.15.5
+2021-02-26T22:17:42.051Z|6ede1bf8fd7bd668|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|57|JFrog-Frontend/1.15.5
+2021-02-26T22:17:42.050Z|7bec1db3382a7b37|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|56|JFrog-Frontend/1.15.5
+2021-02-26T22:17:42.057Z|4df35e4708470e44|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|58|JFrog-Frontend/1.15.5
+2021-02-26T22:17:42.920Z|2041887431e8c95|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/7.15.2-1
+2021-02-26T22:17:47.932Z|379ede607c047c71|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-26T22:17:51.666Z|27848b26e43524d0|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|37|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:17:52.942Z|6a55c6fc8a4c2f4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|26|JFrog-Router/7.15.2-1
+2021-02-26T22:17:57.930Z|5e3d8b66352d0788|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-26T22:18:02.933Z|5c6d60eff0cb45a7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-26T22:18:07.934Z|7c1e655208e4adcd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-26T22:18:12.007Z|7879aed56ffc34e1|172.17.0.1|non_authenticated_user|GET|/api/conan/test/v1/ping|401|-1|0|13|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:12.062Z|4cd23a7793e2a787|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|60|JFrog-Frontend/1.15.5
+2021-02-26T22:18:12.063Z|7a396b2ef785f549|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|59|JFrog-Frontend/1.15.5
+2021-02-26T22:18:12.074Z|4b195fd5818dcdc5|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|72|JFrog-Frontend/1.15.5
+2021-02-26T22:18:12.075Z|36625eb6e79ed5c6|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|71|JFrog-Frontend/1.15.5
+2021-02-26T22:18:12.933Z|7667d997e0d208bc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-26T22:18:16.668Z|5d6d10aab6c06171|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|26|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:17.823Z|8268e2da0d9270c5|172.17.0.1|admin|GET|/api/conan/test/v1/ping|200|-1|0|96|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:17.934Z|3e5ec51542b6a343|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-26T22:18:18.010Z|55fe5263997fa7e9|172.17.0.1|admin|GET|/api/conan/test/v1/users/authenticate|200|-1|0|181|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.125Z|7941df890366ab79|172.17.0.1|admin|GET|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1/digest|404|-1|0|107|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.135Z|ef4955b0db2f0c15|172.17.0.1|admin|GET|/api/conan/test/v1/users/check_credentials|200|-1|0|4|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.144Z|3383196b6a2934f3|172.17.0.1|admin|GET|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1|404|-1|0|3|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.178Z|7c7b6a7b86f6757e|172.17.0.1|admin|POST|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1/upload_urls|200|47|0|28|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.258Z|eb2e458d1c9d1460|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/export/conanfile.py|404|0|0|74|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.466Z|576ca6806018bb96|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/export/conanfile.py|201|1196|0|201|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.491Z|30f7c9fbe71d8640|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/export/conanmanifest.txt|404|0|0|18|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.559Z|6df07b7a35aedad7|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/export/conanmanifest.txt|201|58|0|61|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.592Z|bf402eb043fac61d|172.17.0.1|admin|GET|/api/conan/test/v1/users/check_credentials|200|-1|0|3|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.645Z|b25de64730cced16|172.17.0.1|admin|GET|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1/packages/f83037eff23ab3a94190d7f3f7b37a2d6d522241|404|-1|0|39|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.658Z|14125221221af7ad|172.17.0.1|admin|POST|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1/packages/f83037eff23ab3a94190d7f3f7b37a2d6d522241/upload_urls|200|75|0|5|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.672Z|5c7cf777319a9de9|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/package/f83037eff23ab3a94190d7f3f7b37a2d6d522241/0/conan_package.tgz|404|0|0|8|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.755Z|32ed021e94d8774|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/package/f83037eff23ab3a94190d7f3f7b37a2d6d522241/0/conan_package.tgz|201|3138|0|77|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.778Z|f932eb6ece3df8b8|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/package/f83037eff23ab3a94190d7f3f7b37a2d6d522241/0/conaninfo.txt|404|0|0|17|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.855Z|323e0c409c0a03f5|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/package/f83037eff23ab3a94190d7f3f7b37a2d6d522241/0/conaninfo.txt|201|408|0|70|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.869Z|1bf795f35bd9afd1|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/package/f83037eff23ab3a94190d7f3f7b37a2d6d522241/0/conanmanifest.txt|404|0|0|8|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:18.911Z|486c1aa06d8d1abb|172.17.0.1|admin|PUT|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/package/f83037eff23ab3a94190d7f3f7b37a2d6d522241/0/conanmanifest.txt|201|506|0|36|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:18:22.952Z|6e052819a37f11dc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|30|JFrog-Router/7.15.2-1
+2021-02-26T22:18:25.172Z|4eb07408b20bf971|172.17.0.1|admin|POST|/api/artifactgeneral|200|48|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:25.194Z|4b83774964732a5|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:25.231Z|7732b7eaafce94a1|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|40|0|9|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:26.136Z|4cc883613553fa5a|172.17.0.1|admin|POST|/api/treebrowser|200|96|0|41|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:27.245Z|6705659e2074e895|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|87|0|8|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:27.274Z|2ff546ccf83a3417|172.17.0.1|admin|POST|/api/artifactactions/download|200|38|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:27.355Z|254be4e0a5e755b7|172.17.0.1|admin|POST|/api/artifactgeneral|200|55|0|18|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:27.373Z|6fbcfeca43138d85|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:27.404Z|247e26de982eac93|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|57|0|17|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:27.936Z|7e84c5bf22f5b6e9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-26T22:18:28.157Z|69e2f37fd34fa333|172.17.0.1|admin|POST|/api/artifactgeneral|200|55|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:28.178Z|2484cd538ee1265b|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:28.200Z|7eb93cc91a53a8e4|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|57|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:29.161Z|62e455d344973a56|172.17.0.1|admin|POST|/api/artifactgeneral|200|55|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:29.179Z|5fb6aabc1c84a982|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:29.200Z|78a533f81e15a21d|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|57|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:29.987Z|1912b540ed2cc0bb|172.17.0.1|admin|POST|/api/treebrowser|200|112|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:31.137Z|79d0e05e784b9dff|172.17.0.1|admin|POST|/api/treebrowser|200|123|0|13|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:32.241Z|340365a9dfe377d3|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|102|0|32|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:32.273Z|5272e327ff1fcd37|172.17.0.1|admin|POST|/api/artifactactions/download|200|53|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:32.341Z|332af206f3f5f73f|172.17.0.1|admin|POST|/api/artifactgeneral|200|70|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:32.363Z|b8699123a7141d9|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:32.387Z|751cce7a49e59d27|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|65|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:32.942Z|36bfb520bc240f7d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-26T22:18:33.086Z|230f9dae03fd1be3|172.17.0.1|admin|POST|/api/artifactgeneral|200|70|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:33.105Z|2a872aea5d44345f|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:33.129Z|35dc0463a116f085|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|65|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:33.835Z|112f7a3112ea42c5|172.17.0.1|admin|POST|/api/artifactgeneral|200|70|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:33.854Z|4169abed819f3ca5|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:33.873Z|7aa3c9fcc389511d|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|65|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:34.743Z|5909bb211427006e|172.17.0.1|admin|POST|/api/treebrowser|200|120|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:35.682Z|417a1635dc9c05db|172.17.0.1|admin|POST|/api/treebrowser|200|124|0|8|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:36.650Z|68f41538ebe6758b|172.17.0.1|admin|POST|/api/treebrowser|200|124|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:37.747Z|4e67aad8c6cd10b1|172.17.0.1|admin|POST|/api/treebrowser|200|138|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:37.940Z|c009ee524bcf65d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-26T22:18:38.911Z|54d1b5f02094dd23|172.17.0.1|admin|POST|/api/treebrowser|200|212|0|11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:39.769Z|608d1d55f7269cd8|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|159|0|9|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:39.831Z|199262fd2093f616|172.17.0.1|admin|POST|/api/artifactactions/download|200|110|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:39.897Z|32dc3ab82cc710a8|172.17.0.1|admin|POST|/api/artifactgeneral|200|127|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:39.920Z|385f9734dfa0f7bf|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:39.942Z|5364a5a26f8b5fa5|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|120|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:40.467Z|7a32af4872ec7ce2|172.17.0.1|admin|POST|/api/treebrowser|200|175|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:41.657Z|7156c4c5c1918e06|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|27|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:42.048Z|792584883ac2e3e|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|47|JFrog-Frontend/1.15.5
+2021-02-26T22:18:42.050Z|10eb0eed5a902baa|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|50|JFrog-Frontend/1.15.5
+2021-02-26T22:18:42.052Z|3c08209e904df74a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-26T22:18:42.066Z|3ddd4af55487ed51|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|65|JFrog-Frontend/1.15.5
+2021-02-26T22:18:42.551Z|1ba55023c978b143|172.17.0.1|admin|POST|/api/treebrowser|200|136|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:42.930Z|605b3c7eaee03468|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|12|JFrog-Router/7.15.2-1
+2021-02-26T22:18:45.067Z|779057e181e44875|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|126|0|11|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:45.121Z|289aec5c63ceacab|172.17.0.1|admin|POST|/api/artifactactions/download|200|79|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:45.239Z|788d357b37828396|172.17.0.1|admin|POST|/api/artifactgeneral|200|93|0|50|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:45.261Z|2951d6a104e8d0fa|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:47.559Z|716d9cbe5aef9f8d|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|175|0|29|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:47.586Z|79d9689b60f6ea33|172.17.0.1|admin|POST|/api/artifactactions/download|200|128|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:47.669Z|6c10d8cc13bbbba1|172.17.0.1|admin|POST|/api/artifactgeneral|200|142|0|10|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:47.689Z|66ca7d2ca8b4ffc7|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|2|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:47.932Z|6f55b3d9cb2fb7f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/7.15.2-1
+2021-02-26T22:18:48.438Z|15b258fa4bfc3a88|172.17.0.1|admin|POST|/api/treebrowser|200|209|0|66|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:49.747Z|4a8aded7bff0672|172.17.0.1|admin|POST|/api/artifactactions/download|200|139|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:49.798Z|2c1e7e6601fb2163|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:52.946Z|683d3d40370ea672|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-26T22:18:54.171Z|5e08c073c2692b93|172.17.0.1|admin|POST|/api/artifactactions/download|200|141|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:54.213Z|44af1691c11c5867|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:56.112Z|56c6a4a59d7711af|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:57.939Z|624ed2e22389e0bd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-26T22:18:57.985Z|79c6d7f08088090|172.17.0.1|admin|POST|/api/artifactactions/download|200|139|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:58.031Z|38bb6d3a213f46be|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:59.524Z|270442c823158256|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|159|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:59.586Z|2cae024a53ee785c|172.17.0.1|admin|POST|/api/artifactactions/download|200|110|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:59.653Z|662ef9f40215552e|172.17.0.1|admin|POST|/api/artifactgeneral|200|127|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:59.675Z|45d30da41c23d5ea|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:18:59.698Z|64aa4e877f3d3162|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|120|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:00.310Z|b39c1865e74f363|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|157|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:00.363Z|493f4fb4f6587cf8|172.17.0.1|admin|POST|/api/artifactactions/download|200|108|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:00.434Z|2cbcfebcd1ddb1f3|172.17.0.1|admin|POST|/api/artifactgeneral|200|125|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:00.481Z|7402ba67cb7301af|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:00.528Z|51865c837512d6d6|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|157|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:02.945Z|287230c38d2019ca|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-26T22:19:03.202Z|318041c278f735dc|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|36|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:04.395Z|3b31349dd0048985|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|80|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:04.428Z|3e722a623cbbb01f|172.17.0.1|admin|POST|/api/artifactactions/download|200|28|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:04.492Z|507afc9691af25ce|172.17.0.1|admin|POST|/api/artifactgeneral|200|48|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:04.517Z|7f5c1c511d64e025|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|3|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:04.538Z|7de557e82c18eebe|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|40|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:06.634Z|4a46212b2a745c9f|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:07.952Z|1bfd3d75f63b13e4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|26|JFrog-Router/7.15.2-1
+2021-02-26T22:19:08.106Z|1b9f9ee171cb2ed4|172.17.0.1|admin|POST|/api/artifactgeneral|200|48|0|10|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:08.128Z|2a765a4048257b65|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:08.150Z|730d2b96c30d9087|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|40|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:12.060Z|359b84d704f3396e|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|49|JFrog-Frontend/1.15.5
+2021-02-26T22:19:12.062Z|7604f15217e5b27c|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|51|JFrog-Frontend/1.15.5
+2021-02-26T22:19:12.063Z|717d399ede4f3b0b|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|54|JFrog-Frontend/1.15.5
+2021-02-26T22:19:12.076Z|2638dcb9c49880ff|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|67|JFrog-Frontend/1.15.5
+2021-02-26T22:19:12.945Z|71a5d9beb6a96f0a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-26T22:19:17.951Z|bf933504d7ee175|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-26T22:19:22.396Z|ad3345b7156973af|172.17.0.1|admin|GET|/api/conan/test/v1/ping|200|-1|0|5|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.419Z|941006abb2da1143|172.17.0.1|admin|GET|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1/digest|200|-1|0|14|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.479Z|1ebf6faff3f649d8|172.17.0.1|admin|GET|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/export/conanmanifest.txt|200|-1|58|52|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.486Z|71ae32c51ac8a3f9|172.17.0.1|admin|GET|/api/conan/test/v1/users/check_credentials|200|-1|0|3|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.554Z|4c5e0ae66f7202bd|172.17.0.1|admin|GET|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1|200|-1|0|61|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.566Z|66f1c651f2ee322f|172.17.0.1|admin|GET|/api/conan/test/v1/users/check_credentials|200|-1|0|3|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.592Z|fddc824ab8686057|172.17.0.1|admin|GET|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1/packages/f83037eff23ab3a94190d7f3f7b37a2d6d522241|200|-1|0|19|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.614Z|5754cdec1c9e2356|172.17.0.1|admin|GET|/api/conan/test/v1/conans/hello_test/0.1/hello_test/0.1/packages/f83037eff23ab3a94190d7f3f7b37a2d6d522241/digest|200|-1|0|16|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.630Z|7eea2ed09ce8d9d4|172.17.0.1|admin|GET|/api/conan/test/v1/files/hello_test/hello_test/0.1/0.1/0/package/f83037eff23ab3a94190d7f3f7b37a2d6d522241/0/conanmanifest.txt|200|-1|506|11|Conan/1.33.1 (Python 3.9.0) python-requests/2.25.1
+2021-02-26T22:19:22.960Z|19455a68187ffccd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|29|JFrog-Router/7.15.2-1
+2021-02-26T22:19:27.945Z|20cadb24252e685c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-26T22:19:31.719Z|7191bb178b13a37a|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|54|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-26T22:19:32.952Z|e67d775b1710ebd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-27T09:41:49.030Z|430ef512f2a2ce3a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|184|JFrog-Frontend/1.15.5
+2021-02-27T09:41:49.658Z|2eaab7b81b827a4c|127.0.0.1|jffe@000|GET|/api/auth/screen/footer|200|-1|0|321|JFrog-Frontend/1.15.5
+2021-02-27T09:41:49.790Z|78393be2713caecb|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|116|JFrog-Frontend/1.15.5
+2021-02-27T09:41:49.804Z|5ddcad65a8815918|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|129|JFrog-Frontend/1.15.5
+2021-02-27T09:41:49.813Z|5e5d9f0bac770363|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|139|JFrog-Frontend/1.15.5
+2021-02-27T09:41:49.816Z|51b8fc622c46b9a6|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|142|JFrog-Frontend/1.15.5
+2021-02-27T09:41:49.873Z|cc5cacfe289d2ae|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-27T09:41:50.250Z|76c8fdd466c06329|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|23|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:41:51.850Z|43db051d63280bbf|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|22|JFrog-Frontend/1.15.5
+2021-02-27T09:41:51.851Z|399c193b668ff7cf|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|19|JFrog-Frontend/1.15.5
+2021-02-27T09:41:51.855Z|73f4e91bb2c99017|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|27|JFrog-Frontend/1.15.5
+2021-02-27T09:41:51.862Z|6c475c63f741848f|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|30|JFrog-Frontend/1.15.5
+2021-02-27T09:41:54.863Z|54b0a30088df4cfc|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-27T09:41:55.350Z|e61c319b10872f85|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:41:59.864Z|270306c2c4ef6b48|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:42:02.008Z|c31390a162fc032c|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|0|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:42:04.872Z|6ee4aac8d952da5e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:42:09.866Z|34acce7e0d763276|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-27T09:42:14.872Z|598639819178920c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-27T09:42:19.871Z|405709a763f4b4fb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-27T09:42:21.928Z|2b808203f170fcac|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|97|JFrog-Frontend/1.15.5
+2021-02-27T09:42:21.928Z|36c94b7dcd3e6070|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|100|JFrog-Frontend/1.15.5
+2021-02-27T09:42:21.934Z|4d40813b94363a8f|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|106|JFrog-Frontend/1.15.5
+2021-02-27T09:42:21.939Z|7ff5541d105bccaf|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|111|JFrog-Frontend/1.15.5
+2021-02-27T09:42:24.879Z|79cef9d3b99eb044|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:42:29.884Z|a485101a90d437b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:42:34.876Z|61c0bf272a593165|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-27T09:42:39.888Z|11f8d9d81ac93cf6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:42:44.887Z|721960123eed52e9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-27T09:42:49.897Z|150510cc9d25cc1f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|27|JFrog-Router/7.15.2-1
+2021-02-27T09:42:51.927Z|3e974f38d29a5bef|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|85|JFrog-Frontend/1.15.5
+2021-02-27T09:42:51.929Z|62e405df03fde490|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|82|JFrog-Frontend/1.15.5
+2021-02-27T09:42:51.929Z|5dfd2a84181f11c9|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|87|JFrog-Frontend/1.15.5
+2021-02-27T09:42:51.930Z|30f6b0e60421fad8|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|67|JFrog-Frontend/1.15.5
+2021-02-27T09:42:54.883Z|4c9a298cfcebf29c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-27T09:42:59.902Z|34f0e7a51430b4a5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|32|JFrog-Router/7.15.2-1
+2021-02-27T09:43:04.879Z|53ee1ee969b518ca|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:43:09.894Z|48b6fffb555f7217|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:43:14.891Z|6af502743dbc193c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:43:19.891Z|5793585f5d22c9f4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:43:21.902Z|73f1e76e3ceba5ab|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|60|JFrog-Frontend/1.15.5
+2021-02-27T09:43:21.903Z|3711072262555411|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|61|JFrog-Frontend/1.15.5
+2021-02-27T09:43:21.913Z|6f0842f1fa9233d5|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|66|JFrog-Frontend/1.15.5
+2021-02-27T09:43:21.918Z|5a8355fe533a06e8|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|76|JFrog-Frontend/1.15.5
+2021-02-27T09:43:24.899Z|4999bb4ac2ed4728|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-27T09:43:29.891Z|589b3cdcea4ee77d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:43:34.894Z|7fb82e06e0e063b2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:43:39.897Z|bc8570b4987d2c4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-27T09:43:44.899Z|7207f07818bc3e6c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-27T09:43:49.902Z|692c9748d2b127c2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-27T09:43:51.906Z|3eda2716a816da92|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|56|JFrog-Frontend/1.15.5
+2021-02-27T09:43:51.907Z|2e473bcf322fceb5|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|50|JFrog-Frontend/1.15.5
+2021-02-27T09:43:51.931Z|22cd11285e7c0d75|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|77|JFrog-Frontend/1.15.5
+2021-02-27T09:43:51.933Z|2186cdb14e96fda4|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|80|JFrog-Frontend/1.15.5
+2021-02-27T09:43:54.899Z|5c429a1b5b48de9e|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:43:59.908Z|34ce87baf7448233|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:44:04.904Z|6a7c4c9d7acd648d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-27T09:44:09.902Z|270b221cb80c1f96|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:44:14.895Z|199087caac979d2c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:44:19.909Z|1988833b87405a30|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|28|JFrog-Router/7.15.2-1
+2021-02-27T09:44:21.890Z|4d5929d94b287a38|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|41|JFrog-Frontend/1.15.5
+2021-02-27T09:44:21.905Z|16798227bb5c363a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|56|JFrog-Frontend/1.15.5
+2021-02-27T09:44:21.906Z|5b1f775a0861b840|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|55|JFrog-Frontend/1.15.5
+2021-02-27T09:44:21.906Z|65e0562e2fc76791|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|47|JFrog-Frontend/1.15.5
+2021-02-27T09:44:24.919Z|3436edc9a41111a6|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:44:29.901Z|6a4f64cc7427988a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:44:34.911Z|59172948406ac732|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:44:39.903Z|336de7812ae1fcde|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:44:44.893Z|48303dd8b45eeef8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/7.15.2-1
+2021-02-27T09:44:49.908Z|2c5ac70c22af01d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-27T09:44:51.891Z|21d8b9bc5a8042d2|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|48|JFrog-Frontend/1.15.5
+2021-02-27T09:44:51.914Z|24d323ce1d698b64|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|71|JFrog-Frontend/1.15.5
+2021-02-27T09:44:51.923Z|2774a52932b4ea91|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|80|JFrog-Frontend/1.15.5
+2021-02-27T09:44:51.929Z|2d7e5b1503ee413|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|84|JFrog-Frontend/1.15.5
+2021-02-27T09:44:54.900Z|33671a9d2ab31b34|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:44:59.907Z|511ef3ab8e12eaa4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:45:04.912Z|5ac06a8431bf89e0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-27T09:45:09.884Z|70672890ad178943|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-27T09:45:14.882Z|f75d97c7425f9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:45:19.876Z|526bf2ea47a81b7|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/7.15.2-1
+2021-02-27T09:45:21.865Z|359c3e237a8252f4|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|38|JFrog-Frontend/1.15.5
+2021-02-27T09:45:21.881Z|68a9e7ed9eee5bc7|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|50|JFrog-Frontend/1.15.5
+2021-02-27T09:45:21.896Z|1f999005ea1d9c4f|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|70|JFrog-Frontend/1.15.5
+2021-02-27T09:45:21.897Z|607a836380229818|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|69|JFrog-Frontend/1.15.5
+2021-02-27T09:45:24.889Z|5a2bf36549a582cf|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-27T09:45:25.523Z|fd1378531481f62f|172.17.0.1|non_authenticated_user|GET|/|302|-1|0|2|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:28.279Z|1bc4916d59ed3740|172.17.0.1|anonymous|GET|/api/auth/screen/footer|200|-1|0|76|JFrog-Frontend/1.15.5
+2021-02-27T09:45:28.462Z|1bc4916d59ed3740|172.17.0.1|anonymous|GET|/api/system/version|200|-1|0|270|JFrog-Frontend/1.15.5
+2021-02-27T09:45:28.519Z|ff22d2cc64bd4c0|172.17.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|287|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:29.009Z|1e47c2c01ba02932|172.17.0.1|anonymous|GET|/api/auth/current|200|-1|0|818|JFrog-Frontend/1.15.5
+2021-02-27T09:45:29.275Z|6e213a4f15db982d|172.17.0.1|anonymous|POST|/ui/auth/logout|200|2|0|138|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:29.739Z|57c6b858e9a6e4ba|172.17.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|39|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:29.818Z|6e7b5e170a34ec6f|172.17.0.1|anonymous|GET|/api/system/version|200|-1|0|115|JFrog-Frontend/1.15.5
+2021-02-27T09:45:29.871Z|6e7b5e170a34ec6f|172.17.0.1|anonymous|GET|/api/auth/screen/footer|200|-1|0|170|JFrog-Frontend/1.15.5
+2021-02-27T09:45:29.880Z|30cab8c6c8d60eed|172.17.0.1|anonymous|GET|/ui/oauth2/loginRequestPlatform|404|2|0|155|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:29.923Z|5b249a898e544207|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|55|JFrog-Router/7.15.2-1
+2021-02-27T09:45:30.834Z|7d1dc779c3ca5653|172.17.0.1|anonymous|GET|/api/auth/current|200|-1|0|55|JFrog-Frontend/1.15.5
+2021-02-27T09:45:34.898Z|70e19afe2d265326|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|29|JFrog-Router/7.15.2-1
+2021-02-27T09:45:36.946Z|4cae3253fb81a9af|172.17.0.1|anonymous|POST|/ui/auth/login|200|53|0|117|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.058Z|4cae3253fb81a9af|172.17.0.1|admin|GET|/api/auth/current|200|-1|0|26|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.129Z|4cae3253fb81a9af|172.17.0.1|admin|POST|/api/auth/logout|200|0|0|24|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.294Z|1506318de4cfcac7|172.17.0.1|admin|GET|/api/system/version|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.312Z|1506318de4cfcac7|172.17.0.1|admin|GET|/api/auth/screen/footer|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.363Z|dee037f88cafae0|172.17.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|99|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.441Z|43c1f05730d8fcab|172.17.0.1|admin|GET|/api/system/version|200|-1|0|2|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.446Z|43c1f05730d8fcab|172.17.0.1|admin|GET|/api/auth/screen/footer|200|-1|0|5|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.447Z|140da1ee8ec8356a|172.17.0.1|anonymous|POST|/ui/auth/loginRelatedData|200|17|0|9|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:37.471Z|60dab4c5be26b862|172.17.0.1|admin|GET|/api/auth/current|200|-1|0|30|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.555Z|57f3bf7ce13fbc4f|172.17.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|41|JFrog-Frontend/1.15.5
+2021-02-27T09:45:37.595Z|37c94f80209ceba5|172.17.0.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|19|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:37.646Z|2782aa6c3e83d5e|172.17.0.1|admin|GET|/api/repodata|200|2|0|26|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:37.798Z|392ae85137d9ad0f|172.17.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|34|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:39.887Z|23621e10e29b93c3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:45:41.496Z|6472c9a0a6b5d5bb|172.17.0.1|admin|GET|/api/admin/repositories/remote/info|200|2|0|71|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:41.495Z|674ea0e26623c03|172.17.0.1|admin|GET|/api/global/replications/config|200|2|0|68|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:41.497Z|44ad010ec23b7270|172.17.0.1|admin|GET|/api/admin/repositories/distribution/info|200|2|0|72|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:41.505Z|7bee1499457fdbdc|172.17.0.1|admin|GET|/api/admin/repositories/virtual/info|200|2|0|72|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:41.518Z|3c378dcb0391807|172.17.0.1|admin|GET|/api/admin/repositories/local/info|200|2|0|93|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:44.891Z|143f39f5df630597|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:45:48.728Z|24fd624110b18758|172.17.0.1|admin|GET|/api/home/widget/artifactCount|200|2|0|10|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:48.915Z|79cd9ec780d4fdac|172.17.0.1|admin|POST|/api/treebrowser|200|152|0|201|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:48.978Z|68d6348abb8d8e16|172.17.0.1|admin|GET|/api/artifactsearch/pkg/availablePackages|200|2|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:48.998Z|665243da8f0576c4|172.17.0.1|admin|GET|/api/repodata|200|2|0|12|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.006Z|5a0adda62fa75826|172.17.0.1|admin|GET|/api/repodata|200|2|0|14|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.020Z|60ec02605b9592a2|172.17.0.1|admin|GET|/api/setMeUp|200|2|0|28|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.080Z|24cbc84785c6674d|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|102|0|44|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.123Z|280936eec8634983|172.17.0.1|admin|GET|/api/repodata|200|2|0|27|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.174Z|2286687235ca7f5f|172.17.0.1|admin|GET|/api/generalConfig|200|2|0|74|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.184Z|4e0685a10da53673|172.17.0.1|admin|POST|/api/artifactactions/download|200|46|0|34|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.216Z|36726e716e9c73c3|172.17.0.1|admin|GET|/api/artifactsearch/property/keyvalue|200|2|0|19|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.236Z|3b2987b58237bbd7|172.17.0.1|admin|HEAD|/api/userApiKey|404|-1|0|32|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.426Z|73f0b98a7c7d6e23|172.17.0.1|admin|POST|/api/artifactgeneral|200|66|0|124|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.460Z|78da9b8d667d2848|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.543Z|2705ebbe854b6f59|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|76|0|45|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:49.887Z|77c94d5628c3ca80|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:45:50.612Z|e4d61869c576775|172.17.0.1|admin|POST|/api/treebrowser|200|96|0|58|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:51.497Z|45ff22ef2a452cd9|172.17.0.1|admin|POST|/api/treebrowser/tabsAndActions|200|87|0|10|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:51.528Z|47732c2bb3623441|172.17.0.1|admin|POST|/api/artifactactions/download|200|38|0|4|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:51.607Z|4d8bc6efa5dcf8b9|172.17.0.1|admin|POST|/api/artifactgeneral|200|55|0|19|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:51.649Z|79ee0f9bf7d2a3b3|172.17.0.1|admin|GET|/api/auth/canAnnotate|200|2|0|6|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:51.683Z|11a434ce77db4bfc|172.17.0.1|admin|POST|/api/artifactgeneral/artifactsCount|200|57|0|14|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:51.857Z|3ec87edfb2917e37|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|41|JFrog-Frontend/1.15.5
+2021-02-27T09:45:51.866Z|6cfff3704a47b64d|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|51|JFrog-Frontend/1.15.5
+2021-02-27T09:45:51.867Z|638d1379236273|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-27T09:45:51.873Z|b69eaf995e0f07f|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|57|JFrog-Frontend/1.15.5
+2021-02-27T09:45:52.665Z|5b34cbd88b0c0985|172.17.0.1|admin|POST|/api/treebrowser|200|112|0|29|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:53.485Z|552b62bf727b1e40|172.17.0.1|admin|POST|/api/treebrowser|200|123|0|7|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:45:54.886Z|6d3111e581d087ab|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-27T09:45:59.886Z|47b49e39f9269ab0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-27T09:46:02.308Z|32a683a9522753ca|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|74|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:46:04.886Z|3449281908f0b616|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-27T09:46:09.897Z|4e151eaaaa82daef|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:46:14.896Z|6f4f64d4104365c9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:46:19.899Z|4ecfe5eeb6901bcd|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:46:21.876Z|3cd4b7e4ddf76a44|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|49|JFrog-Frontend/1.15.5
+2021-02-27T09:46:21.877Z|25f786aadcdaaf38|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|49|JFrog-Frontend/1.15.5
+2021-02-27T09:46:21.887Z|32442ff7cad4f7|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|60|JFrog-Frontend/1.15.5
+2021-02-27T09:46:21.901Z|a090cb460a025f|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|74|JFrog-Frontend/1.15.5
+2021-02-27T09:46:24.895Z|4fc9c798b496d2b9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-27T09:46:27.259Z|2aafb8976a1aa63|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|34|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:46:29.903Z|ac72eb2da3c0931|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/7.15.2-1
+2021-02-27T09:46:34.897Z|6ce6ac8551257131|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-27T09:46:39.895Z|7eb8fdd879fd69bb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|14|JFrog-Router/7.15.2-1
+2021-02-27T09:46:44.907Z|7d019e48f42ca523|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|25|JFrog-Router/7.15.2-1
+2021-02-27T09:46:49.911Z|2936faef47cc61ea|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|32|JFrog-Router/7.15.2-1
+2021-02-27T09:46:51.884Z|4f463c657edec365|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|54|JFrog-Frontend/1.15.5
+2021-02-27T09:46:51.885Z|5ad30c885b4279b3|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|55|JFrog-Frontend/1.15.5
+2021-02-27T09:46:51.890Z|654e25a3581c669|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|58|JFrog-Frontend/1.15.5
+2021-02-27T09:46:51.892Z|23f9deae8db6cdf0|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|61|JFrog-Frontend/1.15.5
+2021-02-27T09:46:54.914Z|49c479cd213526da|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/7.15.2-1
+2021-02-27T09:46:56.910Z|261bc243daba6e26|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|49|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:46:59.910Z|4f96469332bfbd20|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:47:04.913Z|d970628aadd548|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-27T09:47:06.183Z|1ebde7fc14bfe7b7|172.17.0.1|admin|GET|/api/auth/current|200|-1|0|19|JFrog-Frontend/1.15.5
+2021-02-27T09:47:06.266Z|281dc198b61cdb8c|172.17.0.1|admin|GET|/api/onboarding/initStatus|200|-1|0|24|JFrog-Frontend/1.15.5
+2021-02-27T09:47:09.913Z|49dba73e5a93657b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:47:14.915Z|5dedd64ab6c7d11a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:47:19.911Z|4493adffb6585119|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:47:21.862Z|32a12f084536a32b|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|34|JFrog-Frontend/1.15.5
+2021-02-27T09:47:21.872Z|3b7a77e156959c68|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|47|JFrog-Frontend/1.15.5
+2021-02-27T09:47:21.876Z|4299a475d9d79115|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|50|JFrog-Frontend/1.15.5
+2021-02-27T09:47:21.887Z|396f372f3b43bcdf|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|59|JFrog-Frontend/1.15.5
+2021-02-27T09:47:21.909Z|22fb7b407d5baf60|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|84|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:47:24.911Z|65b70edd29334c44|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-27T09:47:29.919Z|b306be15babbdff|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:47:34.922Z|70110a99206ea45f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:47:39.917Z|6c4ce6cdee06e6e5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|13|JFrog-Router/7.15.2-1
+2021-02-27T09:47:44.917Z|6e879babb77d9b65|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-27T09:47:49.927Z|156c23422a7f0ad8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:47:51.865Z|2eb06e8033a58cdb|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|35|JFrog-Frontend/1.15.5
+2021-02-27T09:47:51.865Z|1f4e197125844610|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|35|JFrog-Frontend/1.15.5
+2021-02-27T09:47:51.882Z|66e49a08cd2096b1|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|44|JFrog-Frontend/1.15.5
+2021-02-27T09:47:51.893Z|9642f87794e9c31|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|63|JFrog-Frontend/1.15.5
+2021-02-27T09:47:54.940Z|7ed1d9e53ba30a4a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|36|JFrog-Router/7.15.2-1
+2021-02-27T09:47:55.685Z|5bb1aad5d3705ef9|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|43|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:47:59.917Z|1d89701685352442|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/7.15.2-1
+2021-02-27T09:48:04.934Z|7f00fe0ae1e4604|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/7.15.2-1
+2021-02-27T09:48:09.928Z|5bfa434bcf5dc362|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:48:14.926Z|4a7eb267af8281b9|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-27T09:48:19.942Z|9c52b23c003163d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|29|JFrog-Router/7.15.2-1
+2021-02-27T09:48:21.861Z|2baf25960bb49f48|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|34|JFrog-Frontend/1.15.5
+2021-02-27T09:48:21.865Z|6109c6e3e49c52be|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|38|JFrog-Frontend/1.15.5
+2021-02-27T09:48:21.874Z|3f48f3cceacc33cb|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|47|JFrog-Frontend/1.15.5
+2021-02-27T09:48:21.879Z|1ae7e210a0ce871a|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-27T09:48:24.924Z|1e96199618a79610|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/7.15.2-1
+2021-02-27T09:48:29.525Z|61764859f1ba35c7|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|41|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:48:29.929Z|5475403394a5be9a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-27T09:48:34.936Z|6a666ee108594eb|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-27T09:48:39.936Z|671b053f12693cd0|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:48:44.938Z|8533bba0c63c95a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:48:49.949Z|2ce897cf4bed273f|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|29|JFrog-Router/7.15.2-1
+2021-02-27T09:48:51.905Z|7f6469c1b792d659|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|60|JFrog-Frontend/1.15.5
+2021-02-27T09:48:51.908Z|79841073ee38bb72|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|64|JFrog-Frontend/1.15.5
+2021-02-27T09:48:51.914Z|241154253805bb79|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|64|JFrog-Frontend/1.15.5
+2021-02-27T09:48:51.916Z|15b265551c93ba00|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|72|JFrog-Frontend/1.15.5
+2021-02-27T09:48:54.935Z|6415d770e470a2da|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1
+2021-02-27T09:48:59.941Z|528d3b16426c503d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-27T09:49:04.942Z|2ae0de354a682de4|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:49:09.941Z|4462fd3bee8faa84|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|19|JFrog-Router/7.15.2-1
+2021-02-27T09:49:14.945Z|99b45896524cbc8|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|23|JFrog-Router/7.15.2-1
+2021-02-27T09:49:19.941Z|58bb6403eafb115c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-27T09:49:21.879Z|7ef4de29f1abb1c0|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|37|JFrog-Frontend/1.15.5
+2021-02-27T09:49:21.894Z|28b5754595f41fc8|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-27T09:49:21.894Z|3fdde35d2b17923b|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-27T09:49:21.896Z|1c2364d6bcc88da2|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|52|JFrog-Frontend/1.15.5
+2021-02-27T09:49:22.712Z|5599e41e6a920b72|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|27|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:49:24.931Z|5c6ebfd906ede94d|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|11|JFrog-Router/7.15.2-1
+2021-02-27T09:49:29.942Z|4df1cb86d1aa0a94|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:49:34.945Z|2da03e89925f554a|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|18|JFrog-Router/7.15.2-1
+2021-02-27T09:49:39.949Z|45821289e197b11c|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:49:44.947Z|12232b9ea68e569b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|17|JFrog-Router/7.15.2-1
+2021-02-27T09:49:49.959Z|713cadb1455c6ec3|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|20|JFrog-Router/7.15.2-1
+2021-02-27T09:49:51.893Z|3346346fb324d3a|127.0.0.1|jffe@000|GET|/api/securityconfig|200|-1|0|42|JFrog-Frontend/1.15.5
+2021-02-27T09:49:51.896Z|45cdc0ce65f7ed31|127.0.0.1|jffe@000|GET|/api/saml/config|200|-1|0|47|JFrog-Frontend/1.15.5
+2021-02-27T09:49:51.900Z|2cbcaf90a4de3f46|127.0.0.1|jffe@000|GET|/api/crowd|200|-1|0|51|JFrog-Frontend/1.15.5
+2021-02-27T09:49:51.909Z|6dc0c109f86e5cab|127.0.0.1|jffe@000|GET|/api/httpsso|200|-1|0|47|JFrog-Frontend/1.15.5
+2021-02-27T09:49:54.952Z|7105a64c20a84646|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|21|JFrog-Router/7.15.2-1
+2021-02-27T09:49:58.681Z|72b6da192d4fa60b|172.17.0.1|admin|GET|/api/auth/screen/globalState|200|2|0|47|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+2021-02-27T09:49:59.950Z|2c4020fe7c0c5955|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|15|JFrog-Router/7.15.2-1
+2021-02-27T09:50:04.955Z|2d72626d9ee794c5|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|22|JFrog-Router/7.15.2-1
+2021-02-27T09:50:09.960Z|15883cec9742fe3b|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|24|JFrog-Router/7.15.2-1
+2021-02-27T09:50:14.954Z|388e22212ce100c2|127.0.0.1|anonymous|GET|/api/system/ping|200|-1|0|16|JFrog-Router/7.15.2-1

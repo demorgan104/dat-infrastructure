@@ -1,0 +1,903 @@
+2021-02-27T10:02:14.995Z|1018b8efbcc58c0c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|181|JFrog-Router/7.15.2-1
+2021-02-27T10:02:15.578Z|78aa7e096ca4419|127.0.0.1|anonymous|POST|/access/api/v1/registry/join/router|200|4174|881|574|JFrog-Router/7.15.2-1
+2021-02-27T10:02:16.284Z|70d75d8cbb43f6db|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|22|-1|92|JFrog-Router/7.15.2-1
+2021-02-27T10:02:19.189Z|78642fce2109eeac|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|22|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:02:20.328Z|640be95b54db0e71|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|19|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:20.350Z|24ffee050360fd41|127.0.0.1|anonymous|GET|/access/api/v1/cert/root|200|1072|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:20.500Z|454be09e3b4c08f1|/127.0.0.1:45272|jfac@01ezhf08by9nt90v6x5kgk1ceq|--UNA|com.jfrog.access.v1.permission.SystemResource/Ping|0|-1|-1|48|grpc-java-netty/1.32.1
+2021-02-27T10:02:20.620Z|367f54d22ba9d8a3|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Go Client/4.0.0
+2021-02-27T10:02:20.734Z|2bc7fca6d4f9ac46|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|744|278|91|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:20.736Z|6ffa9551883bb58f|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|744|308|111|JFrog Access Go Client/4.0.0 Metadata/v7.15.2 c8ae57f7cbb
+2021-02-27T10:02:21.190Z|32ee704ee547d0ab|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:02:21.242Z|32ee704ee547d0ab|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|47|grpc-go/1.27.1
+2021-02-27T10:02:21.655Z|4ba9e840fddf29c8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/system/server_name|200|12|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:21.664Z|18dcbf69da08e197|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/system/server_name|200|12|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:21.962Z|f73d8fd46cf49a6|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|PATCH|/access/api/v1/config|204|UNKNOWN|79|169|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:22.198Z|6bdc471c699ac62b|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|776|-1|13|JFrog-Router/7.15.2-1
+2021-02-27T10:02:22.219Z|41e2b3b2269dab98|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|453|42|244|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:22.571Z|2fbf84f35990c656|/127.0.0.1:45272|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|31|grpc-java-netty/1.32.1
+2021-02-27T10:02:22.595Z|221d367b0f38420c|127.0.0.1|anonymous|GET|/access/api/v1/config/shared|200|92|-1|7|JFrog Access Go Client/4.0.0
+2021-02-27T10:02:22.602Z|221d367b0f38420c|127.0.0.1|anonymous|GET|/access/api/v1/cert/root|200|1072|-1|4|Go-http-client/1.1
+2021-02-27T10:02:22.612Z|221d367b0f38420c|/127.0.0.1:45272|jfmd@01ezhf0hn4nmyaesy0p5rb4gq2|--UNA|com.jfrog.access.v1.token.TokenResource/Exists|0|-1|-1|5|grpc-go/1.27.1
+2021-02-27T10:02:22.934Z|56d4d09ed4216008|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/system/backup/export|202|66|0|183|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:22.977Z|67176a1c1069fd3|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|505|-1|30|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.021Z|13b826fdcf77207b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|404|96|-1|21|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.046Z|6a11832198c25eb1|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|404|96|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.099Z|5d0ef160984f66db|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/users/|201|380|74|38|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.153Z|6c942cbef1180e14|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/groups/|201|233|104|41|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.171Z|506ba03aa3c5ebfe|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/permissions/last_updated|200|13|-1|13|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.222Z|224ab700bcb89ed5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/permissions/|200|25|-1|38|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.368Z|388de90dbaad06e4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/permissions/|201|547|282|103|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.379Z|62c99b11daa3ffcc|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/permissions/|200|25|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.405Z|734bbae3851d2c48|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/permissions/|201|567|302|18|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.430Z|2b34e0e1c768ac2a|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/permissions/|200|607|-1|19|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.460Z|6b4de2b5d07b354b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/permissions/|201|531|268|19|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:23.859Z|4ce2fc5d9370d6f3|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/registry|204|UNKNOWN|48|73|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:25.190Z|4a40d0fd1f27c1d8|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|776|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:02:26.192Z|5b39e498f9a41518|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:02:26.208Z|5b39e498f9a41518|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|15|grpc-go/1.27.1
+2021-02-27T10:02:28.188Z|606bd11cc2c20a01|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1167|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:02:28.979Z|575f56c87ba1eb81|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|380|38|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:29.074Z|575f56c87ba1eb81|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:29.142Z|2203ef05d324f372|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog-Frontend/1.15.5
+2021-02-27T10:02:29.207Z|60095ef6d87847c5|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|683|272|59|jfac/7.16.0-m004 jffe/1.15.5 10000005
+2021-02-27T10:02:29.224Z|66e091ad7266d32b|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|1167|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:02:29.294Z|565562fb52864bcd|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|13|grpc-node-js/1.2.6
+2021-02-27T10:02:29.329Z|4219197038784218|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|18|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:29.350Z|4219197038784218|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/config/shared|200|92|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:29.374Z|4219197038784218|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:29.417Z|4219197038784218|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/groups/|200|270|-1|38|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:30.048Z|58913cbe3b5586f8|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|1336|-1|33|JFrog-Frontend/1.15.5
+2021-02-27T10:02:31.197Z|125605aa378eadda|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:02:31.206Z|8837108f4d13670|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1167|-1|14|JFrog-Router/7.15.2-1
+2021-02-27T10:02:31.209Z|125605aa378eadda|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:31.235Z|125605aa378eadda|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|5|grpc-go/1.27.1
+2021-02-27T10:02:34.199Z|1567a0b5d744db28|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1515|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:02:36.197Z|40ae0f2c87122019|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:36.198Z|40ae0f2c87122019|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|13|JFrog-Router/7.15.2-1
+2021-02-27T10:02:36.569Z|40ae0f2c87122019|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|357|grpc-go/1.27.1
+2021-02-27T10:02:37.203Z|3f42f6d2d7110483|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:02:40.201Z|2a22f53288de48bb|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:02:41.189Z|4ab06b473889bc4c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:02:41.198Z|4ab06b473889bc4c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:41.225Z|4ab06b473889bc4c|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|16|grpc-go/1.27.1
+2021-02-27T10:02:43.203Z|7052fd0be9b5717b|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:02:46.198Z|7fa4c66e6ff73fac|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:02:46.199Z|2fb5e6d422920dd6|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:02:46.209Z|7fa4c66e6ff73fac|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:46.225Z|7fa4c66e6ff73fac|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:02:49.202Z|182a617bb3f24e86|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:02:51.199Z|63e98f719d7bdffb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:02:51.217Z|63e98f719d7bdffb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:51.273Z|63e98f719d7bdffb|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|41|grpc-go/1.27.1
+2021-02-27T10:02:52.197Z|7cfbd28858d32252|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:02:52.483Z|6419cc670de289fb|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|28|grpc-node-js/1.2.6
+2021-02-27T10:02:52.493Z|3fb58fa7bd49662b|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.authentication.AuthenticationResource/VerifyToken|0|-1|-1|28|grpc-node-js/1.2.6
+2021-02-27T10:02:52.493Z|52b06986d75b5b79|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.authentication.AuthenticationResource/VerifyToken|0|-1|-1|24|grpc-node-js/1.2.6
+2021-02-27T10:02:52.532Z|52b06986d75b5b79|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.535Z|52b06986d75b5b79|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.539Z|3fb58fa7bd49662b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.552Z|3fb58fa7bd49662b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.553Z|52b06986d75b5b79|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.569Z|52b06986d75b5b79|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|21|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.601Z|3fb58fa7bd49662b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/permissions/last_updated|200|13|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.625Z|3fb58fa7bd49662b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/permissions/|200|627|-1|16|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.647Z|3fb58fa7bd49662b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/permissions/|200|1170|-1|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.676Z|3fb58fa7bd49662b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:52.727Z|3fb58fa7bd49662b|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|26|grpc-node-js/1.2.6
+2021-02-27T10:02:52.781Z|13446d9112f7ab9f|172.18.0.1|jffe@000|GET|/access/api/v1/topology|200|1716|-1|16|JFrog-Frontend/1.15.5
+2021-02-27T10:02:53.189Z|255f6a21e9edf3d4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:53.196Z|255f6a21e9edf3d4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|19|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:53.211Z|255f6a21e9edf3d4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:53.212Z|255f6a21e9edf3d4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:53.814Z|665a727ae4c40fe5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:53.828Z|665a727ae4c40fe5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:53.853Z|665a727ae4c40fe5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:53.898Z|665a727ae4c40fe5|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|21|grpc-node-js/1.2.6
+2021-02-27T10:02:55.213Z|13f37e648fb71d16|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|14|JFrog-Router/7.15.2-1
+2021-02-27T10:02:56.201Z|b5132cbf3f92698|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:02:56.217Z|b5132cbf3f92698|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:56.234Z|b5132cbf3f92698|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:02:56.621Z|5479f658cc246003|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|39|39|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:56.654Z|5479f658cc246003|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|453|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:56.668Z|5479f658cc246003|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|453|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:02:58.203Z|74db71ca56890473|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:03:00.020Z|58109114d51679f5|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|1716|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:03:00.619Z|d1f83326222f49f|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|453|42|41|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.633Z|d1f83326222f49f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|453|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.664Z|d1f83326222f49f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|453|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.685Z|d1f83326222f49f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|PUT|/access/api/v1/users/last_login/admin|204|UNKNOWN|62|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.699Z|d1f83326222f49f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.736Z|d1f83326222f49f|172.18.0.1|jffe@000|GET|/access/api/v1/auth/mfa/admin/status|200|23|-1|21|JFrog-Frontend/1.15.5
+2021-02-27T10:03:00.754Z|d1f83326222f49f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.790Z|d1f83326222f49f|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|16|grpc-node-js/1.2.6
+2021-02-27T10:03:00.893Z|349cc8486e01e7b8|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|13|grpc-node-js/1.2.6
+2021-02-27T10:03:00.897Z|3c53491a281e8dba|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|16|grpc-node-js/1.2.6
+2021-02-27T10:03:00.922Z|3c53491a281e8dba|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|40|grpc-node-js/1.2.6
+2021-02-27T10:03:00.924Z|349cc8486e01e7b8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.933Z|3c53491a281e8dba|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.943Z|3c53491a281e8dba|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.952Z|3c53491a281e8dba|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.955Z|349cc8486e01e7b8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:00.960Z|3c53491a281e8dba|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.040Z|349cc8486e01e7b8|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|487|42|41|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.069Z|349cc8486e01e7b8|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|3|grpc-node-js/1.2.6
+2021-02-27T10:03:01.165Z|5c7f0d54b501b9ce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|17|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.196Z|2c2d479e090876a2|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:03:01.201Z|2c2d479e090876a2|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.202Z|5c7f0d54b501b9ce|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|18|grpc-node-js/1.2.6
+2021-02-27T10:03:01.207Z|1b55d3e3f352a61f|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:03:01.227Z|2c2d479e090876a2|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|17|grpc-go/1.27.1
+2021-02-27T10:03:01.270Z|24ac163df8bf944e|172.18.0.1|jffe@000|GET|/access/api/v1/topology|200|1716|-1|6|JFrog-Frontend/1.15.5
+2021-02-27T10:03:01.318Z|13bfcffcde047034|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|487|42|46|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.330Z|13bfcffcde047034|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|2|grpc-node-js/1.2.6
+2021-02-27T10:03:01.670Z|39fba13a2c3e2949|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|18|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.670Z|6a59f503472eb77b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|39|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.688Z|1155f44141a75137|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|48|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.697Z|47b368e4a553338c|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|55|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.718Z|39fba13a2c3e2949|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|29|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.732Z|6a59f503472eb77b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|52|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.748Z|574e04374f8cb8ad|172.18.0.1|jffe@000|GET|/access/api/v1/topology|200|1716|-1|35|JFrog-Frontend/1.15.5
+2021-02-27T10:03:01.732Z|1155f44141a75137|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|33|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.721Z|47b368e4a553338c|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:01.779Z|574e04374f8cb8ad|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|11|grpc-node-js/1.2.6
+2021-02-27T10:03:04.169Z|36f5bc532a983a04|172.18.0.1|jffe@000|GET|/access/api/v1/system/security/password_policy|200|71|-1|47|JFrog-Frontend/1.15.5
+2021-02-27T10:03:04.199Z|60a8f5da75db1c83|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:03:06.199Z|630d449103c36cf3|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:03:06.210Z|630d449103c36cf3|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:06.225Z|630d449103c36cf3|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:03:07.200Z|328ba9edc9c022c7|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:03:10.209Z|43f730446b868b6a|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:03:11.202Z|4ef4f92695a6bd35|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:03:11.207Z|4ef4f92695a6bd35|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:11.221Z|4ef4f92695a6bd35|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:03:13.205Z|6cc737735cde9237|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:03:16.201Z|4434133c3e0ba77d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:03:16.218Z|4434133c3e0ba77d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:16.221Z|3e2d4c72561cf186|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|23|JFrog-Router/7.15.2-1
+2021-02-27T10:03:16.236Z|4434133c3e0ba77d|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:03:19.209Z|64a3408ede4e3a0d|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:03:21.211Z|709548fb44d4d380|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:03:21.226Z|709548fb44d4d380|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:21.243Z|709548fb44d4d380|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|5|grpc-go/1.27.1
+2021-02-27T10:03:22.203Z|4c20b61393631b81|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:03:24.782Z|16e24228b921af91|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:24.799Z|16e24228b921af91|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:24.852Z|16e24228b921af91|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|487|42|45|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:25.213Z|40d3823b4c5a4ea3|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:03:26.211Z|261cd1fd8dc9e42b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:03:26.223Z|261cd1fd8dc9e42b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:26.237Z|261cd1fd8dc9e42b|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:03:28.214Z|3e2bf61b6cf33e00|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:03:28.991Z|1b0d91c080518aa7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.025Z|1b0d91c080518aa7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.036Z|1b0d91c080518aa7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.079Z|1b0d91c080518aa7|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|487|42|37|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.244Z|1b0d91c080518aa7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|PATCH|/access/api/v1/users/admin|200|487|43|142|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.257Z|1b0d91c080518aa7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.266Z|1b0d91c080518aa7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.309Z|4fa51b4d886b0c07|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.314Z|3238d425eee3e359|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.332Z|4fa51b4d886b0c07|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.342Z|3238d425eee3e359|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.390Z|4fa51b4d886b0c07|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|43|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.393Z|3238d425eee3e359|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|36|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:29.416Z|3238d425eee3e359|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|5|grpc-node-js/1.2.6
+2021-02-27T10:03:30.019Z|3ee87555b169f343|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|1716|-1|6|JFrog-Frontend/1.15.5
+2021-02-27T10:03:31.210Z|2fffad0d53257346|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:03:31.215Z|3571408a239eacc9|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:03:31.222Z|2fffad0d53257346|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:31.238Z|2fffad0d53257346|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:03:31.640Z|70a5e13d6e9472f2|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:31.648Z|35590029518f4684|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:31.645Z|434242042d82c1fe|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:31.644Z|17b46bc8a7d570ef|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:31.663Z|434242042d82c1fe|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:31.661Z|35590029518f4684|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:31.669Z|70a5e13d6e9472f2|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:31.679Z|17b46bc8a7d570ef|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:34.211Z|6e56af0614f160e4|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:03:34.945Z|43321d0713844b84|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:34.962Z|43321d0713844b84|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|2|grpc-node-js/1.2.6
+2021-02-27T10:03:34.997Z|3339815dfa192231|172.18.0.1|jffe@000|GET|/access/api/v1/topology|200|1716|-1|4|JFrog-Frontend/1.15.5
+2021-02-27T10:03:35.055Z|2547146da1819ae4|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|53|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:35.067Z|2547146da1819ae4|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|3|grpc-node-js/1.2.6
+2021-02-27T10:03:36.212Z|6eb95e49b038851d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:03:36.228Z|6eb95e49b038851d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:36.246Z|6eb95e49b038851d|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|12|grpc-go/1.27.1
+2021-02-27T10:03:37.216Z|7b70ada5a494e836|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:03:40.210Z|72379d059407d534|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:03:41.213Z|b979c22a3145576|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:03:41.224Z|b979c22a3145576|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:41.241Z|b979c22a3145576|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:03:43.217Z|7f1ab61313cbdbb7|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:03:45.889Z|26ecfc02f0fbe683|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:45.890Z|68ef59edc123376e|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:45.887Z|68f08090db8c1922|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:45.909Z|68ef59edc123376e|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:45.909Z|26ecfc02f0fbe683|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:45.937Z|68f08090db8c1922|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|39|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:46.228Z|1b001f17a884ad88|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|24|JFrog-Router/7.15.2-1
+2021-02-27T10:03:46.237Z|1b001f17a884ad88|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:46.242Z|4b10790ff90ecc|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:03:46.257Z|1b001f17a884ad88|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|10|grpc-go/1.27.1
+2021-02-27T10:03:49.214Z|3a789666da700be|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:03:51.212Z|7113d97176c2a8c7|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:03:51.225Z|7113d97176c2a8c7|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:51.244Z|7113d97176c2a8c7|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:03:52.218Z|68a7d6bd37279937|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:03:55.218Z|7e5305007bedefca|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:03:56.205Z|688225165ad977b8|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog-Router/7.15.2-1
+2021-02-27T10:03:56.215Z|688225165ad977b8|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:03:56.232Z|688225165ad977b8|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:03:58.225Z|54ec0f4832aae83f|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:04:00.018Z|7e09eb47950de10|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|1716|-1|7|JFrog-Frontend/1.15.5
+2021-02-27T10:04:01.217Z|354947c4e28c89ed|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:04:01.226Z|675178ed2555e110|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:04:01.231Z|354947c4e28c89ed|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:01.250Z|354947c4e28c89ed|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|10|grpc-go/1.27.1
+2021-02-27T10:04:01.646Z|5f29e6e97a4eee7b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:01.649Z|7c7f8b5f19b7fa25|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:01.659Z|7027ae5419b5571f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:01.662Z|f07b4b96aadb3b2|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|22|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:01.672Z|f07b4b96aadb3b2|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:01.675Z|5f29e6e97a4eee7b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|17|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:01.686Z|7027ae5419b5571f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:01.704Z|7c7f8b5f19b7fa25|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:02.816Z|6e03c3198a33d409|/127.0.0.1:45272|jffe@000|--UNA|com.jfrog.access.v1.authentication.AuthenticationResource/VerifyToken|0|-1|-1|3|grpc-node-js/1.2.6
+2021-02-27T10:04:02.835Z|6e03c3198a33d409|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:02.853Z|6e03c3198a33d409|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:04.227Z|492f784085263fc7|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:04:06.216Z|2a69d2db4449eb3d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:04:06.225Z|2a69d2db4449eb3d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:06.240Z|2a69d2db4449eb3d|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|5|grpc-go/1.27.1
+2021-02-27T10:04:07.225Z|1a66629ae8e4a492|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:04:10.230Z|264ee040aa2e3b93|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:04:11.216Z|4a220be53d5657a9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:04:11.225Z|4a220be53d5657a9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:11.243Z|4a220be53d5657a9|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:04:13.232Z|850f4de0aaabf91|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:04:16.213Z|6865fd830af22933|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog-Router/7.15.2-1
+2021-02-27T10:04:16.230Z|22a60821bffa377d|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:04:16.236Z|6865fd830af22933|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:16.269Z|6865fd830af22933|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|25|grpc-go/1.27.1
+2021-02-27T10:04:16.625Z|468f497d33c3bfad|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:19.231Z|478fa4d74d690bcf|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:04:21.213Z|7c5155097f1675ac|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog-Router/7.15.2-1
+2021-02-27T10:04:21.227Z|7c5155097f1675ac|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:21.248Z|7c5155097f1675ac|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:04:22.231Z|292d93a285f5a715|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:04:25.233Z|ed00ed37649ef63|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:04:26.216Z|4448845668f6ef34|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:04:26.226Z|4448845668f6ef34|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:26.247Z|4448845668f6ef34|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|12|grpc-go/1.27.1
+2021-02-27T10:04:28.239Z|19ad3d35a5a708ac|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:04:30.018Z|5b5dcea932e07063|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|1716|-1|9|JFrog-Frontend/1.15.5
+2021-02-27T10:04:31.215Z|29bd63b43c4d51d8|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:04:31.224Z|29bd63b43c4d51d8|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:31.244Z|6c892f7631b4d76e|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|18|JFrog-Router/7.15.2-1
+2021-02-27T10:04:31.248Z|29bd63b43c4d51d8|/127.0.0.1:45272|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|16|grpc-go/1.27.1
+2021-02-27T10:04:31.640Z|a6ace1b51e5e1ce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:31.643Z|7173f0f8b2c83e6c|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:31.653Z|7af4a1262d1dfedb|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|20|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:31.662Z|7173f0f8b2c83e6c|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:31.665Z|a6ace1b51e5e1ce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:31.678Z|54f41d3efda48b21|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:31.681Z|54f41d3efda48b21|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|20|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:04:31.686Z|7af4a1262d1dfedb|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:00.333Z|3d61c1949129593|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|211|JFrog-Router/7.15.2-1
+2021-02-27T10:07:00.334Z|2e4b2e4818820f58|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|211|JFrog-Router/7.15.2-1
+2021-02-27T10:07:01.247Z|2d90987f342bcc00|127.0.0.1|anonymous|POST|/access/api/v1/registry/join/router|200|4181|881|898|JFrog-Router/7.15.2-1
+2021-02-27T10:07:02.001Z|37833fd4f02e1865|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|103|JFrog-Router/7.15.2-1
+2021-02-27T10:07:04.920Z|14f6aff33d7bc8b6|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1492|-1|16|JFrog-Router/7.15.2-1
+2021-02-27T10:07:06.426Z|171eb236cb4a183e|/127.0.0.1:46286|jfac@01ezhf08by9nt90v6x5kgk1ceq|--UNA|com.jfrog.access.v1.permission.SystemResource/Ping|0|-1|-1|45|grpc-java-netty/1.32.1
+2021-02-27T10:07:06.476Z|9b81a51984552b9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:06.498Z|1d9bc0cc69dfe08a|127.0.0.1|anonymous|GET|/access/api/v1/cert/root|200|1072|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:06.736Z|3def15f4444392e1|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|744|278|48|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:06.849Z|5eed2b13d72d5bb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Go Client/4.0.0
+2021-02-27T10:07:06.902Z|480b32fdb0ae8a06|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:07:06.907Z|43db41eb7bdb1350|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|744|308|54|JFrog Access Go Client/4.0.0 Metadata/v7.15.2 c8ae57f7cbb
+2021-02-27T10:07:06.980Z|480b32fdb0ae8a06|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|72|grpc-go/1.27.1
+2021-02-27T10:07:07.638Z|1899993bb7cb79ec|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/system/server_name|200|12|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:07.646Z|56d9d4dea5f859e6|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/system/server_name|200|12|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:07.869Z|3ca5273c071e6c7e|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|PATCH|/access/api/v1/config|204|UNKNOWN|79|133|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:07.913Z|c735fab50413d09|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1882|-1|13|JFrog-Router/7.15.2-1
+2021-02-27T10:07:07.973Z|77c6686ca1846df8|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|93|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:08.251Z|76a1b4041cfb57fd|/127.0.0.1:46286|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|25|grpc-java-netty/1.32.1
+2021-02-27T10:07:08.282Z|797cd5fcb4b49392|127.0.0.1|anonymous|GET|/access/api/v1/config/shared|200|92|-1|8|JFrog Access Go Client/4.0.0
+2021-02-27T10:07:08.290Z|797cd5fcb4b49392|127.0.0.1|anonymous|GET|/access/api/v1/cert/root|200|1072|-1|4|Go-http-client/1.1
+2021-02-27T10:07:08.306Z|797cd5fcb4b49392|/127.0.0.1:46286|jfmd@01ezhf0hn4nmyaesy0p5rb4gq2|--UNA|com.jfrog.access.v1.token.TokenResource/Exists|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:07:08.505Z|98acf0551ef5317|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|80|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:08.883Z|1491e4cdd18828d3|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/registry|204|UNKNOWN|48|89|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:10.906Z|1305bd5a9293f8ae|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|1882|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:07:11.904Z|7addf3220084e5d8|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog-Router/7.15.2-1
+2021-02-27T10:07:11.932Z|7addf3220084e5d8|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|14|grpc-go/1.27.1
+2021-02-27T10:07:13.458Z|7e1182a208417d35|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|380|38|58|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:13.544Z|7e1182a208417d35|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:13.608Z|46298be4b477c7bf|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Frontend/1.15.5
+2021-02-27T10:07:13.652Z|1b40094b0a3af4cf|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|683|272|39|jfac/7.16.0-m004 jffe/1.15.5 10000005
+2021-02-27T10:07:13.671Z|4bcbb8ecdc1e68b1|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|2638|-1|9|JFrog-Frontend/1.15.5
+2021-02-27T10:07:13.750Z|2a043ecb90a24819|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|25|grpc-node-js/1.2.6
+2021-02-27T10:07:13.808Z|66c55803e20fefe5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|38|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:13.833Z|66c55803e20fefe5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/config/shared|200|92|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:13.859Z|66c55803e20fefe5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:13.898Z|66c55803e20fefe5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/groups/|200|270|-1|30|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:13.907Z|4e768574c929d1e7|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2638|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:07:16.921Z|54c5407b0af549ea|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|14|JFrog-Router/7.15.2-1
+2021-02-27T10:07:16.929Z|28d62325aa09baf2|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2638|-1|18|JFrog-Router/7.15.2-1
+2021-02-27T10:07:16.935Z|54c5407b0af549ea|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:16.949Z|54c5407b0af549ea|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:07:19.913Z|7c58a67d99ba1811|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2986|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:07:21.919Z|730eef24b045aa69|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:07:21.926Z|730eef24b045aa69|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:22.198Z|730eef24b045aa69|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|250|grpc-go/1.27.1
+2021-02-27T10:07:22.914Z|12f61578a2e72115|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:07:25.907Z|5569dc4881e3d428|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:07:26.907Z|62a9b7b7a8e13ee1|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog-Router/7.15.2-1
+2021-02-27T10:07:26.915Z|62a9b7b7a8e13ee1|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:26.935Z|62a9b7b7a8e13ee1|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|12|grpc-go/1.27.1
+2021-02-27T10:07:28.918Z|1dad25176599b882|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:07:30.070Z|37989f07292bbc33|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|53|JFrog-Frontend/1.15.5
+2021-02-27T10:07:31.917Z|40c0bed4b892fb27|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:07:31.926Z|917ea17013d892|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|15|JFrog-Router/7.15.2-1
+2021-02-27T10:07:31.929Z|40c0bed4b892fb27|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:31.949Z|40c0bed4b892fb27|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|12|grpc-go/1.27.1
+2021-02-27T10:07:34.919Z|471d3857b2d54e26|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:07:36.916Z|6cc1f7cce7ee608e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:07:36.932Z|6cc1f7cce7ee608e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:36.954Z|6cc1f7cce7ee608e|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|14|grpc-go/1.27.1
+2021-02-27T10:07:37.924Z|111d00e6f82e96f6|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:07:40.925Z|25134e40fb7d4bc7|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:07:41.914Z|34f79d7aa58c433e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:07:41.934Z|34f79d7aa58c433e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:41.952Z|34f79d7aa58c433e|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:07:43.924Z|a38d4718ff1afcf|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:07:46.178Z|3fbfffde7749fa5c|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|13|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.181Z|6654bb1ee5f134e0|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.181Z|7c0f50da71aad715|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.190Z|6f6b6c1ea5d5bb93|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|25|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.197Z|3fbfffde7749fa5c|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.200Z|6654bb1ee5f134e0|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.202Z|7c0f50da71aad715|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.209Z|6f6b6c1ea5d5bb93|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.935Z|2751490c8a094516|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:46.937Z|2751490c8a094516|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|22|JFrog-Router/7.15.2-1
+2021-02-27T10:07:46.943Z|1561696173ac4cb5|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|26|JFrog-Router/7.15.2-1
+2021-02-27T10:07:46.954Z|2751490c8a094516|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|11|grpc-go/1.27.1
+2021-02-27T10:07:49.928Z|42029fcaebb7d53b|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:07:51.255Z|4b19c348f81242c3|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.authentication.AuthenticationResource/VerifyToken|0|-1|-1|28|grpc-node-js/1.2.6
+2021-02-27T10:07:51.282Z|4b19c348f81242c3|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|10|grpc-node-js/1.2.6
+2021-02-27T10:07:51.301Z|4b19c348f81242c3|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:51.317Z|4b19c348f81242c3|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:51.917Z|35ac662707ad1b5|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:07:51.929Z|35ac662707ad1b5|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:51.949Z|35ac662707ad1b5|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|12|grpc-go/1.27.1
+2021-02-27T10:07:52.926Z|356723634a0e9c8a|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:07:55.929Z|4443bdb59794d52|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:07:56.918Z|33a2c830df723ac0|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:07:56.931Z|33a2c830df723ac0|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:07:56.950Z|33a2c830df723ac0|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:07:58.930Z|41279b188de2d9a1|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:08:00.027Z|4440b911eedee92|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:08:01.929Z|f4897caa070fdb1|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:08:01.934Z|4d4c5925846f8e09|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:01.930Z|4d4c5925846f8e09|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|14|JFrog-Router/7.15.2-1
+2021-02-27T10:08:01.956Z|4d4c5925846f8e09|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|11|grpc-go/1.27.1
+2021-02-27T10:08:04.932Z|2faf687c8faf98dd|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:08:05.362Z|7f13e50b55a3974f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:05.376Z|7f13e50b55a3974f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:05.419Z|7f13e50b55a3974f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:05.461Z|7f13e50b55a3974f|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|26|grpc-node-js/1.2.6
+2021-02-27T10:08:05.495Z|7f13e50b55a3974f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:05.555Z|7f13e50b55a3974f|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|39|grpc-node-js/1.2.6
+2021-02-27T10:08:05.653Z|3862045368ad2a1c|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|20|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:05.690Z|3862045368ad2a1c|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|17|grpc-node-js/1.2.6
+2021-02-27T10:08:06.917Z|4d7a6a4f80a01a7c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:08:06.934Z|4d7a6a4f80a01a7c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:06.954Z|4d7a6a4f80a01a7c|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|11|grpc-go/1.27.1
+2021-02-27T10:08:07.930Z|5c5308a695972844|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:08:10.930Z|ba597a917b621ff|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:08:11.924Z|7ed0f75fa2f6fb8f|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:08:11.933Z|7ed0f75fa2f6fb8f|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:11.961Z|7ed0f75fa2f6fb8f|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|13|grpc-go/1.27.1
+2021-02-27T10:08:13.928Z|bebfe46172ac86f|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:08:14.784Z|11af71872c5743d1|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:14.786Z|2be067d470704d76|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:14.800Z|35e258b08c15b2f0|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|46|grpc-node-js/1.2.6
+2021-02-27T10:08:14.806Z|2be067d470704d76|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|25|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:14.813Z|2be067d470704d76|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|18|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:14.820Z|11af71872c5743d1|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|18|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:14.845Z|2be067d470704d76|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|22|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:14.879Z|11af71872c5743d1|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|32|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:14.918Z|11af71872c5743d1|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|21|grpc-node-js/1.2.6
+2021-02-27T10:08:14.975Z|10ec87338db6677f|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:14.991Z|10ec87338db6677f|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|4|grpc-node-js/1.2.6
+2021-02-27T10:08:15.022Z|271eff55a5e80251|172.19.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|19|JFrog-Frontend/1.15.5
+2021-02-27T10:08:16.925Z|2461fc8dc9276dfb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:08:16.942Z|2461fc8dc9276dfb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:16.944Z|293f680b76f959cd|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|17|JFrog-Router/7.15.2-1
+2021-02-27T10:08:17.001Z|2461fc8dc9276dfb|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|22|grpc-go/1.27.1
+2021-02-27T10:08:17.005Z|b2cacaab605ad45|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|30|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:17.041Z|b2cacaab605ad45|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|12|grpc-node-js/1.2.6
+2021-02-27T10:08:17.420Z|2cd25bbec869229d|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|26|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:17.441Z|2cd25bbec869229d|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|2|grpc-node-js/1.2.6
+2021-02-27T10:08:17.913Z|62de7dc11ad729df|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|17|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:17.936Z|62de7dc11ad729df|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|4|grpc-node-js/1.2.6
+2021-02-27T10:08:17.968Z|1623f2de69a10040|172.19.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|5|JFrog-Frontend/1.15.5
+2021-02-27T10:08:17.995Z|7554a4308a61f9cb|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|27|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:18.014Z|7554a4308a61f9cb|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|4|grpc-node-js/1.2.6
+2021-02-27T10:08:18.733Z|7d63ef91dce4d282|172.19.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:08:18.794Z|7d63ef91dce4d282|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|36|grpc-node-js/1.2.6
+2021-02-27T10:08:19.487Z|7c9d4debbd3f6509|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:19.501Z|7c9d4debbd3f6509|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|2|grpc-node-js/1.2.6
+2021-02-27T10:08:19.578Z|226fe2ae45789c51|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:19.591Z|226fe2ae45789c51|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|3|grpc-node-js/1.2.6
+2021-02-27T10:08:19.936Z|6688b2fe2daaf014|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:08:21.925Z|71e166b8e13e17d8|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:08:21.940Z|71e166b8e13e17d8|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:21.961Z|71e166b8e13e17d8|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|12|grpc-go/1.27.1
+2021-02-27T10:08:22.934Z|d5e3a57e70a61bc|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:08:23.412Z|497ad30db7d55c62|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:25.938Z|661c54ae6a152c78|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:08:26.924Z|33729fff71923d2c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:08:26.939Z|33729fff71923d2c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:26.953Z|33729fff71923d2c|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:08:28.945Z|35238aacc734fd44|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:08:30.017Z|10153e35446afa71|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:08:31.922Z|43a7d4e53eaa3551|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:08:31.936Z|3a14af5b879f0baf|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:08:31.944Z|43a7d4e53eaa3551|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:31.970Z|43a7d4e53eaa3551|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|16|grpc-go/1.27.1
+2021-02-27T10:08:34.937Z|2e9633569decc331|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:08:36.926Z|69c3545eb5fd5157|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:08:36.936Z|69c3545eb5fd5157|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:36.950Z|69c3545eb5fd5157|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:08:37.940Z|7853e502e8b3962|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:08:40.939Z|53bd7f2c194eb6fb|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:08:41.929Z|7189c8ff2083c54e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:08:41.945Z|7189c8ff2083c54e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:41.963Z|7189c8ff2083c54e|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|10|grpc-go/1.27.1
+2021-02-27T10:08:43.935Z|181a400811e262ea|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:08:46.177Z|773b20015f5dd9ab|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|13|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.181Z|1c67d8d190538e8d|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.183Z|246294fdb748e0c8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|17|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.185Z|6805f15211d15dd5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.194Z|773b20015f5dd9ab|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.200Z|1c67d8d190538e8d|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.200Z|246294fdb748e0c8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.219Z|6805f15211d15dd5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|24|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.927Z|4922925644bfa19b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:08:46.937Z|4318d927d10fc7c0|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:08:46.940Z|4922925644bfa19b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:46.958Z|4922925644bfa19b|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:08:49.934Z|2ab341afebf8a339|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:08:51.933Z|71586d5e53df3740|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:08:51.951Z|71586d5e53df3740|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:51.969Z|71586d5e53df3740|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:08:52.943Z|5b46391834166d48|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:08:55.946Z|518279d460dee7a9|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:08:56.934Z|37dc97452647e558|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:08:56.945Z|37dc97452647e558|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:08:56.963Z|37dc97452647e558|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:08:58.948Z|c42a5ffb3ab55e1|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:09:00.019Z|6c1cf0754b4cc57a|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|9|JFrog-Frontend/1.15.5
+2021-02-27T10:09:01.936Z|7e523764c7792731|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:09:01.943Z|7f673e15b3339bbb|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:09:01.946Z|7e523764c7792731|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:01.968Z|7e523764c7792731|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|15|grpc-go/1.27.1
+2021-02-27T10:09:04.957Z|3748baeae6f50a6f|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:09:06.931Z|d173d082a7c6160|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog-Router/7.15.2-1
+2021-02-27T10:09:06.947Z|d173d082a7c6160|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:06.963Z|d173d082a7c6160|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:09:07.955Z|19e2ce5828caf195|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:09:10.955Z|6fca0cafc64debb7|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:09:11.981Z|5a747c65abef2a3c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:09:11.996Z|5a747c65abef2a3c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:12.011Z|5a747c65abef2a3c|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:09:13.954Z|b37c09e4b08edff|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:09:16.182Z|3e9c02ae6bd73546|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:16.190Z|143786c0ee06dc9a|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:16.188Z|5af048ea40e0587b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|18|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:16.187Z|1dee1d5f72cc2a69|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:16.210Z|5af048ea40e0587b|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:16.219Z|143786c0ee06dc9a|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:16.222Z|3e9c02ae6bd73546|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|19|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:16.223Z|1dee1d5f72cc2a69|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:16.960Z|f9d97c95d30815d|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:09:16.977Z|6a7dc5b809b1c52c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog-Router/7.15.2-1
+2021-02-27T10:09:16.985Z|6a7dc5b809b1c52c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:17.000Z|6a7dc5b809b1c52c|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:09:19.959Z|5694d478e4c7bad0|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:09:21.990Z|5149d159da4390bb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:09:21.999Z|5149d159da4390bb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:22.013Z|5149d159da4390bb|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:09:22.954Z|6e1f409e4d5120f2|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:09:25.961Z|706de89a61321643|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:09:26.990Z|bc7593989875027|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:09:26.997Z|bc7593989875027|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:27.015Z|bc7593989875027|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:09:28.962Z|1f84aa374f36f23e|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:09:30.026Z|98f855f9efb4b68|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|9|JFrog-Frontend/1.15.5
+2021-02-27T10:09:31.967Z|4e3beeee8e99f0e9|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:09:31.985Z|117d2d3744e47646|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:09:31.992Z|117d2d3744e47646|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:32.006Z|117d2d3744e47646|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:09:34.970Z|5e8354b3de6a5cfd|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:09:36.988Z|3c21488b5ba7261c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:09:37.002Z|3c21488b5ba7261c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:37.022Z|3c21488b5ba7261c|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|11|grpc-go/1.27.1
+2021-02-27T10:09:37.201Z|17c5db51ce9823ce|/127.0.0.1:46286|jffe@000|--UNA|com.jfrog.access.v1.authentication.AuthenticationResource/VerifyToken|0|-1|-1|4|grpc-node-js/1.2.6
+2021-02-27T10:09:37.220Z|17c5db51ce9823ce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:37.232Z|17c5db51ce9823ce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:37.974Z|47bee06ad4913115|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:09:40.972Z|febf1787873e533|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:09:41.990Z|34b948ac2201479|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:09:42.005Z|34b948ac2201479|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:42.038Z|34b948ac2201479|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|25|grpc-go/1.27.1
+2021-02-27T10:09:43.971Z|4600dfa06ff853a|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:09:46.187Z|504c6868c7a924ee|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:46.193Z|6379f5e8851ea474|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|16|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:46.195Z|1ee453ebc99b0f5d|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:46.195Z|6179916b406987eb|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|13|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:46.201Z|504c6868c7a924ee|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:46.211Z|1ee453ebc99b0f5d|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:46.215Z|6379f5e8851ea474|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:46.226Z|6179916b406987eb|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:46.975Z|42ab7d7a99ce30f5|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:09:46.987Z|199f7fc448bb0325|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog-Router/7.15.2-1
+2021-02-27T10:09:46.994Z|199f7fc448bb0325|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:47.008Z|199f7fc448bb0325|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:09:49.978Z|770c2106d915967|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:09:51.990Z|3e82835f640f10da|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:09:52.000Z|3e82835f640f10da|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:52.017Z|3e82835f640f10da|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:09:52.976Z|7e6dd274cd558a56|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:09:55.976Z|45eeabc508896d2d|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:09:56.989Z|78c00d8492d9795b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:09:57.004Z|78c00d8492d9795b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:09:57.018Z|78c00d8492d9795b|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|5|grpc-go/1.27.1
+2021-02-27T10:09:58.984Z|a636c4cbdafc814|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:10:00.021Z|1e03b3e38462f660|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:10:01.981Z|b2f5c291f076da0|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:10:01.997Z|5f3ef94ef7e2ee17|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:10:02.001Z|5f3ef94ef7e2ee17|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:02.017Z|5f3ef94ef7e2ee17|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:10:04.984Z|2999983799e3481a|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:10:06.991Z|6abc3765151df1e7|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:10:07.005Z|6abc3765151df1e7|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:07.020Z|6abc3765151df1e7|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:10:07.986Z|345d236d565a6dfb|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:10:10.986Z|74ad94f55adbe21b|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:10:11.988Z|1fe08a9a28952602|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:10:11.997Z|1fe08a9a28952602|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:12.014Z|1fe08a9a28952602|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|10|grpc-go/1.27.1
+2021-02-27T10:10:13.988Z|345bcc919054cc8e|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:10:16.191Z|5caf7d698330e41|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:16.203Z|5caf7d698330e41|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:16.203Z|16364d215de9157a|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|16|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:16.203Z|f0cf3bfe9833558|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:16.218Z|f0cf3bfe9833558|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:16.224Z|16364d215de9157a|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:16.241Z|35604acec3eb75c3|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|30|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:16.249Z|35604acec3eb75c3|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:16.993Z|4ed4818ff4afe296|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:10:16.994Z|7dc114c1e4cec51|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:10:17.009Z|7dc114c1e4cec51|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:17.027Z|7dc114c1e4cec51|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:10:19.989Z|14cfd65abc24dcc2|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:10:21.992Z|34d2fc5c6d3d6fe5|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:10:22.001Z|34d2fc5c6d3d6fe5|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:22.023Z|34d2fc5c6d3d6fe5|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|10|grpc-go/1.27.1
+2021-02-27T10:10:22.989Z|64336d895bde9f73|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:10:25.993Z|2736ac3361a9ce16|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:10:26.992Z|629ed2233db4ff24|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:10:27.004Z|629ed2233db4ff24|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:27.025Z|629ed2233db4ff24|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:10:28.992Z|37b37e8315886f56|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:10:30.021Z|2a1ac089e43e3686|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:10:31.996Z|69bc2dad9eaa5b78|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:10:31.998Z|8f6b681030e8632|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:10:32.006Z|69bc2dad9eaa5b78|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:32.022Z|69bc2dad9eaa5b78|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:10:34.997Z|30210666ebafe167|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:10:36.993Z|3d8a2b136e81b9e0|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:10:37.008Z|3d8a2b136e81b9e0|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:37.024Z|3d8a2b136e81b9e0|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:10:37.993Z|46c57b1da746364c|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:10:41.002Z|6f2399f07045dbad|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:10:41.997Z|4da50b117dbb8eef|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:10:42.007Z|4da50b117dbb8eef|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:42.022Z|4da50b117dbb8eef|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:10:44.008Z|38753c7635e4664f|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:10:46.190Z|3a08cde8b3c10c97|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:46.194Z|1ca6df98b8b0503f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:46.194Z|696be7ecada8f6a5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:46.201Z|2fdca216153aae77|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:46.211Z|3a08cde8b3c10c97|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:46.217Z|1ca6df98b8b0503f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:46.219Z|2fdca216153aae77|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:46.221Z|696be7ecada8f6a5|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:46.999Z|6130b525e2505110|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:10:47.006Z|29986a7472d14be3|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:10:47.011Z|6130b525e2505110|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:47.030Z|6130b525e2505110|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:10:50.006Z|45ca546158083e03|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:10:52.004Z|4f3dbc046531a5fc|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:10:52.011Z|4f3dbc046531a5fc|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:52.029Z|4f3dbc046531a5fc|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:10:53.009Z|3a01277a869a850b|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:10:56.008Z|5bcf92e8f23e28f4|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:10:56.998Z|4fc9209636512407|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:10:57.016Z|4fc9209636512407|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:10:57.033Z|4fc9209636512407|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:10:59.009Z|6d8aab6974975b98|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:11:00.024Z|1e770c241350b7f7|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|11|JFrog-Frontend/1.15.5
+2021-02-27T10:11:02.001Z|2549d504796b84a9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:11:02.011Z|1b86ee17d94889aa|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:11:02.016Z|2549d504796b84a9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:11:02.030Z|2549d504796b84a9|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:11:05.017Z|36b0cbf9f42ec3c4|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:11:07.004Z|77502cef5144587a|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:11:07.011Z|77502cef5144587a|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:11:07.029Z|77502cef5144587a|/127.0.0.1:46286|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:11:08.016Z|2e86654b3d4f477a|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:11:11.013Z|608a9a3e76e366af|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:20:14.564Z|72774ce2ddb0a234|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|269|JFrog-Router/7.15.2-1
+2021-02-27T10:20:14.564Z|6184a4f602e30a09|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|268|JFrog-Router/7.15.2-1
+2021-02-27T10:20:15.734Z|43c09b66b715467d|127.0.0.1|anonymous|POST|/access/api/v1/registry/join/router|200|4179|881|1127|JFrog-Router/7.15.2-1
+2021-02-27T10:20:16.711Z|51e41763c77f336e|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|152|JFrog-Router/7.15.2-1
+2021-02-27T10:20:19.580Z|50fcaa4b10a1e9d9|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|18|JFrog-Router/7.15.2-1
+2021-02-27T10:20:20.817Z|64e9d274478fa7f5|/127.0.0.1:48104|jfac@01ezhf08by9nt90v6x5kgk1ceq|--UNA|com.jfrog.access.v1.permission.SystemResource/Ping|0|-1|-1|63|grpc-java-netty/1.32.1
+2021-02-27T10:20:21.181Z|6708190c4fb1fa04|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|22|JFrog Access Go Client/4.0.0
+2021-02-27T10:20:21.353Z|e437a9594e8295b|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|744|308|151|JFrog Access Go Client/4.0.0 Metadata/v7.15.2 c8ae57f7cbb
+2021-02-27T10:20:21.444Z|556fc2c451082e1b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:21.492Z|3003f8480120751a|127.0.0.1|anonymous|GET|/access/api/v1/cert/root|200|1072|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:21.560Z|784e2d35ce1239c4|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:20:21.652Z|784e2d35ce1239c4|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|82|grpc-go/1.27.1
+2021-02-27T10:20:21.842Z|31fe471313a2c7b6|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|744|278|53|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:22.574Z|1118fd9b62c927ce|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2585|-1|15|JFrog-Router/7.15.2-1
+2021-02-27T10:20:23.398Z|743be3699e911628|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/system/server_name|200|12|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:23.432Z|dfd65765ed472ec|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/system/server_name|200|12|-1|18|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:23.907Z|1eebf06f55db0c06|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|PATCH|/access/api/v1/config|204|UNKNOWN|79|250|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:24.129Z|19871a8284f5a301|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|198|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:24.410Z|cae67d798381c8d|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/anonymous|200|380|-1|100|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:24.801Z|78927ca420a7c0f0|/127.0.0.1:48104|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|26|grpc-java-netty/1.32.1
+2021-02-27T10:20:24.838Z|76771477d0d2d6c7|127.0.0.1|anonymous|GET|/access/api/v1/config/shared|200|92|-1|11|JFrog Access Go Client/4.0.0
+2021-02-27T10:20:24.851Z|76771477d0d2d6c7|127.0.0.1|anonymous|GET|/access/api/v1/cert/root|200|1072|-1|3|Go-http-client/1.1
+2021-02-27T10:20:24.875Z|76771477d0d2d6c7|/127.0.0.1:48104|jfmd@01ezhf0hn4nmyaesy0p5rb4gq2|--UNA|com.jfrog.access.v1.token.TokenResource/Exists|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:20:25.276Z|6051859b077ff5d7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|POST|/access/api/v1/registry|204|UNKNOWN|48|60|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:25.563Z|5eda6b0b3004a8e3|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2585|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:20:26.561Z|78b4af4890b0eaa8|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:20:26.601Z|78b4af4890b0eaa8|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|16|grpc-go/1.27.1
+2021-02-27T10:20:28.576Z|745ded25933d2e71|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2976|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:20:30.807Z|3a19da9067ca9713|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|200|380|38|105|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:30.913Z|3a19da9067ca9713|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:31.071Z|5dc5dcbe8150ad5e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog-Frontend/1.15.5
+2021-02-27T10:20:31.138Z|3033fc901b0e4996|127.0.0.1|anonymous|POST|/access/api/v1/registry/join|201|683|272|57|jfac/7.16.0-m004 jffe/1.15.5 10000005
+2021-02-27T10:20:31.172Z|e7e422e7770e0c3|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|2976|-1|6|JFrog-Frontend/1.15.5
+2021-02-27T10:20:31.389Z|1ea641c8bf1d8551|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|10|grpc-node-js/1.2.6
+2021-02-27T10:20:31.455Z|6ac0bfec36b0eaca|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|37|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:31.497Z|6ac0bfec36b0eaca|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/config/shared|200|92|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:31.529Z|6ac0bfec36b0eaca|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:31.585Z|7ff536553b2da13e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|27|JFrog-Router/7.15.2-1
+2021-02-27T10:20:31.586Z|7ff536553b2da13e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:31.606Z|3560dfabe42d5f89|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2976|-1|42|JFrog-Router/7.15.2-1
+2021-02-27T10:20:31.614Z|7ff536553b2da13e|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|13|grpc-go/1.27.1
+2021-02-27T10:20:31.642Z|6ac0bfec36b0eaca|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/groups/|200|270|-1|104|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:34.565Z|40bed20d1813fa97|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2981|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:20:36.579Z|7d71d5d62870b52e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|17|JFrog-Router/7.15.2-1
+2021-02-27T10:20:36.591Z|7d71d5d62870b52e|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:36.614Z|7d71d5d62870b52e|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:20:37.574Z|7ba12124bfd51535|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2986|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:20:40.576Z|585c41ac6ed9f30b|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2986|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:20:41.577Z|4126d63045645812|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:20:41.589Z|4126d63045645812|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:41.856Z|4126d63045645812|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|247|grpc-go/1.27.1
+2021-02-27T10:20:43.575Z|54f98db68388fdb1|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:20:46.570Z|40bc96040b93c3f4|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:20:46.577Z|4470d7f290188be5|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:20:46.593Z|40bc96040b93c3f4|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:46.613Z|40bc96040b93c3f4|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|13|grpc-go/1.27.1
+2021-02-27T10:20:49.567Z|63b28a4b4a158a0d|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:20:51.575Z|70fa123701e0b02b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:20:51.585Z|70fa123701e0b02b|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:51.603Z|70fa123701e0b02b|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|10|grpc-go/1.27.1
+2021-02-27T10:20:52.578Z|4c9162d247a51930|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:20:55.569Z|69db979d8b447d21|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:20:56.575Z|9ce67072780e0f9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:20:56.595Z|9ce67072780e0f9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:20:56.610Z|9ce67072780e0f9|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|10|grpc-go/1.27.1
+2021-02-27T10:20:58.571Z|60acab8675bcf5e4|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:21:00.099Z|50e813441e5c4c90|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|85|JFrog-Frontend/1.15.5
+2021-02-27T10:21:01.577Z|4f3b61b9e9a43193|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:21:01.584Z|2d9c77fa65837c36|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|16|JFrog-Router/7.15.2-1
+2021-02-27T10:21:01.599Z|4f3b61b9e9a43193|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:01.613Z|4f3b61b9e9a43193|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:21:04.186Z|39e05671d119f5aa|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:04.189Z|7f507669a7ad86ae|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|13|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:04.189Z|6798a2696e64523d|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:04.189Z|74d3bde4dadcadf4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:04.211Z|74d3bde4dadcadf4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:04.217Z|39e05671d119f5aa|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:04.211Z|7f507669a7ad86ae|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:04.239Z|6798a2696e64523d|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:04.575Z|68ea19d2f83d0d0e|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:21:06.583Z|65ba81e5e2b55621|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:21:06.592Z|65ba81e5e2b55621|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:06.609Z|65ba81e5e2b55621|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:21:07.580Z|33abdf18c4dba562|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:21:10.580Z|29e5e4cf13286ed5|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:21:11.581Z|2b86c295fcf7229a|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:21:11.588Z|2b86c295fcf7229a|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:11.605Z|2b86c295fcf7229a|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:21:13.586Z|13a3b55294f0be70|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|14|JFrog-Router/7.15.2-1
+2021-02-27T10:21:16.584Z|41abf272bed0e323|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:21:16.588Z|2d16349d31cf9fe6|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:21:16.596Z|41abf272bed0e323|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:16.611Z|41abf272bed0e323|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:21:19.581Z|70f45f0811839f4|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:21:21.591Z|55230653e8466a9d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:21:21.602Z|55230653e8466a9d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:21.617Z|55230653e8466a9d|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:21:22.587Z|2f3eeb476b769bec|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:21:25.581Z|7ae69f392ed5a0a7|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:21:26.591Z|5525e9ff7b888b6|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:21:26.601Z|5525e9ff7b888b6|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:26.632Z|5525e9ff7b888b6|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|22|grpc-go/1.27.1
+2021-02-27T10:21:28.588Z|6f2b57ef52d03651|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:21:30.025Z|304c97df81d4ef22|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|11|JFrog-Frontend/1.15.5
+2021-02-27T10:21:31.592Z|2ababc8ef5776da6|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:21:31.587Z|1e05b943f944ea95|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:21:31.597Z|2ababc8ef5776da6|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:31.621Z|2ababc8ef5776da6|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|11|grpc-go/1.27.1
+2021-02-27T10:21:34.180Z|6904e48f41b40b3f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:34.180Z|18abc0382e3af7c|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:34.186Z|66e761e3a38b65e8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|21|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:34.189Z|3cc0e07e33fe4ce1|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:34.206Z|3cc0e07e33fe4ce1|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:34.206Z|6904e48f41b40b3f|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|13|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:34.213Z|66e761e3a38b65e8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:34.220Z|18abc0382e3af7c|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:34.584Z|1d60822db4c229ee|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:21:36.586Z|4c6bdc2c2f108ed9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:21:36.608Z|4c6bdc2c2f108ed9|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:36.641Z|4c6bdc2c2f108ed9|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|20|grpc-go/1.27.1
+2021-02-27T10:21:37.587Z|31770db439c06183|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:21:39.010Z|3e015602e4fa1620|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|33|grpc-node-js/1.2.6
+2021-02-27T10:21:39.036Z|65e3c77fcb0a5fce|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.authentication.AuthenticationResource/VerifyToken|0|-1|-1|49|grpc-node-js/1.2.6
+2021-02-27T10:21:39.036Z|5de57117ffa87b14|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.authentication.AuthenticationResource/VerifyToken|0|-1|-1|46|grpc-node-js/1.2.6
+2021-02-27T10:21:39.102Z|5de57117ffa87b14|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.103Z|65e3c77fcb0a5fce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.142Z|65e3c77fcb0a5fce|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|5|-1|-1|22|grpc-node-js/1.2.6
+2021-02-27T10:21:39.172Z|65e3c77fcb0a5fce|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|12|grpc-node-js/1.2.6
+2021-02-27T10:21:39.172Z|65e3c77fcb0a5fce|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|12|grpc-node-js/1.2.6
+2021-02-27T10:21:39.173Z|5de57117ffa87b14|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|43|grpc-node-js/1.2.6
+2021-02-27T10:21:39.214Z|65e3c77fcb0a5fce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.219Z|65e3c77fcb0a5fce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.232Z|5de57117ffa87b14|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.236Z|65e3c77fcb0a5fce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.236Z|65e3c77fcb0a5fce|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.256Z|5de57117ffa87b14|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|11|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.295Z|5de57117ffa87b14|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|23|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.355Z|5de57117ffa87b14|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|32|grpc-node-js/1.2.6
+2021-02-27T10:21:39.388Z|19aaf9d0c64de23a|172.19.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:21:39.433Z|35d43f5b98b59838|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|22|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:39.475Z|35d43f5b98b59838|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|14|grpc-node-js/1.2.6
+2021-02-27T10:21:39.895Z|4ffaceee81f39cc7|172.19.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|8|JFrog-Frontend/1.15.5
+2021-02-27T10:21:39.930Z|4ffaceee81f39cc7|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.token.TokenResource/CreateOrRefreshToken|0|-1|-1|18|grpc-node-js/1.2.6
+2021-02-27T10:21:40.531Z|779e9846c6ee5a12|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:40.551Z|779e9846c6ee5a12|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.project.ProjectResource/IsProjectMember|0|-1|-1|6|grpc-node-js/1.2.6
+2021-02-27T10:21:40.586Z|1315a14dfc50a6a2|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:21:40.661Z|276327c6325c8495|127.0.0.1|anonymous|POST|/access/api/v1/auth/authenticate|401|93|42|19|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:40.681Z|276327c6325c8495|/127.0.0.1:48104|jffe@000|--UNA|com.jfrog.access.v1.user.UserResource/GetCustomData|5|-1|-1|6|grpc-node-js/1.2.6
+2021-02-27T10:21:41.601Z|247c07f00d6db160|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:21:41.611Z|247c07f00d6db160|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:41.630Z|247c07f00d6db160|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:21:43.594Z|3063d7843ca67675|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|13|JFrog-Router/7.15.2-1
+2021-02-27T10:21:43.739Z|6dddac02dee93684|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:46.588Z|591e073880f3646c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:21:46.598Z|60a2c719bcf6d165|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|13|JFrog-Router/7.15.2-1
+2021-02-27T10:21:46.598Z|591e073880f3646c|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:46.616Z|591e073880f3646c|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:21:49.593Z|7fa685a1ec4e9e9e|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:21:51.591Z|1442f3b75a37afb4|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:21:51.598Z|1442f3b75a37afb4|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:51.616Z|1442f3b75a37afb4|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:21:52.592Z|7abe116e8acc284d|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:21:55.593Z|102234ecb76b62f8|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:21:56.590Z|276b80abca694a03|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:21:56.599Z|276b80abca694a03|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:21:56.617Z|276b80abca694a03|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|11|grpc-go/1.27.1
+2021-02-27T10:21:58.597Z|127b3217bf549d84|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:22:00.017Z|61448b56ed28acb8|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|6|JFrog-Frontend/1.15.5
+2021-02-27T10:22:01.601Z|c7d646d32487d92|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:22:01.607Z|63f93b20f269454|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:22:01.614Z|c7d646d32487d92|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:01.627Z|c7d646d32487d92|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:22:04.155Z|51b745cc5c1da7ff|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:04.160Z|5bed6448dd094940|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:04.165Z|6f9527fc74cc469|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|16|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:04.177Z|5bed6448dd094940|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:04.179Z|25cb87bf6ef6fe54|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|22|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:04.193Z|51b745cc5c1da7ff|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|20|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:04.199Z|6f9527fc74cc469|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:04.204Z|25cb87bf6ef6fe54|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:04.600Z|22ef21d972e02f69|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:22:06.598Z|45ed80ad0069191d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:22:06.611Z|45ed80ad0069191d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:06.629Z|45ed80ad0069191d|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|10|grpc-go/1.27.1
+2021-02-27T10:22:07.597Z|4ef4334019b4a880|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:22:08.816Z|6175b9ae7923c7f9|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:08.832Z|6175b9ae7923c7f9|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:10.600Z|66dad059ed13f872|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:22:11.600Z|75906e933a72941d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:22:11.613Z|75906e933a72941d|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:11.633Z|75906e933a72941d|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:22:13.603Z|3e32d16035b7ccf5|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|11|JFrog-Router/7.15.2-1
+2021-02-27T10:22:16.598Z|548c4cfdb194aae2|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog-Router/7.15.2-1
+2021-02-27T10:22:16.607Z|115f649a6c14cd8b|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:22:16.619Z|548c4cfdb194aae2|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:16.635Z|548c4cfdb194aae2|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:22:19.604Z|3f705418c79ef906|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:22:21.606Z|623ef6f42f664db3|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|13|JFrog-Router/7.15.2-1
+2021-02-27T10:22:21.615Z|623ef6f42f664db3|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:21.631Z|623ef6f42f664db3|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:22:22.601Z|2a966bd93a7bf598|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:22:25.597Z|16ced03c5215d7fd|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|5|JFrog-Router/7.15.2-1
+2021-02-27T10:22:26.602Z|1dba1dfff0d52b07|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:22:26.611Z|1dba1dfff0d52b07|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:26.627Z|1dba1dfff0d52b07|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:22:28.604Z|fed89bc12b286e0|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:22:30.016Z|3ac633900b6aa586|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|7|JFrog-Frontend/1.15.5
+2021-02-27T10:22:31.601Z|3ffe5feac4f28def|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:22:31.612Z|2d09f7c3ecc3a460|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:22:31.617Z|3ffe5feac4f28def|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:31.630Z|3ffe5feac4f28def|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:22:33.794Z|7dacb78949fd1e03|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:33.813Z|7dacb78949fd1e03|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/admin|200|487|-1|7|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.153Z|7ea2cf7d4eca3a8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|6|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.156Z|26397e58aadc1f4e|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.160Z|3cfcfc876ab55f03|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|10|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.162Z|1681c94485865c27|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.173Z|7ea2cf7d4eca3a8|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|9|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.186Z|1681c94485865c27|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.186Z|26397e58aadc1f4e|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|15|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.195Z|3cfcfc876ab55f03|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|14|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:34.605Z|19c91de919b3d737|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:22:36.598Z|2a8246022045b6a|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:22:36.608Z|2a8246022045b6a|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|3|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:36.627Z|2a8246022045b6a|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|8|grpc-go/1.27.1
+2021-02-27T10:22:37.600Z|4d94b3424cd8e2fb|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|4|JFrog-Router/7.15.2-1
+2021-02-27T10:22:40.605Z|4acbe2c77229a389|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:22:41.608Z|33e7303a76a8d07|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:22:41.618Z|33e7303a76a8d07|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:41.637Z|33e7303a76a8d07|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:22:43.606Z|71c66224969f84c4|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:22:46.610Z|bed0ec427d234eb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:22:46.610Z|5cb554d20fbe8e19|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:22:46.622Z|bed0ec427d234eb|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:46.641Z|bed0ec427d234eb|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|11|grpc-go/1.27.1
+2021-02-27T10:22:49.606Z|305ebed1801fe048|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|7|JFrog-Router/7.15.2-1
+2021-02-27T10:22:51.614Z|7eb07bd76bea4551|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|12|JFrog-Router/7.15.2-1
+2021-02-27T10:22:51.621Z|7eb07bd76bea4551|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:51.642Z|7eb07bd76bea4551|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|9|grpc-go/1.27.1
+2021-02-27T10:22:52.615Z|52f8d66599bdb533|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|10|JFrog-Router/7.15.2-1
+2021-02-27T10:22:55.614Z|66d0d94dcb58f374|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|9|JFrog-Router/7.15.2-1
+2021-02-27T10:22:56.610Z|3a1e1ebf9f2fe46f|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|6|JFrog-Router/7.15.2-1
+2021-02-27T10:22:56.629Z|3a1e1ebf9f2fe46f|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|2|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:22:56.643Z|3a1e1ebf9f2fe46f|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|7|grpc-go/1.27.1
+2021-02-27T10:22:58.616Z|2f89e2e7b736d4ab|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:23:00.024Z|79db3f33fcaa7db0|127.0.0.1|jffe@000|GET|/access/api/v1/topology|200|3344|-1|9|JFrog-Frontend/1.15.5
+2021-02-27T10:23:01.614Z|641e03fbf2fd7c61|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|8|JFrog-Router/7.15.2-1
+2021-02-27T10:23:01.627Z|54ff9fc097e000cb|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|14|JFrog-Router/7.15.2-1
+2021-02-27T10:23:01.628Z|641e03fbf2fd7c61|127.0.0.1|anonymous|GET|/access/api/v1/system/ping|200|2|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:01.641Z|641e03fbf2fd7c61|/127.0.0.1:48104|jfrou@01ezhf0fgffen3w0gvzw6ea86h|--CST|com.jfrog.access.v1.serviceregistry.ServiceRegistryResource/SendHeartbeat|0|-1|-1|6|grpc-go/1.27.1
+2021-02-27T10:23:04.163Z|2d3d1c301d4cb701|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|5|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:04.165Z|29efe2800865f7b7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|8|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:04.173Z|1acf248e0821e6db|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:04.175Z|426ab9443968d5b4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/|200|19|-1|17|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:04.186Z|29efe2800865f7b7|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|13|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:04.190Z|2d3d1c301d4cb701|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|12|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:04.192Z|426ab9443968d5b4|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:04.190Z|1acf248e0821e6db|127.0.0.1|jfrt@01ezhf0qhrd9pf0xtn2y4916ky|GET|/access/api/v1/users/jffe@000|404|95|-1|4|JFrog Access Java Client/7.15.2 71502900  Artifactory/7.15.3 71503900
+2021-02-27T10:23:04.626Z|31a2b0a852419f27|127.0.0.1|jfrou@01ezhf0fgffen3w0gvzw6ea86h|GET|/access/api/v1/topology|200|2963|-1|8|JFrog-Router/7.15.2-1

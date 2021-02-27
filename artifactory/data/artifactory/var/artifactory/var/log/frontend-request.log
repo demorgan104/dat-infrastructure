@@ -1,0 +1,33 @@
+2021-02-27T10:21:39.184Z|3e015602e4fa1620|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|231.779|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.281Z|65e3c77fcb0a5fce|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|363.833|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.362Z|5de57117ffa87b14|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|441.896|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.396Z|19aaf9d0c64de23a|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|20.929|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.405Z|21e9e1045b0e364e|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|2.118|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.480Z|35d43f5b98b59838|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|109.253|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.484Z|c6f4be1415ae35  |127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|45.217|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.536Z|55b9a5b55f98cb32|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|35.152|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.864Z|3cf25dad84f69b04|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|46.451|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.874Z|5f4318b6344726ed|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.317|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:39.892Z|16775db0071d3d15|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|59.699|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:40.038Z|4ffaceee81f39cc7|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|42|242|158.794|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:40.537Z|63cc183dfebbd3a0|127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|58|-|40.402|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:40.560Z|779e9846c6ee5a12|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|47.451|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:40.675Z|2c3a6f4290ebe564|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.775|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:40.690Z|276327c6325c8495|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|63.186|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.213Z|21f35e99706868b5|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|15.504|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.477Z|7833954fbe5b6d3c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|152|270.774|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.498Z|115a3f642fe0bcd |127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|52.683|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.514Z|54245bc330417383|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|49.811|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.521Z|713e18fce07e6d3d|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|75.764|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.530Z|52d07913c35a6a97|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|76.650|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.614Z|d2c6eb41999b15a |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|465|102|65.868|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.649Z|4532c4deb1bcf39 |127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|55.742|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.679Z|5af62fb069fbae99|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|84.555|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.705Z|271c1ba7e9d7cbf0|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|44.464|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.730Z|5d35b49ca446d269|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|46|92.482|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.751Z|6dddac02dee93684|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|59.102|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.909Z|2ea5818eeab7bef9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|328|66|70.865|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.933Z|6c50608654a357a5|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=artifactory-build-info&path=|200|4|-|16.528|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:21:43.987Z|5bd2a6911133419 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|42.229|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:22:08.846Z|6175b9ae7923c7f9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|47.996|Safari|14.0.3|Mac OS|10.15.6
+2021-02-27T10:22:33.827Z|7dacb78949fd1e03|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|48.934|Safari|14.0.3|Mac OS|10.15.6

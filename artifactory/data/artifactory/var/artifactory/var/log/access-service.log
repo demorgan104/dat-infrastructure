@@ -1,0 +1,161 @@
+2021-02-27T10:01:56.961Z [jfac ] [INFO ] [fefc7561e1d24e4a] [licationContextInitializer:162] [ocalhost-startStop-2] - Access (jfac) service initialization started. Version: 7.15.2 Revision: 71502900 PID: 3741 Home: /opt/jfrog/artifactory
+2021-02-27T10:01:57.173Z [jfac ] [INFO ] [fefc7561e1d24e4a] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-2] - Starting AccessApplication v7.15.2 on c41e4a6e2923 with PID 3741 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.15.2.jar started by root in /var/opt/jfrog/artifactory)
+2021-02-27T10:01:57.177Z [jfac ] [INFO ] [fefc7561e1d24e4a] [o.j.a.AccessApplication:652   ] [ocalhost-startStop-2] - The following profiles are active: production
+2021-02-27T10:02:01.428Z [jfac ] [WARN ] [fefc7561e1d24e4a] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-27T10:02:01.462Z [jfac ] [INFO ] [fefc7561e1d24e4a] [s.d.u.AccessJdbcHelperImpl:140] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2021-02-27T10:02:01.463Z [jfac ] [INFO ] [fefc7561e1d24e4a] [s.d.u.AccessJdbcHelperImpl:143] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2021-02-27T10:02:01.490Z [jfac ] [INFO ] [fefc7561e1d24e4a] [s.d.u.AccessJdbcHelperImpl:152] [ocalhost-startStop-2] - ***Creating database schema***
+2021-02-27T10:02:02.786Z [jfac ] [INFO ] [fefc7561e1d24e4a] [s.d.u.AccessJdbcHelperImpl:168] [ocalhost-startStop-2] - Setting new schema baseline to latest version: 7.14.0.1
+2021-02-27T10:02:03.347Z [jfac ] [INFO ] [fefc7561e1d24e4a] [alConfigurationServiceBase:179] [ocalhost-startStop-2] - Configuration data wasn't found in db. Loading defaults
+2021-02-27T10:02:03.633Z [jfac ] [INFO ] [fefc7561e1d24e4a] [alConfigurationServiceBase:114] [ocalhost-startStop-2] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2021-02-27T10:02:04.051Z [jfac ] [INFO ] [fefc7561e1d24e4a] [.h.AccessNodeIdProviderImpl:73] [ocalhost-startStop-2] - Service id initialized: jfac@01ezhf08by9nt90v6x5kgk1ceq
+2021-02-27T10:02:04.224Z [jfac ] [INFO ] [fefc7561e1d24e4a] [a.k.m.MasterKeyBootstrapper:70] [ocalhost-startStop-2] - No master.key supplied. Generating master.key
+2021-02-27T10:02:04.470Z [jfac ] [INFO ] [fefc7561e1d24e4a] [.k.m.MasterKeyBootstrapper:146] [ocalhost-startStop-2] - Saving master.key to /opt/jfrog/artifactory/var/etc/security/master.key
+2021-02-27T10:02:04.985Z [jfac ] [INFO ] [fefc7561e1d24e4a] [j.a.s.s.t.TokenServiceImpl:115] [ocalhost-startStop-2] - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2021-02-27T10:02:06.150Z [jfac ] [INFO ] [fefc7561e1d24e4a] [b.AccessServerBootstrapImpl:43] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2021-02-27T10:02:06.153Z [jfac ] [INFO ] [fefc7561e1d24e4a] [CertificateFileHandlerBase:115] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Initializing root certificate.
+2021-02-27T10:02:06.162Z [jfac ] [INFO ] [fefc7561e1d24e4a] [CertificateFileHandlerBase:272] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Generating root private key and certificate.
+2021-02-27T10:02:07.765Z [jfac ] [INFO ] [fefc7561e1d24e4a] [CertificateFileHandlerBase:328] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-02-27T10:02:07.790Z [jfac ] [INFO ] [fefc7561e1d24e4a] [CertificateFileHandlerBase:132] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Finished initializing root certificate. Certificate source: GENERATED
+2021-02-27T10:02:07.794Z [jfac ] [INFO ] [fefc7561e1d24e4a] [CertificateFileHandlerBase:115] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Initializing ca certificate.
+2021-02-27T10:02:07.802Z [jfac ] [INFO ] [fefc7561e1d24e4a] [CertificateFileHandlerBase:272] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Generating ca private key and certificate.
+2021-02-27T10:02:08.113Z [jfac ] [INFO ] [fefc7561e1d24e4a] [CertificateFileHandlerBase:328] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2021-02-27T10:02:08.133Z [jfac ] [INFO ] [fefc7561e1d24e4a] [CertificateFileHandlerBase:132] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Finished initializing ca certificate. Certificate source: GENERATED
+2021-02-27T10:02:08.455Z [jfac ] [WARN ] [fefc7561e1d24e4a] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-27T10:02:08.818Z [jfac ] [INFO ] [fefc7561e1d24e4a] [.a.s.s.m.MetricsServiceImpl:47] [ocalhost-startStop-2] - Metrics Framework Service is disabled
+2021-02-27T10:02:08.820Z [jfac ] [INFO ] [fefc7561e1d24e4a] [b.AccessServerBootstrapImpl:52] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2021-02-27T10:02:10.080Z [jfac ] [INFO ] [fefc7561e1d24e4a] [o.j.a.s.r.s.GrpcServerImpl:65 ] [ocalhost-startStop-2] - Starting gRPC Server on port 8045
+2021-02-27T10:02:10.427Z [jfac ] [INFO ] [fefc7561e1d24e4a] [o.j.a.s.r.s.GrpcServerImpl:84 ] [ocalhost-startStop-2] - gRPC Server started, listening on 8045
+2021-02-27T10:02:10.454Z [jfac ] [INFO ] [5e03c26f14252aee] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling loadCertificates task to run every 30 seconds
+2021-02-27T10:02:10.474Z [jfac ] [INFO ] [5e03c26f14252aee] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling federationCleanupService task to run every 1209600 seconds
+2021-02-27T10:02:10.502Z [jfac ] [INFO ] [68f2eb411398e662] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling heartbeat task to run every 5 seconds
+2021-02-27T10:02:10.510Z [jfac ] [INFO ] [68f2eb411398e662] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling staleTokenCleanup task to run every 3600 seconds
+2021-02-27T10:02:10.547Z [jfac ] [INFO ] [68f2eb411398e662] [o.j.a.s.s.JoinKeyAccess:172   ] [ocalhost-startStop-2] - Cluster join: Join key loaded successfully (from: generated)
+2021-02-27T10:02:10.581Z [jfac ] [INFO ] [68f2eb411398e662] [a.s.b.AccessServerRegistrar:66] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Starting JFrog Access registrar...
+2021-02-27T10:02:13.516Z [jfac ] [INFO ] [68f2eb411398e662] [o.j.a.AccessApplication:59    ] [ocalhost-startStop-2] - Started AccessApplication in 19.395835899 seconds (JVM running for 22.997)
+2021-02-27T10:02:15.279Z [jfac ] [INFO ] [78aa7e096ca4419 ] [a.c.RefreshableScheduledJob:53] [27.0.0.1-8040-exec-1] - Scheduling federationCleanupService task to run every 1209600 seconds
+2021-02-27T10:02:15.286Z [jfac ] [INFO ] [261f5f4e07c0c308] [.f.FederationCleanupService:59] [jf-access-task1     ] - Running clean up of outdated Federation events
+2021-02-27T10:02:15.457Z [jfac ] [INFO ] [78aa7e096ca4419 ] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-1] - Cluster join: Successfully joined jfrou@01ezhf0fgffen3w0gvzw6ea86h with node id c41e4a6e2923
+2021-02-27T10:02:19.585Z [jfac ] [INFO ] [68f2eb411398e662] [.AccessWithRouterRegistrar:111] [pool-17-thread-1    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2021-02-27T10:02:20.521Z [jfac ] [INFO ] [68f2eb411398e662] [.s.b.AccessServerRegistrar:121] [pool-17-thread-1    ] - [ACCESS BOOTSTRAP] Updating server 'c41e4a6e2923' private key finger print to: a53e4c73802f1b869682632d3c0ce6f98f505727ec6cc37927b2958a25c39f08 ca private key finger print to: efa308814db5b533281864b895106b313c74d2c24a45cd852a0c782389fc88de
+2021-02-27T10:02:20.544Z [jfac ] [INFO ] [68f2eb411398e662] [a.s.b.AccessServerRegistrar:77] [pool-17-thread-1    ] - [ACCESS BOOTSTRAP] JFrog Access registrar finished.
+2021-02-27T10:02:20.636Z [jfac ] [INFO ] [6ffa9551883bb58f] [a.c.RefreshableScheduledJob:53] [27.0.0.1-8040-exec-6] - Scheduling federationCleanupService task to run every 1209600 seconds
+2021-02-27T10:02:20.646Z [jfac ] [INFO ] [7cf75c9c9224301c] [.f.FederationCleanupService:59] [jf-access-task1     ] - Running clean up of outdated Federation events
+2021-02-27T10:02:20.653Z [jfac ] [INFO ] [2bc7fca6d4f9ac46] [a.c.RefreshableScheduledJob:53] [27.0.0.1-8040-exec-7] - Scheduling federationCleanupService task to run every 1209600 seconds
+2021-02-27T10:02:20.658Z [jfac ] [INFO ] [30d54e4d3380813a] [.f.FederationCleanupService:59] [jf-access-task1     ] - Running clean up of outdated Federation events
+2021-02-27T10:02:20.727Z [jfac ] [INFO ] [6ffa9551883bb58f] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-6] - Cluster join: Successfully joined jfmd@01ezhf0hn4nmyaesy0p5rb4gq2 with node id c41e4a6e2923
+2021-02-27T10:02:20.728Z [jfac ] [INFO ] [2bc7fca6d4f9ac46] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-7] - Cluster join: Successfully joined jfrt@01ezhf0qhrd9pf0xtn2y4916ky with node id c41e4a6e2923
+2021-02-27T10:02:22.794Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting encryption...
+2021-02-27T10:02:22.805Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting federation_events...
+2021-02-27T10:02:22.814Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting groups...
+2021-02-27T10:02:22.817Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting federation_servers...
+2021-02-27T10:02:22.837Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting users...
+2021-02-27T10:02:22.878Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting platform_configurations...
+2021-02-27T10:02:22.886Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting permissions...
+2021-02-27T10:02:22.891Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting tokens...
+2021-02-27T10:02:22.896Z [jfac ] [INFO ] [56d4d09ed4216008] [.d.TokenStorageServiceImpl:220] [27.0.0.1-8040-exec-6] - Filtered out 8 system tokens from export
+2021-02-27T10:02:22.899Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting config...
+2021-02-27T10:02:22.914Z [jfac ] [INFO ] [56d4d09ed4216008] [.AccessImporterExporterImpl:71] [27.0.0.1-8040-exec-6] - Exporting NodeIdServiceId...
+2021-02-27T10:02:29.153Z [jfac ] [INFO ] [60095ef6d87847c5] [a.c.RefreshableScheduledJob:53] [27.0.0.1-8040-exec-4] - Scheduling federationCleanupService task to run every 1209600 seconds
+2021-02-27T10:02:29.156Z [jfac ] [INFO ] [6f75deea2868df8d] [.f.FederationCleanupService:59] [jf-access-task1     ] - Running clean up of outdated Federation events
+2021-02-27T10:02:29.204Z [jfac ] [INFO ] [60095ef6d87847c5] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-4] - Cluster join: Successfully joined jffe@000 with node id c41e4a6e2923
+2021-02-27T10:02:36.231Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:181] [c-default-executor-0] - Loading ca certificate from database.
+2021-02-27T10:02:36.392Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:328] [c-default-executor-0] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2021-02-27T10:02:36.407Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:190] [c-default-executor-0] - Finished loading ca certificate from database.
+2021-02-27T10:02:36.411Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:181] [c-default-executor-0] - Loading root certificate from database.
+2021-02-27T10:02:36.472Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:328] [c-default-executor-0] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-02-27T10:02:36.485Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:190] [c-default-executor-0] - Finished loading root certificate from database.
+2021-02-27T10:02:36.510Z [jfac ] [INFO ] [                ] [alConfigurationServiceBase:182] [c-default-executor-0] - Loading configuration from db finished successfully
+2021-02-27T10:04:58.455Z [jfac ] [WARN ] [                ] [ackson2ObjectMapperBuilder:836] [background-preinit  ] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-02-27T10:04:58.593Z [jfac ] [INFO ] [5880959315c0c638] [licationContextInitializer:162] [ocalhost-startStop-2] - Access (jfac) service initialization started. Version: 7.15.2 Revision: 71502900 PID: 3427 Home: /opt/jfrog/artifactory
+2021-02-27T10:04:58.736Z [jfac ] [INFO ] [5880959315c0c638] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-2] - Starting AccessApplication v7.15.2 on 6ccfbd8d18aa with PID 3427 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.15.2.jar started by root in /var/opt/jfrog/artifactory)
+2021-02-27T10:04:58.742Z [jfac ] [INFO ] [5880959315c0c638] [o.j.a.AccessApplication:652   ] [ocalhost-startStop-2] - The following profiles are active: production
+2021-02-27T10:06:45.035Z [jfac ] [INFO ] [edd2c1c92f1cec70] [licationContextInitializer:162] [ocalhost-startStop-2] - Access (jfac) service initialization started. Version: 7.15.2 Revision: 71502900 PID: 3440 Home: /opt/jfrog/artifactory
+2021-02-27T10:06:45.200Z [jfac ] [INFO ] [edd2c1c92f1cec70] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-2] - Starting AccessApplication v7.15.2 on 3470b221d16e with PID 3440 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.15.2.jar started by root in /var/opt/jfrog/artifactory)
+2021-02-27T10:06:45.214Z [jfac ] [INFO ] [edd2c1c92f1cec70] [o.j.a.AccessApplication:652   ] [ocalhost-startStop-2] - The following profiles are active: production
+2021-02-27T10:06:45.364Z [jfac ] [WARN ] [                ] [ackson2ObjectMapperBuilder:836] [background-preinit  ] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-02-27T10:06:50.254Z [jfac ] [WARN ] [edd2c1c92f1cec70] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-27T10:06:50.311Z [jfac ] [INFO ] [edd2c1c92f1cec70] [s.d.u.AccessJdbcHelperImpl:140] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2021-02-27T10:06:50.313Z [jfac ] [INFO ] [edd2c1c92f1cec70] [s.d.u.AccessJdbcHelperImpl:143] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2021-02-27T10:06:51.265Z [jfac ] [INFO ] [edd2c1c92f1cec70] [alConfigurationServiceBase:182] [ocalhost-startStop-2] - Loading configuration from db finished successfully
+2021-02-27T10:06:51.406Z [jfac ] [INFO ] [edd2c1c92f1cec70] [alConfigurationServiceBase:114] [ocalhost-startStop-2] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2021-02-27T10:06:51.842Z [jfac ] [INFO ] [edd2c1c92f1cec70] [.h.AccessNodeIdProviderImpl:73] [ocalhost-startStop-2] - Service id initialized: jfac@01ezhf08by9nt90v6x5kgk1ceq
+2021-02-27T10:06:52.580Z [jfac ] [INFO ] [edd2c1c92f1cec70] [j.a.s.s.t.TokenServiceImpl:115] [ocalhost-startStop-2] - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2021-02-27T10:06:53.371Z [jfac ] [INFO ] [edd2c1c92f1cec70] [b.AccessServerBootstrapImpl:43] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2021-02-27T10:06:53.374Z [jfac ] [INFO ] [edd2c1c92f1cec70] [CertificateFileHandlerBase:115] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Initializing root certificate.
+2021-02-27T10:06:53.755Z [jfac ] [INFO ] [edd2c1c92f1cec70] [CertificateFileHandlerBase:328] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-02-27T10:06:53.771Z [jfac ] [INFO ] [edd2c1c92f1cec70] [CertificateFileHandlerBase:132] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Finished initializing root certificate. Certificate source: DATABASE
+2021-02-27T10:06:53.773Z [jfac ] [INFO ] [edd2c1c92f1cec70] [CertificateFileHandlerBase:115] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Initializing ca certificate.
+2021-02-27T10:06:53.861Z [jfac ] [INFO ] [edd2c1c92f1cec70] [CertificateFileHandlerBase:328] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2021-02-27T10:06:53.875Z [jfac ] [INFO ] [edd2c1c92f1cec70] [CertificateFileHandlerBase:132] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Finished initializing ca certificate. Certificate source: DATABASE
+2021-02-27T10:06:54.194Z [jfac ] [INFO ] [edd2c1c92f1cec70] [.a.s.s.m.MetricsServiceImpl:47] [ocalhost-startStop-2] - Metrics Framework Service is disabled
+2021-02-27T10:06:54.196Z [jfac ] [INFO ] [edd2c1c92f1cec70] [b.AccessServerBootstrapImpl:52] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2021-02-27T10:06:55.644Z [jfac ] [INFO ] [edd2c1c92f1cec70] [o.j.a.s.r.s.GrpcServerImpl:65 ] [ocalhost-startStop-2] - Starting gRPC Server on port 8045
+2021-02-27T10:06:56.175Z [jfac ] [INFO ] [edd2c1c92f1cec70] [o.j.a.s.r.s.GrpcServerImpl:84 ] [ocalhost-startStop-2] - gRPC Server started, listening on 8045
+2021-02-27T10:06:56.209Z [jfac ] [INFO ] [7d6f5e7c984923be] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling loadCertificates task to run every 30 seconds
+2021-02-27T10:06:56.236Z [jfac ] [INFO ] [7d6f5e7c984923be] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling federationCleanupService task to run every 1209600 seconds
+2021-02-27T10:06:56.299Z [jfac ] [INFO ] [913b22ea553d9b28] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling heartbeat task to run every 5 seconds
+2021-02-27T10:06:56.317Z [jfac ] [INFO ] [913b22ea553d9b28] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling staleTokenCleanup task to run every 3600 seconds
+2021-02-27T10:06:56.368Z [jfac ] [INFO ] [913b22ea553d9b28] [o.j.a.s.s.JoinKeyAccess:172   ] [ocalhost-startStop-2] - Cluster join: Join key loaded successfully (from: /opt/jfrog/artifactory/var/etc/security/join.key)
+2021-02-27T10:06:56.460Z [jfac ] [INFO ] [913b22ea553d9b28] [a.s.b.AccessServerRegistrar:66] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Starting JFrog Access registrar...
+2021-02-27T10:06:58.493Z [jfac ] [INFO ] [913b22ea553d9b28] [o.j.a.AccessApplication:59    ] [ocalhost-startStop-2] - Started AccessApplication in 15.337108887 seconds (JVM running for 17.99)
+2021-02-27T10:07:00.627Z [jfac ] [WARN ] [2d90987f342bcc00] [c.z.h.u.DriverDataSource:70   ] [27.0.0.1-8040-exec-3] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-27T10:07:00.892Z [jfac ] [INFO ] [2d90987f342bcc00] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-3] - Cluster join: Successfully joined jfrou@01ezhf0fgffen3w0gvzw6ea86h with node id 3470b221d16e
+2021-02-27T10:07:05.475Z [jfac ] [INFO ] [913b22ea553d9b28] [.AccessWithRouterRegistrar:111] [pool-23-thread-1    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2021-02-27T10:07:06.441Z [jfac ] [INFO ] [913b22ea553d9b28] [.s.b.AccessServerRegistrar:121] [pool-23-thread-1    ] - [ACCESS BOOTSTRAP] Updating server '3470b221d16e' private key finger print to: a53e4c73802f1b869682632d3c0ce6f98f505727ec6cc37927b2958a25c39f08 ca private key finger print to: efa308814db5b533281864b895106b313c74d2c24a45cd852a0c782389fc88de
+2021-02-27T10:07:06.478Z [jfac ] [INFO ] [913b22ea553d9b28] [a.s.b.AccessServerRegistrar:77] [pool-23-thread-1    ] - [ACCESS BOOTSTRAP] JFrog Access registrar finished.
+2021-02-27T10:07:06.729Z [jfac ] [INFO ] [3def15f4444392e1] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-8] - Cluster join: Successfully joined jfrt@01ezhf0qhrd9pf0xtn2y4916ky with node id 3470b221d16e
+2021-02-27T10:07:06.892Z [jfac ] [INFO ] [43db41eb7bdb1350] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-9] - Cluster join: Successfully joined jfmd@01ezhf0hn4nmyaesy0p5rb4gq2 with node id 3470b221d16e
+2021-02-27T10:07:13.648Z [jfac ] [INFO ] [1b40094b0a3af4cf] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-5] - Cluster join: Successfully joined jffe@000 with node id 3470b221d16e
+2021-02-27T10:07:21.985Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:181] [c-default-executor-0] - Loading ca certificate from database.
+2021-02-27T10:07:22.047Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:328] [c-default-executor-0] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2021-02-27T10:07:22.060Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:190] [c-default-executor-0] - Finished loading ca certificate from database.
+2021-02-27T10:07:22.063Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:181] [c-default-executor-0] - Loading root certificate from database.
+2021-02-27T10:07:22.123Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:328] [c-default-executor-0] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-02-27T10:07:22.135Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:190] [c-default-executor-0] - Finished loading root certificate from database.
+2021-02-27T10:07:22.142Z [jfac ] [INFO ] [                ] [alConfigurationServiceBase:182] [c-default-executor-0] - Loading configuration from db finished successfully
+2021-02-27T10:19:51.837Z [jfac ] [WARN ] [                ] [ackson2ObjectMapperBuilder:836] [background-preinit  ] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-02-27T10:19:51.893Z [jfac ] [INFO ] [ed7a5dc420a4802e] [licationContextInitializer:162] [ocalhost-startStop-2] - Access (jfac) service initialization started. Version: 7.15.2 Revision: 71502900 PID: 3391 Home: /opt/jfrog/artifactory
+2021-02-27T10:19:52.030Z [jfac ] [INFO ] [ed7a5dc420a4802e] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-2] - Starting AccessApplication v7.15.2 on 3470b221d16e with PID 3391 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.15.2.jar started by root in /var/opt/jfrog/artifactory)
+2021-02-27T10:19:52.037Z [jfac ] [INFO ] [ed7a5dc420a4802e] [o.j.a.AccessApplication:652   ] [ocalhost-startStop-2] - The following profiles are active: production
+2021-02-27T10:19:56.779Z [jfac ] [WARN ] [ed7a5dc420a4802e] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-27T10:19:56.824Z [jfac ] [INFO ] [ed7a5dc420a4802e] [s.d.u.AccessJdbcHelperImpl:140] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2021-02-27T10:19:56.828Z [jfac ] [INFO ] [ed7a5dc420a4802e] [s.d.u.AccessJdbcHelperImpl:143] [ocalhost-startStop-2] - Connection URL: jdbc:derby:/opt/jfrog/artifactory/var/data/artifactory/derby
+2021-02-27T10:19:58.038Z [jfac ] [INFO ] [ed7a5dc420a4802e] [alConfigurationServiceBase:182] [ocalhost-startStop-2] - Loading configuration from db finished successfully
+2021-02-27T10:19:58.256Z [jfac ] [INFO ] [ed7a5dc420a4802e] [alConfigurationServiceBase:114] [ocalhost-startStop-2] - Current configurations are the same as the new configurations, no need for an update. No action was taken.
+2021-02-27T10:19:58.774Z [jfac ] [INFO ] [ed7a5dc420a4802e] [.h.AccessNodeIdProviderImpl:73] [ocalhost-startStop-2] - Service id initialized: jfac@01ezhf08by9nt90v6x5kgk1ceq
+2021-02-27T10:19:59.464Z [jfac ] [INFO ] [ed7a5dc420a4802e] [j.a.s.s.t.TokenServiceImpl:115] [ocalhost-startStop-2] - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2021-02-27T10:20:01.943Z [jfac ] [INFO ] [ed7a5dc420a4802e] [b.AccessServerBootstrapImpl:43] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2021-02-27T10:20:01.952Z [jfac ] [INFO ] [ed7a5dc420a4802e] [CertificateFileHandlerBase:115] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Initializing root certificate.
+2021-02-27T10:20:02.717Z [jfac ] [INFO ] [ed7a5dc420a4802e] [CertificateFileHandlerBase:328] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-02-27T10:20:02.744Z [jfac ] [INFO ] [ed7a5dc420a4802e] [CertificateFileHandlerBase:132] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Finished initializing root certificate. Certificate source: DATABASE
+2021-02-27T10:20:02.747Z [jfac ] [INFO ] [ed7a5dc420a4802e] [CertificateFileHandlerBase:115] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Initializing ca certificate.
+2021-02-27T10:20:02.958Z [jfac ] [INFO ] [ed7a5dc420a4802e] [CertificateFileHandlerBase:328] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2021-02-27T10:20:02.970Z [jfac ] [INFO ] [ed7a5dc420a4802e] [CertificateFileHandlerBase:132] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Finished initializing ca certificate. Certificate source: DATABASE
+2021-02-27T10:20:03.820Z [jfac ] [INFO ] [ed7a5dc420a4802e] [.a.s.s.m.MetricsServiceImpl:47] [ocalhost-startStop-2] - Metrics Framework Service is disabled
+2021-02-27T10:20:03.825Z [jfac ] [INFO ] [ed7a5dc420a4802e] [b.AccessServerBootstrapImpl:52] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2021-02-27T10:20:07.702Z [jfac ] [INFO ] [ed7a5dc420a4802e] [o.j.a.s.r.s.GrpcServerImpl:65 ] [ocalhost-startStop-2] - Starting gRPC Server on port 8045
+2021-02-27T10:20:08.348Z [jfac ] [INFO ] [ed7a5dc420a4802e] [o.j.a.s.r.s.GrpcServerImpl:84 ] [ocalhost-startStop-2] - gRPC Server started, listening on 8045
+2021-02-27T10:20:08.387Z [jfac ] [INFO ] [3003b1c640b4d6a3] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling loadCertificates task to run every 30 seconds
+2021-02-27T10:20:08.410Z [jfac ] [INFO ] [3003b1c640b4d6a3] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling federationCleanupService task to run every 1209600 seconds
+2021-02-27T10:20:08.463Z [jfac ] [INFO ] [8ab9485a40eb3e71] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling heartbeat task to run every 5 seconds
+2021-02-27T10:20:08.489Z [jfac ] [INFO ] [8ab9485a40eb3e71] [a.c.RefreshableScheduledJob:53] [ocalhost-startStop-2] - Scheduling staleTokenCleanup task to run every 3600 seconds
+2021-02-27T10:20:08.577Z [jfac ] [INFO ] [8ab9485a40eb3e71] [o.j.a.s.s.JoinKeyAccess:172   ] [ocalhost-startStop-2] - Cluster join: Join key loaded successfully (from: /opt/jfrog/artifactory/var/etc/security/join.key)
+2021-02-27T10:20:08.866Z [jfac ] [INFO ] [8ab9485a40eb3e71] [a.s.b.AccessServerRegistrar:66] [ocalhost-startStop-2] - [ACCESS BOOTSTRAP] Starting JFrog Access registrar...
+2021-02-27T10:20:12.167Z [jfac ] [INFO ] [8ab9485a40eb3e71] [o.j.a.AccessApplication:59    ] [ocalhost-startStop-2] - Started AccessApplication in 22.310263628 seconds (JVM running for 25.412)
+2021-02-27T10:20:14.990Z [jfac ] [WARN ] [43c09b66b715467d] [c.z.h.u.DriverDataSource:70   ] [27.0.0.1-8040-exec-3] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-27T10:20:15.282Z [jfac ] [INFO ] [43c09b66b715467d] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-3] - Cluster join: Successfully joined jfrou@01ezhf0fgffen3w0gvzw6ea86h with node id 3470b221d16e
+2021-02-27T10:20:18.689Z [jfac ] [WARN ] [8ab9485a40eb3e71] [o.j.c.ExecutionUtils:142      ] [pool-23-thread-2    ] - Retry 20 Elapsed 9.8 secs failed: Registration with router on URL http://localhost:8046 failed with error: UNAVAILABLE: io exception. Trying again
+2021-02-27T10:20:19.856Z [jfac ] [INFO ] [8ab9485a40eb3e71] [.AccessWithRouterRegistrar:111] [pool-23-thread-2    ] - Access Server successfully registered on Router on URL: http://localhost:8046
+2021-02-27T10:20:20.832Z [jfac ] [INFO ] [8ab9485a40eb3e71] [.s.b.AccessServerRegistrar:121] [pool-23-thread-2    ] - [ACCESS BOOTSTRAP] Updating server '3470b221d16e' private key finger print to: a53e4c73802f1b869682632d3c0ce6f98f505727ec6cc37927b2958a25c39f08 ca private key finger print to: efa308814db5b533281864b895106b313c74d2c24a45cd852a0c782389fc88de
+2021-02-27T10:20:20.868Z [jfac ] [INFO ] [8ab9485a40eb3e71] [a.s.b.AccessServerRegistrar:77] [pool-23-thread-2    ] - [ACCESS BOOTSTRAP] JFrog Access registrar finished.
+2021-02-27T10:20:21.333Z [jfac ] [INFO ] [e437a9594e8295b ] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-7] - Cluster join: Successfully joined jfmd@01ezhf0hn4nmyaesy0p5rb4gq2 with node id 3470b221d16e
+2021-02-27T10:20:21.839Z [jfac ] [INFO ] [31fe471313a2c7b6] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-2] - Cluster join: Successfully joined jfrt@01ezhf0qhrd9pf0xtn2y4916ky with node id 3470b221d16e
+2021-02-27T10:20:31.134Z [jfac ] [INFO ] [3033fc901b0e4996] [s.r.NodeRegistryServiceImpl:68] [27.0.0.1-8040-exec-6] - Cluster join: Successfully joined jffe@000 with node id 3470b221d16e
+2021-02-27T10:20:41.641Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:181] [c-default-executor-1] - Loading ca certificate from database.
+2021-02-27T10:20:41.707Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:328] [c-default-executor-1] - [ACCESS BOOTSTRAP] Saved new ca certificate at: /opt/jfrog/artifactory/var/etc/access/keys/ca.crt
+2021-02-27T10:20:41.717Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:190] [c-default-executor-1] - Finished loading ca certificate from database.
+2021-02-27T10:20:41.718Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:181] [c-default-executor-1] - Loading root certificate from database.
+2021-02-27T10:20:41.779Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:328] [c-default-executor-1] - [ACCESS BOOTSTRAP] Saved new root certificate at: /opt/jfrog/artifactory/var/etc/access/keys/root.crt
+2021-02-27T10:20:41.790Z [jfac ] [INFO ] [                ] [CertificateFileHandlerBase:190] [c-default-executor-1] - Finished loading root certificate from database.
+2021-02-27T10:20:41.796Z [jfac ] [INFO ] [                ] [alConfigurationServiceBase:182] [c-default-executor-1] - Loading configuration from db finished successfully

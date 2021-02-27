@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  artifactory:
+    image: releases-docker.jfrog.io/jfrog/artifactory-cpp-ce:latest
+    privileged: true
+    user: root
+    ports:
+      - 8083:8081
+      - 8084:8082
+    container_name: dat-artifactory
+    volumes:
+      - ./data/artifactory/var/artifactory/var/:/var/opt/jfrog/artifactory

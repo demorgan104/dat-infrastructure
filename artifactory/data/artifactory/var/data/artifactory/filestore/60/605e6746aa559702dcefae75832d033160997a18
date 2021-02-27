@@ -1,0 +1,10 @@
+1614374036
+conan.lock: d803610eda780e15748cf5a0ed1a705c
+conanbuildinfo.txt: 9a1aaa6c5a8a870474f7b2ed8467916f
+conanfile.py: af690ab16f665a38464e5af4a67f4875
+conaninfo.txt: 2b909f6138ce3c5dde22d722754ce968
+graph_info.json: 73bc660eefef008bbc3c9805de90feb0
+nice_hello/bin/hello: d1dc0e74898b110933a98393aafe8f67
+nice_hello/includes/common/hello.h: ee926494772b18006ab968483094355c
+simple_hello/bin/hello: 6041a3846a309a68009186714b107ccf
+simple_hello/includes/common/hello.h: ee926494772b18006ab968483094355c

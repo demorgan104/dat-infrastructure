@@ -1,0 +1,16 @@
+# This template is used to create routing rules for Traefik - to respond with 503 status for all incoming
+# requests on external entry point. Requests to /router api will still be available.
+
+[frontends]
+    [frontends.unhealthy-node]
+        entryPoints = ["external"]
+        backend = "router-rest"
+        
+        priority = 9000
+
+        [frontends.unhealthy-node.routes.match]
+            rule = "PathPrefix: /"
+        [frontends.unhealthy-node.routes.replace]
+            rule = "ReplacePath: /router/api/v1/system/health"
+        [frontends.unhealthy-node.headers.customrequestheaders]
+            X-JFrog-Health-Output = "html"

@@ -1,0 +1,102 @@
+27-Feb-2021 10:01:51.701 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:01:51.750 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:01:51.781 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:01:51.787 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:01:51.792 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:01:51.794 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:01:51.817 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Feb-2021 10:01:51.820 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.61
+27-Feb-2021 10:01:51.864 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml]
+27-Feb-2021 10:01:51.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml]
+27-Feb-2021 10:01:52.109 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/artifactory.war] inside the host appBase has been specified, and will be ignored
+27-Feb-2021 10:01:52.110 WARNING [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access.war] inside the host appBase has been specified, and will be ignored
+27-Feb-2021 10:02:09.084 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml] has finished in [17,218] ms
+27-Feb-2021 10:02:13.578 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml] has finished in [21,709] ms
+27-Feb-2021 10:02:13.581 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT]
+27-Feb-2021 10:02:13.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT] has finished in [37] ms
+27-Feb-2021 10:02:13.627 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:02:13.675 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:02:13.689 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:04:32.791 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Feb-2021 10:04:32.793 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:04:32.796 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:04:32.798 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:04:32.807 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Feb-2021 10:04:35.156 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:04:35.159 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:04:35.164 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:04:35.169 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:04:35.172 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:04:35.175 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:04:53.865 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:04:53.901 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:04:53.937 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:04:53.944 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:04:53.948 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:04:53.950 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:04:53.964 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Feb-2021 10:04:53.966 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.61
+27-Feb-2021 10:04:54.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml]
+27-Feb-2021 10:04:54.009 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml]
+27-Feb-2021 10:04:54.083 WARNING [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access.war] inside the host appBase has been specified, and will be ignored
+27-Feb-2021 10:04:54.083 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/artifactory.war] inside the host appBase has been specified, and will be ignored
+27-Feb-2021 10:06:41.339 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:06:41.365 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:06:41.401 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:06:41.406 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:06:41.421 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:06:41.424 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:06:41.440 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Feb-2021 10:06:41.442 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.61
+27-Feb-2021 10:06:41.483 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml]
+27-Feb-2021 10:06:41.483 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml]
+27-Feb-2021 10:06:41.568 WARNING [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access.war] inside the host appBase has been specified, and will be ignored
+27-Feb-2021 10:06:41.569 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/artifactory.war] inside the host appBase has been specified, and will be ignored
+27-Feb-2021 10:06:48.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml] has finished in [6,886] ms
+27-Feb-2021 10:06:58.536 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml] has finished in [17,054] ms
+27-Feb-2021 10:06:58.540 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT]
+27-Feb-2021 10:06:58.576 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT] has finished in [37] ms
+27-Feb-2021 10:06:58.586 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:06:58.616 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:06:58.647 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:11:11.499 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Feb-2021 10:11:11.501 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:11:11.509 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:11:11.516 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:11:11.517 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Feb-2021 10:11:13.849 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:11:13.853 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:11:13.855 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:11:13.865 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:11:13.868 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:11:13.871 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:19:47.857 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:19:47.892 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:19:47.924 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:19:47.928 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:19:47.934 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:19:47.937 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2021 10:19:47.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Feb-2021 10:19:47.956 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.61
+27-Feb-2021 10:19:48.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml]
+27-Feb-2021 10:19:48.005 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml]
+27-Feb-2021 10:19:48.073 WARNING [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access.war] inside the host appBase has been specified, and will be ignored
+27-Feb-2021 10:19:48.074 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/artifactory.war] inside the host appBase has been specified, and will be ignored
+27-Feb-2021 10:19:54.496 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/artifactory.xml] has finished in [6,489] ms
+27-Feb-2021 10:20:12.247 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/opt/jfrog/artifactory/app/artifactory/tomcat/conf/Catalina/localhost/access.xml] has finished in [24,245] ms
+27-Feb-2021 10:20:12.255 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT]
+27-Feb-2021 10:20:12.329 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/ROOT] has finished in [74] ms
+27-Feb-2021 10:20:12.343 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:20:12.386 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:20:12.416 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:23:06.379 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Feb-2021 10:23:06.381 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:23:06.389 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:23:06.396 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:23:06.403 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Feb-2021 10:23:08.912 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:23:08.916 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:23:08.919 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-127.0.0.1-8040"]
+27-Feb-2021 10:23:08.928 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+27-Feb-2021 10:23:08.931 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-127.0.0.1-8091"]
+27-Feb-2021 10:23:08.934 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-127.0.0.1-8040"]
