@@ -1,3 +1,6 @@
+# user: admin
+# password: Password1
+
 version: '3.7'
 services:
   artifactory:
@@ -10,3 +13,4 @@ services:
     container_name: dat-artifactory
     volumes:
       - ./data/artifactory/var/artifactory/var/:/var/opt/jfrog/artifactory
+
