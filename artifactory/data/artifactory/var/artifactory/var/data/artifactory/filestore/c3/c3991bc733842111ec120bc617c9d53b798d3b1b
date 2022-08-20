@@ -1,0 +1,7 @@
+{
+  "reference" : "hello_test/0.1@hello_conan/testing",
+  "revisions" : [ {
+    "revision" : "0",
+    "time" : "2021-05-14T18:32:25.859+0000"
+  } ]
+}

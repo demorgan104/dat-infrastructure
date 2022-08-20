@@ -1,0 +1,7 @@
+{
+  "packageReference" : "hello_world/0.1@stable/release#0:a8bb5ef4b074e359522f1cc39aed2cc665276181",
+  "revisions" : [ {
+    "revision" : "0",
+    "time" : "2021-05-14T21:33:43.611+0000"
+  } ]
+}

@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>matrix-project</artifactId>
-  <version>1.18</version>
+  <version>772.v494f19991984</version>
   <packaging>hpi</packaging>
   <name>Matrix Project Plugin</name>
   <description>Multi-configuration (matrix) project type.</description>
@@ -17,9 +17,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/matrix-project-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/matrix-project-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/matrix-project-plugin.git</developerConnection>
-    <tag>matrix-project-1.18</tag>
+    <tag>494f19991984cdfc6b26ad2c4d8d7693a9843d2b</tag>
     <url>https://github.com/jenkinsci/matrix-project-plugin</url>
   </scm>
   <distributionManagement>
@@ -36,33 +36,32 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>junit</artifactId>
-      <version>1.29</version>
+      <version>1.53</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>script-security</artifactId>
-      <version>1.71</version>
+      <version>1138.v8e727069a_025</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.164.3</version>
+      <version>2.289.1</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
-      <version>3.1.11</version>
-      <scope>provided</scope>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>net.jcip</groupId>
@@ -74,7 +73,7 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.19</version>
+      <version>1.21</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -83,18 +82,6 @@
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.kohsuke</groupId>
-      <artifactId>access-modifier-annotation</artifactId>
-      <version>1.14</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotation-indexer</artifactId>
-          <groupId>org.jenkins-ci</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
   <repositories>
@@ -108,7 +95,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.15</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

@@ -1,0 +1,16 @@
+1621017361
+conaninfo.txt: be07e69878a24e9dfb3d677babe57532
+hello/.gitignore: 2a213fd606e11729253ee09be60e9ee8
+hello/README.md: 1e2e318d96a9c0d41416e01b53969f9b
+hello/SConstruct: cc122610153e20216becfae062d85738
+hello/commands: 62229460b1931dca2d79ad5e74ec789e
+hello/conf/build.yml: 7fcf02e18a7843155bc1a1441876ee11
+hello/src/SConscript: cf5bd7b90ccbf17df3014b0925295087
+hello/src/common/hello.h: ee926494772b18006ab968483094355c
+hello/src/nice_hello/hello.c: a625115987e29d6ac3da14e50d13821c
+hello/src/nice_hello/hello_lib.c: d93e297dfb2f0b04e687ee99e9903c98
+hello/src/simple_hello/hello.c: 9db9e639ada21de3c874808dbcc003e6
+nice_hello/bin/hello: 90388d29f046f4d8e98648cc5ce00918
+nice_hello/includes/common/hello.h: ee926494772b18006ab968483094355c
+simple_hello/bin/hello: 2bbaf2311284f2acaf9b075405827d09
+simple_hello/includes/common/hello.h: ee926494772b18006ab968483094355c

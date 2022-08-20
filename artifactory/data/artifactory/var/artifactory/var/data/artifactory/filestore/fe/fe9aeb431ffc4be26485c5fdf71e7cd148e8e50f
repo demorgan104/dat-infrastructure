@@ -1,0 +1,7 @@
+{
+  "packageReference" : "hello_test/0.1@hello_conan/testing#0:cc471ed355602ffa7007968c83aa4e7e648a38b5",
+  "revisions" : [ {
+    "revision" : "0",
+    "time" : "2021-05-14T18:37:23.131+0000"
+  } ]
+}

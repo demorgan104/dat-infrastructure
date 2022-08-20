@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>jsch</artifactId>
-  <version>0.1.55.2</version>
+  <version>0.1.55.61.va_e9ee26616e7</version>
   <packaging>hpi</packaging>
   <name>Jenkins JSch dependency plugin</name>
-  <description>Jenkins plugin that brings the JSch library as a plugin dependency, and provides
-        an SSHAuthenticatorFactory for using JSch with the ssh-credentials plugin.</description>
+  <description>The Jenkins Plugins Parent POM Project</description>
   <url>https://github.com/jenkinsci/jsch-plugin</url>
   <inceptionYear>2016</inceptionYear>
   <licenses>
@@ -34,15 +33,11 @@
       <id>oleg_nenashev</id>
       <name>Oleg Nenashev</name>
     </developer>
-    <developer>
-      <id>dnusbaum</id>
-      <name>Devin Nusbaum</name>
-    </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/jsch-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/jsch-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/jsch-plugin.git</developerConnection>
-    <tag>jsch-0.1.55.2</tag>
+    <tag>ae9ee26616e74709045a306839643f9ececfe1a7</tag>
     <url>https://github.com/jenkinsci/jsch-plugin</url>
   </scm>
   <distributionManagement>
@@ -65,33 +60,32 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>trilead-api</artifactId>
-      <version>1.0.5</version>
+      <version>1.67.vc3938a_35172f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>ssh-credentials</artifactId>
-      <version>1.14</version>
+      <version>277.v95c2fec1c047</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.190.1</version>
+      <version>2.319.1</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
-      <version>3.1.12</version>
-      <scope>provided</scope>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>net.jcip</groupId>
@@ -103,7 +97,7 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.18</version>
+      <version>1.21</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -112,18 +106,6 @@
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.kohsuke</groupId>
-      <artifactId>access-modifier-annotation</artifactId>
-      <version>1.14</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotation-indexer</artifactId>
-          <groupId>org.jenkins-ci</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
   <repositories>
@@ -137,7 +119,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.11</version>
+        <version>3.29</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>ssh-slaves</artifactId>
-  <version>1.31.5</version>
+  <version>1.834.v622da_57f702c</version>
   <packaging>hpi</packaging>
   <name>SSH Build Agents plugin</name>
   <description>Allows to launch agents over SSH, using a Java implementation of the SSH protocol</description>
@@ -64,7 +64,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/ssh-slaves-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/ssh-slaves-plugin.git</developerConnection>
-    <tag>ssh-slaves-1.31.5</tag>
+    <tag>622da57f702c247d30f934442e8d495c292a8284</tag>
     <url>https://github.com/jenkinsci/ssh-slaves-plugin</url>
   </scm>
   <distributionManagement>
@@ -81,39 +81,38 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>trilead-api</artifactId>
-      <version>1.0.13</version>
+      <version>1.57.v6e90e07157e1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>2.3.14</version>
+      <version>1139.veb_9579fca_33b_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>ssh-credentials</artifactId>
-      <version>1.18.1</version>
+      <version>291.v8211e4f8efb_c</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.222.4</version>
+      <version>2.346.2</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
-      <version>3.1.11</version>
-      <scope>provided</scope>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>net.jcip</groupId>
@@ -125,7 +124,7 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.19</version>
+      <version>1.21</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -134,18 +133,6 @@
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.kohsuke</groupId>
-      <artifactId>access-modifier-annotation</artifactId>
-      <version>1.16</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotation-indexer</artifactId>
-          <groupId>org.jenkins-ci</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
   <repositories>
@@ -159,7 +146,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.17</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

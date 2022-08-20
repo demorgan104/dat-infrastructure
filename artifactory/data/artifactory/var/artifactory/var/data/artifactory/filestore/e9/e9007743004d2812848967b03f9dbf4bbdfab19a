@@ -1,0 +1,7 @@
+{
+  "packageReference" : "hello_test/0.3@stable/release#0:cc471ed355602ffa7007968c83aa4e7e648a38b5",
+  "revisions" : [ {
+    "revision" : "0",
+    "time" : "2021-05-14T20:59:44.031+0000"
+  } ]
+}

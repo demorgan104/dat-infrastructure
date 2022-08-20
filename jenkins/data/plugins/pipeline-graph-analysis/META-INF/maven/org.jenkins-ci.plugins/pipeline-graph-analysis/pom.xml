@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO licensing -->
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>pipeline-graph-analysis</artifactId>
-  <version>1.10</version>
+  <version>195.v5812d95a_a_2f9</version>
   <packaging>hpi</packaging>
   <name>Pipeline Graph Analysis Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
-  <url>https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Graph+Analysis+Plugin</url>
+  <url>https://github.com/jenkinsci/pipeline-graph-analysis-plugin</url>
   <inceptionYear>2016</inceptionYear>
   <licenses>
     <license>
@@ -19,10 +18,10 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/pipeline-graph-analysis-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/pipeline-graph-analysis-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-graph-analysis-plugin.git</developerConnection>
-    <tag>pipeline-graph-analysis-1.10</tag>
-    <url>https://github.com/jenkinsci/pipeline-graph-analysis-plugin/</url>
+    <tag>5812d95aa2f921dee2c7e6b9a44b31215c0452be</tag>
+    <url>https://github.com/jenkinsci/pipeline-graph-analysis-plugin</url>
   </scm>
   <distributionManagement>
     <repository>
@@ -38,63 +37,62 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-job</artifactId>
-      <version>2.32</version>
+      <version>1145.v7f2433caa07f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-api</artifactId>
-      <version>2.34</version>
+      <version>1143.v2d42f1e9dea_5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>pipeline-input-step</artifactId>
-      <version>2.8</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jenkins-ci.plugins</groupId>
-      <artifactId>structs</artifactId>
-      <version>1.17</version>
+      <version>447.v95e5a_6e3502a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>2.19</version>
+      <version>622.vb_8e7c15b_c95a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-cps</artifactId>
-      <version>2.65</version>
+      <version>2660.vb_c0412dc4e6d</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>pipeline-stage-step</artifactId>
-      <version>2.3</version>
+      <version>291.vf0a8a7aeeb50</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-support</artifactId>
-      <version>3.2</version>
+      <version>813.vb_d7c3d2984a_0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.jenkins-ci.plugins</groupId>
-      <artifactId>scm-api</artifactId>
-      <version>2.2.7</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
-      <version>3.1.12</version>
+      <groupId>org.jenkins-ci.main</groupId>
+      <artifactId>jenkins-core</artifactId>
+      <version>2.303.3</version>
       <scope>provided</scope>
-      <optional>true</optional>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>net.jcip</groupId>
@@ -106,40 +104,9 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.17</version>
+      <version>1.21</version>
       <scope>provided</scope>
       <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
-      <version>3.1.0</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jenkins-ci.main</groupId>
-      <artifactId>jenkins-core</artifactId>
-      <version>2.138.4</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>1.7.25</version>
-      <scope>compile</scope>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.kohsuke</groupId>
-      <artifactId>access-modifier-annotation</artifactId>
-      <version>1.16</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotation-indexer</artifactId>
-          <groupId>org.jenkins-ci</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
@@ -159,7 +126,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.3</version>
+        <version>3.27</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

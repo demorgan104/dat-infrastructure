@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>apache-httpcomponents-client-4-api</artifactId>
-  <version>4.5.13-1.0</version>
+  <version>4.5.13-138.v4e7d9a_7b_a_e61</version>
   <packaging>hpi</packaging>
   <name>Jenkins Apache HttpComponents Client 4.x API Plugin</name>
   <description>Bundles Apache HttpComponents Client 4.x and allows it to be used by Jenkins plugins</description>
@@ -13,7 +13,7 @@
   <licenses>
     <license>
       <name>MIT License</name>
-      <url>http://opensource.org/licenses/MIT</url>
+      <url>https://opensource.org/licenses/MIT</url>
     </license>
   </licenses>
   <developers>
@@ -25,7 +25,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/apache-httpcomponents-client-4-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/apache-httpcomponents-client-4-api-plugin.git</developerConnection>
-    <tag>apache-httpcomponents-client-4-api-4.5.13-1.0</tag>
+    <tag>4e7d9a7bae61f816f95f6fc1fb144e6ed40895f1</tag>
     <url>https://github.com/jenkinsci/apache-httpcomponents-client-4-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -42,13 +42,13 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpcore</artifactId>
-      <version>4.4.14</version>
+      <version>4.4.15</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpcore-nio</artifactId>
-      <version>4.4.14</version>
+      <version>4.4.15</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -58,8 +58,8 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>commons-codec</artifactId>
           <groupId>commons-codec</groupId>
+          <artifactId>commons-codec</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -94,15 +94,41 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>org.jenkins-ci.main</groupId>
+      <artifactId>jenkins-core</artifactId>
+      <version>2.319.1</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.jenkins-ci.main</groupId>
-      <artifactId>jenkins-core</artifactId>
-      <version>2.60.3</version>
+      <groupId>net.jcip</groupId>
+      <artifactId>jcip-annotations</artifactId>
+      <version>1.0</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>animal-sniffer-annotations</artifactId>
+      <version>1.21</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.2</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -117,7 +143,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.12</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

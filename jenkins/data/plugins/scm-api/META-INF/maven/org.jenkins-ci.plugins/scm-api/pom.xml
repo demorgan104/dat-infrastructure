@@ -27,10 +27,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>scm-api</artifactId>
-  <version>2.6.4</version>
+  <version>621.vda_a_b_055e58f7</version>
   <packaging>hpi</packaging>
   <name>SCM API Plugin</name>
-  <description>This plugin provides a new enhanced API for interacting with SCM systems.</description>
+  <description>The Jenkins Plugins Parent POM Project</description>
   <url>https://github.com/jenkinsci/scm-api-plugin/blob/master/docs/consumer.adoc</url>
   <inceptionYear>2016</inceptionYear>
   <licenses>
@@ -40,16 +40,10 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-  <developers>
-    <developer>
-      <id>stephenconnolly</id>
-      <name>Stephen Connolly</name>
-    </developer>
-  </developers>
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/scm-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/scm-api-plugin.git</developerConnection>
-    <tag>scm-api-2.6.4</tag>
+    <tag>daab055e58f7e8eb5e2473216c567728c95290f8</tag>
     <url>https://github.com/jenkinsci/scm-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -66,27 +60,26 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>1.20</version>
+      <version>318.va_f3ccb_729b_71</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.176.4</version>
+      <version>2.319.3</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
-      <version>3.1.11</version>
-      <scope>provided</scope>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>net.jcip</groupId>
@@ -98,7 +91,7 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.18</version>
+      <version>1.21</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -107,18 +100,6 @@
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.kohsuke</groupId>
-      <artifactId>access-modifier-annotation</artifactId>
-      <version>1.14</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotation-indexer</artifactId>
-          <groupId>org.jenkins-ci</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
   <repositories>
@@ -132,7 +113,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.13</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

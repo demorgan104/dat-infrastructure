@@ -1,33 +1,1009 @@
-2021-02-27T10:21:39.184Z|3e015602e4fa1620|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|231.779|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.281Z|65e3c77fcb0a5fce|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|363.833|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.362Z|5de57117ffa87b14|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|441.896|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.396Z|19aaf9d0c64de23a|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|20.929|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.405Z|21e9e1045b0e364e|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|2.118|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.480Z|35d43f5b98b59838|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|109.253|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.484Z|c6f4be1415ae35  |127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|45.217|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.536Z|55b9a5b55f98cb32|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|35.152|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.864Z|3cf25dad84f69b04|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|46.451|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.874Z|5f4318b6344726ed|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.317|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:39.892Z|16775db0071d3d15|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|59.699|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:40.038Z|4ffaceee81f39cc7|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|42|242|158.794|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:40.537Z|63cc183dfebbd3a0|127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|58|-|40.402|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:40.560Z|779e9846c6ee5a12|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|47.451|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:40.675Z|2c3a6f4290ebe564|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.775|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:40.690Z|276327c6325c8495|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|63.186|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.213Z|21f35e99706868b5|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|15.504|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.477Z|7833954fbe5b6d3c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|152|270.774|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.498Z|115a3f642fe0bcd |127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|52.683|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.514Z|54245bc330417383|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|49.811|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.521Z|713e18fce07e6d3d|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|75.764|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.530Z|52d07913c35a6a97|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|76.650|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.614Z|d2c6eb41999b15a |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|465|102|65.868|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.649Z|4532c4deb1bcf39 |127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|55.742|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.679Z|5af62fb069fbae99|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|84.555|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.705Z|271c1ba7e9d7cbf0|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|44.464|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.730Z|5d35b49ca446d269|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|46|92.482|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.751Z|6dddac02dee93684|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|59.102|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.909Z|2ea5818eeab7bef9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|328|66|70.865|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.933Z|6c50608654a357a5|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=artifactory-build-info&path=|200|4|-|16.528|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:21:43.987Z|5bd2a6911133419 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|42.229|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:22:08.846Z|6175b9ae7923c7f9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|47.996|Safari|14.0.3|Mac OS|10.15.6
-2021-02-27T10:22:33.827Z|7dacb78949fd1e03|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|48.934|Safari|14.0.3|Mac OS|10.15.6
+2021-05-14T17:51:27.432Z|1b6cadde7f48774f|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|218|-|278.785|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:27.591Z|6e7202dde6132eae|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|416.442|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.013Z|796564c457a8e75b|127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|530|-|864.114|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.032Z|47edddea7f926563|127.0.0.1|anonymous|GET|/api/v1/system/onboarding|401|12|-|7.845|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.054Z|135eed3767f0dc5d|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|27.126|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.077Z|532fc60140d6c53 |127.0.0.1|anonymous|GET|/api/v1/system/featuresConfig|401|12|-|1.391|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.093Z|6fed0db5db2ae94d|127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|33.512|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.126Z|239c695f597ebd39|127.0.0.1|anonymous|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|401|12|-|2.057|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.428Z|50a2061bd1a83d4a|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|29.292|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.553Z|2c2baef097034d87|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|218|-|156.969|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:28.582Z|7e39615701614f17|127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|404|74|-|185.350|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:29.332Z|16e3c93b853e5044|127.0.0.1|anonymous|GET|/api/v1/ui/treebrowser/repoOrder|401|12|-|1.284|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:29.426Z|6f991d5722d6acc |127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|530|-|81.955|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:29.457Z|18b9238730bf17c0|127.0.0.1|anonymous|GET|/api/v1/system/onboarding|401|12|-|1.163|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:34.159Z|19da80462ebfb8d0|127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|401|524|54|133.876|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:44.766Z|3a86ad449fad435f|127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|446|54|296.914|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:44.993Z|468f8cc00668b91e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|168.107|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.050Z|7d92f617419d3a15|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|226.749|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.116Z|199e95d82654a0a5|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|23.345|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.119Z|699ed91e9ee238af|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|31.020|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.170Z|4604a05713bbadab|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|81.084|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.222Z|40832d1eec7ea074|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|19.602|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.248Z|7ec824fba10ffe38|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|46.720|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.253Z|f90820f892886e  |127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|2.587|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.309Z|25d3a9a2ecacab5a|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|28.815|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.361Z|76f71ea63f943fc0|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|34.906|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.507Z|565f7b4323345fa0|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|54.852|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:45.664Z|3a00cacac5e308d3|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|42|242|133.104|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:51.293Z|7b76b3a9c5fe0915|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|94.498|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:51.297Z|755c670f9da8e18e|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|98.944|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:51.302Z|4f544f0d68165a2f|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|135.710|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:51.308Z|2de2267d233ef7fe|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|137.631|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:51.318Z|56e432b82c028d60|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|345|-|147.200|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:53.056Z|724ae624d3a1c83f|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|14.048|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:53.116Z|2c33f0b1b9870747|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|80.361|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:53.166Z|4bd96167da2406df|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/dat-packages|200|394|-|131.717|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:53.253Z|7e4123942c261f3c|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|-|-|75.790|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:53.515Z|3ce3042a8b8ef815|127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|2|-|46.996|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:57.081Z|5ec56e305cbe198b|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|345|-|21.557|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:57.098Z|3da6ee147ce30fca|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|27.141|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:57.101Z|1b11b946a1566e49|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|31.466|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:57.107Z|2b661c3ac7d46ac9|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|45.577|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:58.941Z|41c5219ed48036bb|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|23.027|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:58.943Z|4d03719aa44993f0|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|24.111|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:58.946Z|6f4a2d14a0055ac3|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/example-repo-local|200|423|-|29.646|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:58.984Z|38ea921d68269992|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|-|-|25.315|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:51:59.119Z|5a767f65d75a0bc5|127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|2|-|11.165|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:03.080Z|57b02b5169f36588|127.0.0.1|admin|GET|/api/v1/ui/admin/repolayouts?jfLoader=true|200|-|-|85.663|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:04.036Z|149f81e505b196b4|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info|200|345|-|29.103|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:04.043Z|5a7f300a01f18b34|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info|200|2|-|33.408|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:04.044Z|2be42d6784ddc0b2|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info|200|2|-|34.692|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:04.059Z|618476f47a2a12ff|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info|200|2|-|36.271|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:09.887Z|342ebd2ea9d70ee |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|29.064|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:13.650Z|65e8fb45a0be965b|127.0.0.1|admin|POST|/api/v1/global-search/builds?jfLoader=true|200|13|89|115.168|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:14.267Z|25463fac40e53051|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|22.702|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:14.293Z|407b3ece114820fe|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|42|242|35.095|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:15.632Z|764346ca64c25416|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|16.030|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:15.735Z|49b10fbd86882a9c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|152|123.709|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:15.887Z|305a4399fe9a02ca|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|33.037|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:15.897Z|618b693505dd4c  |127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|45.093|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:15.919Z|4644a031b04d1da1|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|57.124|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:15.952Z|3c64d0c6b549955f|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|106.173|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:15.974Z|29e1724ed1389e38|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|465|102|70.663|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:16.021Z|adbc543164c588f |127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|13.486|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:16.045Z|23554778c2c7d586|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|21.371|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:16.099Z|3c5dca14f2339e1a|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|46|69.530|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:16.110Z|764589ca98343d6a|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|46.400|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:16.129Z|783b409bbe3b4651|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|55.421|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:16.295Z|33c695a1ab468fdf|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|328|66|99.235|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:16.326Z|384b832c24e7c48a|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=artifactory-build-info&path=|200|4|-|20.254|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:16.395Z|671b3d0cfdfcc526|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|58.077|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:17.292Z|38dab1f9441005f6|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|469|88|17.694|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:17.322Z|45d4a1989bec0ae2|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|14.725|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:17.385Z|4eb999e27350682c|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|18.057|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:17.409Z|4f75b41f4957cc7a|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|12.612|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:17.431Z|2009e4f54a476ffc|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|14.889|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:18.187Z|650d72e653b877ae|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|43.604|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:18.209Z|658a398d63f94239|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|12.156|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:18.246Z|4e2fa7530df2f88f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|20.829|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:19.070Z|4e91cdbe3f25ceff|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|44|112|37.682|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:20.413Z|20813c5f0f372ea9|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|44|124|16.223|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:22.289Z|358e9ec298fc96c0|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|13.702|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:22.310Z|2b9912e131ceca11|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|12.542|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:22.335Z|f632afd65d35051 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|13.661|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:34.889Z|4da493d25d4f5e0d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.547|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:52:59.944Z|5cfe1833c5a33bd |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|94.692|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.262Z|d31df3207fee4a0 |127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|32.566|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.264Z|410b6fc784374215|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|43.803|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.291Z|5481d9a17f2d8c0c|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|68.928|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.371Z|7722049d4fcdb3a0|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|27.430|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.383Z|59c535f44bf3105c|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|2.146|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.413Z|7cb41c12db7aabd8|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|73.967|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.429Z|5d109eaa6b7906da|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|21.119|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.453Z|141244701bea39a9|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|12.514|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.500Z|35b057122958670f|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|18.660|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.505Z|5db237d3e1939651|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|27.260|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.550Z|a9c77f0c75b267f |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|469|88|13.469|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.875Z|4851f586bed937eb|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|42.549|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.880Z|2fdb5c3ba8158935|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|32.025|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.918Z|24b12166ef46282f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|65.181|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.922Z|57f6ca009b161c2f|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|29.859|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.926Z|6267c8af1a0b822b|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|65.505|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.930Z|5e43d03978d7451d|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|72.585|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:12.935Z|21f9abf493caa5f0|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|51.639|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.302Z|6f4fb60c62308250|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|24.432|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.319Z|69f12b0aedfe274d|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|27.622|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.332Z|5973a7dbfdb96a9f|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|35.746|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.388Z|1e529e235896e968|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.280|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.430Z|55103cc1cd9c0082|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|55.906|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.439Z|37491f2179472cd7|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|44.523|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.464Z|291b09a32ab2194e|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|85.323|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.515Z|1ce62f3eda0d8cc0|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|56|62.131|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:13.979Z|3359e49e8dd2130 |127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|58|-|11.491|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:14.032Z|28b2033ffcddd033|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|49.741|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:14.188Z|7e83d6a5369e33e1|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|60.087|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:15.196Z|199a6b62274673fe|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|787|112|107.915|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:16.563Z|e06b2b3d3b1f403 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|312|120|18.405|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:17.476Z|6b1bd435ef6828a7|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|734|106|18.606|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:17.505Z|70368c03d9fa4791|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|79|57|13.143|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:17.607Z|26f2eb62ae162350|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|222|74|39.697|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:17.652Z|1484081d64cb9c59|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F|200|4|-|32.602|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:17.686Z|926840884b8d9ea |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|24.063|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:18.386Z|a64a28b1c315bd4 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|222|74|18.224|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:18.440Z|54a7ef44ec83fd0 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F|200|4|-|45.660|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:18.461Z|31406d7e45f2f63a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|11.858|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:18.980Z|65f190a82fd217f1|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|222|74|15.477|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:19.007Z|3f1cb3c1f3c56d2a|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F|200|4|-|12.210|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:19.034Z|4bc884c5a1009ad2|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|11.538|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:19.691Z|2175e88b8fb59d3e|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|222|74|14.632|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:19.712Z|5c060f4c19b7eb6d|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F|200|4|-|13.295|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:19.733Z|3a4a5918cc8c326c|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|11.695|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:20.341Z|44d2e19530e7c364|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|309|131|19.526|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:21.295Z|4cd71cee65ca06fa|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|904|110|18.888|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:21.319Z|2d381d0b6148d1d |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|83|61|12.089|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:21.386Z|7302560f123946fd|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|219|78|18.535|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:21.406Z|3cd41cfd91c8d843|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F|200|4|-|12.141|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:21.428Z|3c4f38f70ee31b06|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|73|14.095|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:21.940Z|6fb15db768a4a589|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|313|128|17.292|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:23.079Z|2cf80523aab0cc94|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|132|30.839|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:24.250Z|76f8f2bfab834934|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|132|21.819|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:25.207Z|1b901a2f6911675c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|123|25.690|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:25.231Z|6bbf2591d58f962e|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|96|74|11.217|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:25.289Z|1470941e7451af84|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|235|91|12.613|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:25.307Z|85440b101957ac0 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F0.1%2F0%2Fexport%2F|200|4|-|10.120|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:25.332Z|32413e41e2b08a46|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|89|15.178|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:26.248Z|a641b15be8ff642 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|235|91|16.079|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:26.270Z|1c165424f8965828|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F0.1%2F0%2Fexport%2F|200|4|-|13.906|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:26.292Z|5c4d442d1766330f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|89|13.247|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:27.219Z|2b91b1b3227c455d|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|235|91|17.919|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:27.237Z|195b0f6f0e0c65f8|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F0.1%2F0%2Fexport%2F|200|4|-|9.847|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:27.257Z|37836f36e7cc00c6|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|89|11.717|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:28.573Z|209a2ede593bacec|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|726|144|19.368|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:33.550Z|7637e4ee378757b5|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|303|102|64.165|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:34.357Z|67ad69924980e4c8|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|300|122|18.353|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:35.128Z|14385d407af35d14|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|300|119|19.122|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:36.003Z|11ca135d1c88dc6c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|641|119|52.712|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:36.868Z|66f5f3f38b8d2889|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|641|121|23.745|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:37.756Z|a28aecaff6d6f38 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|112|18.061|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:37.780Z|49959a9b6badf57b|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|85|63|11.495|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:37.842Z|4e767d4b322a8989|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|224|80|13.572|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:37.868Z|37991772f211ee14|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F|200|4|-|13.120|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:37.891Z|5c53bfad0c1c0533|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|78|12.885|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:38.359Z|14eeed376d40de74|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.395|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:38.553Z|23adff07603d76fc|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|704|133|18.972|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:43.541Z|7bbac4fec7440938|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|306|108|23.914|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:44.473Z|24e580a22d5269d2|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|303|125|25.871|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:45.374Z|4fe7bede00d696e |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|313|122|15.441|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:46.704Z|31e4a1806b0dd366|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|657|132|20.587|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:47.718Z|664f4b7a16e079b2|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|657|129|18.518|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:53:48.984Z|5da8f16e15f0d95a|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|720|141|39.064|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:03.380Z|5abe6d27705533d6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|32.960|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:18.541Z|33d503e33f6dcc0e|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?repoKey=dat-packages&path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F|200|4|-|50.672|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:18.545Z|47fa87185fb5006a|127.0.0.1|admin|GET|/api/v1/ui/repopropertyset?repoKey=dat-packages&path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F|200|2|-|64.528|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:18.564Z|7987c578dd82feae|127.0.0.1|admin|GET|/api/v1/ui/artifactproperties?repoKey=dat-packages&path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F|200|25|-|81.753|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:19.184Z|4a01cb3bb122f066|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|161.675|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:21.163Z|323e35a02f66ad1d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|469|88|15.755|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:21.193Z|5b4e44714326e59 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|12.993|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:21.293Z|6b3789228996773c|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|56.295|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:24.832Z|42e74c44f1ba22aa|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|841|101|17.293|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:24.858Z|3729ccccc39ee947|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|74|52|10.711|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:24.956Z|17029fc3dc9de774|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=_%2Fhello_test%2F0.1%2F&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|55.815|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:25.474Z|15a33b9c63ae032c|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=_%2Fhello_test%2F0.1%2F&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|49.726|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:27.933Z|3f32c0be9c076498|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|105|17.159|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:28.060Z|74d8b2d187be1bc |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|78|56|15.592|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:28.172Z|15c9c2032877a1b2|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=_%2Fhello_test%2F0.1%2F_%2F0%2F&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|58.056|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:28.360Z|283c192e43bf4c7b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.728|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:29.376Z|2985f96cd6b63413|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|112|17.702|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:29.508Z|5fa6f3cccaac49bd|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|85|63|25.432|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:29.643Z|611babe6e2874c7 |127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|59.637|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:30.516Z|b385772347436aa |127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|56.244|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:33.016Z|2b1d8516405c8b2a|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|123|24.614|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:33.046Z|6f3dd8f28cb7ee0 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|98|76|11.429|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:33.143Z|3cf3ad994ab24b3b|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2Fconanfile.py&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|55.051|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:34.328Z|24e9fea4587b6c0f|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|112|44.637|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:34.354Z|4800cc67e558432c|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|85|63|11.137|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:34.454Z|3f8860d82a4c338e|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F&repoKey=dat-packages&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|56.977|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:37.264Z|afa913563d6ef88 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|224|80|15.917|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:37.288Z|291e457e846ed853|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=_%2Fhello_test%2F0.1%2F_%2F0%2Fexport%2F|200|4|-|15.536|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:37.309Z|3ab3d21f3888677f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|78|12.176|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:40.706Z|5e72b260b5590591|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|565|95|19.390|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:40.736Z|720462398b34892 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|46|12.901|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:40.805Z|4b31d1dc8d4f829a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|211|63|19.265|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:40.827Z|428768cedeae53fa|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2F|200|4|-|13.108|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:40.852Z|5833b42f2edffd59|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|65|13.321|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:42.556Z|2d2a09104faff276|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|734|106|18.876|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:42.579Z|4d8ab92cd0b68306|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|79|57|9.831|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:42.639Z|5ce4fb2ad8afbd9a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|222|74|16.314|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:42.658Z|5285a5456c7997ec|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F|200|4|-|11.953|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:42.684Z|46a1f053f8cbae14|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|11.954|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:48.751Z|675e5fe9228e5b40|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|547|89|26.183|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:48.774Z|1a8560fd33f6c2d1|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|62|40|11.388|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:48.834Z|376fd06294c0a4d2|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|199|57|16.020|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:48.852Z|6ae5995b858912b |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=user%2F|200|4|-|10.237|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:48.874Z|6cf9dc24b13b4bbf|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|53|12.430|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:50.254Z|513c245b09f7e1be|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|704|100|46.398|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:50.277Z|368b3a72f9445ec6|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|73|51|9.227|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:50.342Z|1cf9096dcf091e8a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|216|68|17.029|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:50.361Z|105c9beed3d028bf|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=user%2Fhello_test%2F|200|4|-|9.025|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:50.382Z|1c05e8b109aa01e |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|70|12.130|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:51.952Z|297ad490fa034b81|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|862|104|18.355|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:51.987Z|36aa7277bbbeb212|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|77|55|17.901|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:52.051Z|aab341e57905747 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|213|72|15.420|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:52.072Z|1f4609de16b4155b|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=user%2Fhello_test%2F0.1%2F|200|4|-|11.554|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:52.094Z|77f1c233526ef44d|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|67|13.473|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:53.348Z|5e1c1e7872cfc117|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.415|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:53.612Z|13ec2b9a5c99dca1|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|111|14.930|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:53.637Z|5d9b970dbb24f28f|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|84|62|12.196|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:53.700Z|7b5cddbeff16032 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|223|79|14.997|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:53.724Z|5f21230b69ab9661|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=user%2Fhello_test%2F0.1%2Fstable%2F|200|4|-|11.995|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:53.744Z|63bbdf33312da8b4|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|77|12.436|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:57.783Z|55c4eaa845f98479|127.0.0.1|admin|POST|/api/v1/global-search/builds?jfLoader=true|200|13|89|16.070|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:59.236Z|6e4ff62b073f69aa|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|21.605|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:54:59.291Z|4e8858f878a43b60|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|303|242|65.383|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:00.481Z|2dad1e3007b8e4b |127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|303|94|30.511|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:00.539Z|3a2aa318a62121c |127.0.0.1|admin|POST|/api/v1/mds/versions|200|531|184|44.145|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:07.403Z|4d27e72bcb02dbf2|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|303|94|57.872|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:07.464Z|f227e15488449fb |127.0.0.1|admin|POST|/api/v1/mds/versions|200|994|98|45.597|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:07.564Z|528ef67853d8d660|127.0.0.1|admin|GET|/api/v1/ui/artifactbuilds?path=hello_test/hello_test/0.1/0.1/0/export/conanfile.py&repoKey=dat-packages|200|29|-|84.704|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.536Z|5ed7e163cad183ee|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|15.704|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.540Z|2bf1424c8dc3bbc4|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|24.041|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.688Z|848bc12692d486e |127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|32.244|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.691Z|2b619ae2986d3a2d|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|26.063|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.710Z|ef3e7b31158d731 |127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|45.797|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.726Z|493e62b8fd41b829|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|787|112|21.748|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.735Z|59d29836b123238 |127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|81.545|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.797Z|4fa9428f4126e59 |127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|20.171|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.838Z|419ac59d76290872|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|14.222|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.840Z|622e6d17d785e5ae|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|306|108|19.249|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.889Z|34e6764506bf810a|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|25.285|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.918Z|75ee5da4b6d15699|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|46.136|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.932Z|79aab9293a5c5d83|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|303|125|38.662|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:16.989Z|5cf128022299045f|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|313|122|31.490|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:17.035Z|32ea3fb44ab3e121|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|657|132|23.639|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:17.087Z|64872c38e519b337|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|657|129|25.863|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:17.139Z|5170ae59eb127f  |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|720|141|25.327|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:17.193Z|272404261a29b2c5|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|131|26.431|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:17.219Z|525330bb944a970c|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|106|84|11.967|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:17.345Z|274861942eebb591|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|819|98|74.478|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:17.374Z|240017c488bffd29|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=user%2Fhello_test%2F0.1%2Fstable%2F0%2Fexport%2Fconanfile.py|200|4|-|17.745|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:18.348Z|17b67143ea850670|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|10.809|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:55:43.373Z|2ef41b31c5cb0c5 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|32.432|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:56:08.400Z|4b1bde397ec04f15|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|61.769|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:56:33.371Z|4f1eb821f5b5cb79|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.703|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:56:40.171Z|2c13d3060e00af7b|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|41.085|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:56:40.254Z|3d42167c5f9e9ec3|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|36.438|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:57:00.611Z|51f89f40003da7bd|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|28.610|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:57:24.599Z|22d5e6596bd43e43|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.642|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:57:50.127Z|2a461a235f16fc12|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|35.347|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:58:14.172Z|346d64d0495f6063|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|45.798|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:58:39.891Z|29e7cd50dbf7832f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|53.162|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:59:04.167Z|1d747a6c00682183|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.486|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:59:30.168Z|6975a9852520ef  |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|59.260|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T17:59:56.550Z|2125efe075d840d7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.832|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:00:20.864Z|195b2ff1498dc5cb|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.847|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:00:45.417Z|15afb616dab720b3|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|35.819|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:01:09.166Z|5c65d6514d4b8027|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|45.589|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:01:37.587Z|1a42c4b66a18667d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|38.304|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:02:43.702Z|471925ccbd44da6d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|66.871|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:03:38.168Z|2dce737443995   |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.483|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:04:38.172Z|580e3edfe31c3a06|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|45.589|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:05:38.170Z|1b5b893f6759f887|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.780|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:06:38.180Z|44fbcfcc6e2fa92a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.225|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:07:43.612Z|5779861311a60cdd|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|59.399|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:08:43.555Z|b9d7713aa8fe5ba |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.127|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:09:40.627Z|4aa9ff3adcb72404|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.323|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:10:38.169Z|60b6718539cffe4c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|34.698|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:11:40.629Z|7524157294769cf |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.475|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:12:39.361Z|4aedf7060ffdb5b2|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|42.839|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:13:43.571Z|53a19456fbbb6032|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|55.033|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:14:38.143Z|71a55fd2e7f4b8ed|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|33.748|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:15:43.539Z|1a6157e8d2583e5c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.590|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:16:38.138Z|6ad00e025936198a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|27.071|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:17:38.159Z|d2af3088dd268bc |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.702|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:18:38.147Z|34b5a5866f0f7e0e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|31.428|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:19:40.528Z|606de0083ff0c6e0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.702|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:20:43.539Z|6c76576640c18486|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|45.497|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:21:38.159Z|59d8f9adc6de283e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|38.389|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:22:38.134Z|67ccd5343f732d23|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/globalState|401|12|-|15.033|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:22:38.205Z|6b338f364ba48c61|127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|14.105|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:22:38.402Z|5f8793d3b7b48201|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|44.938|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:22:38.427Z|79538e8c95f4da20|127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|404|74|-|64.838|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:22:38.460Z|325faee8d99ac570|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|218|-|99.375|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.135Z|1680c6d7c42d67b1|127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|446|54|122.551|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.270Z|27960ff019d382b6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|84.416|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.290Z|40eebdeea7170f9a|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|115.692|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.382Z|4ced25a8a238da9c|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|29.825|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.385Z|7211c378ab46b4c |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|31.336|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.397Z|19a545c2aa963fb5|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|49.156|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.451Z|37f160f7180e8e81|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|11.749|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.478Z|3ac44e7431c0075e|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|1.710|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.509Z|7ed69d8c1dbccbaa|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|9.214|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.524Z|2c4fdcc9d9a78e9 |127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|84.643|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.542Z|4a29812a337afc44|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|13.392|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.591Z|179244282313addc|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|16.709|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.598Z|751030f1dbd7c67b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|30.009|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.834Z|2b5f1646d62cfb94|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|41.966|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.859Z|1f424906afadb8a8|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|65.802|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.863Z|74daa4ced177f700|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|70.243|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.867Z|48e13efcf4bcf371|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|68.773|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.876Z|c6f7de9bbbb121  |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|112|53.926|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.943Z|21ba3190bfd4b49f|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|23.139|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:35.959Z|2832d60f08132ef1|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|30.468|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.000Z|4a189c630cb0105c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|306|108|29.071|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.017Z|27e16f77cd6b7b3f|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|27.631|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.044Z|5d4f65f4c3080b3c|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|49.064|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.061Z|53a6535bdd247a0d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|303|125|27.038|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.096Z|1aaa0fe2776ff1c6|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|313|122|16.272|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.132Z|8c38f01cc78fa6e |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|657|132|18.655|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.172Z|6a03bd65e12c517e|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|657|129|16.707|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.217Z|5cc61d536fbca5d6|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|720|141|18.445|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.256Z|33a7ca1763d1408e|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|131|14.830|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.279Z|53706f67a5f6b7b5|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|106|84|10.086|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.399Z|4a4981a1ccad7532|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|819|98|21.531|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:36.420Z|3c4873b60959b870|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=user%2Fhello_test%2F0.1%2Fstable%2F0%2Fexport%2Fconanfile.py|200|4|-|9.967|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:38.733Z|bb5290a525f2b8f |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|547|89|15.597|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:38.761Z|4bc1991de4ac8647|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|62|40|14.101|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:38.818Z|727d0ec340ee6aa6|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|200|57|13.175|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:38.834Z|7cbb985de85edda3|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=user%2F|200|4|-|7.107|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:38.853Z|18864d93184ca161|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|53|10.198|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:43.557Z|7a595fec3c4e0e2 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|312|120|24.507|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:44.731Z|4697b9a88166fcf |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|734|106|14.907|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:44.755Z|69e8dffc01bf9807|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|79|57|11.111|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:44.807Z|22b56e1a8428a3ff|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|223|74|12.728|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:44.825Z|31d08b772ec74ff5|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F|200|4|-|9.738|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:44.845Z|1e18d69f5a83e896|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|11.771|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:45.325Z|46d6ddeac0c6b499|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|309|131|24.054|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:46.157Z|7089fef5a8a9b04f|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|904|110|36.645|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:46.180Z|7781fe223036c9e2|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|83|61|9.637|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:46.238Z|d97e813296b1f02 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|220|78|11.722|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:46.260Z|4941e441ba39cce5|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F|200|4|-|12.549|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:46.280Z|3f2a40f060c47a64|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|73|11.522|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:46.939Z|4f53bbe7d19a5888|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|220|78|17.123|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:46.957Z|3e714008189c898c|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F|200|4|-|9.748|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:46.976Z|12ecf0a4f8e7643 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|73|10.848|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:47.623Z|2544e96208f39912|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|220|78|23.921|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:47.641Z|24c2bcd654428dea|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F|200|4|-|8.743|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:47.660Z|17bd1bd8664cd739|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|73|10.802|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:48.516Z|3ac7e79c36452c60|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|220|78|16.138|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:48.533Z|608b18e4529bd7b |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F|200|4|-|8.812|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:48.551Z|5e0a1f32fb28f7f9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|73|10.316|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:49.133Z|94c23de95bf2777 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|313|128|14.851|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:50.174Z|9921abbdbd17d03 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|132|15.916|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:50.991Z|13c03442d6cc4b8d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|116|31.597|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:51.040Z|896c5a1846545a9 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|89|67|8.975|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:51.103Z|28aefeb53705e273|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|224|84|12.214|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:51.121Z|1de22e521d3f03a9|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_test%2Fhello_test%2F0.1%2F0.1%2F0%2F|200|4|-|10.360|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:51.139Z|76465e2b5e55d471|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|77|10.795|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:51.621Z|76678dd481f383c7|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|132|16.687|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:52.450Z|5b8229abdeb7ded2|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|726|144|15.558|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:54.571Z|ab195c9065d66   |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|313|122|14.328|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:55.437Z|ae696cff15b726e |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|739|107|14.595|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:55.480Z|29ff7b63c98ed71f|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|80|58|9.197|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:55.554Z|7062a9a6a23cbb31|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|223|75|31.308|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:55.599Z|220c1ea69206f620|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F|200|4|-|13.497|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:55.624Z|3acda235244b90ab|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|77|13.964|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:56.091Z|648257dc2e637c9d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|310|132|16.639|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:57.013Z|4cbd3b9205219090|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|911|111|14.533|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:57.034Z|468182b8b93c250a|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|84|62|9.006|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:57.086Z|67156e38e8b841d5|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|220|79|10.298|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:57.105Z|1a695e0d7e3edf70|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2F|200|4|-|10.693|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:57.142Z|5641bbd16ce8abaf|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|74|27.466|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:57.814Z|d316e02437fc1a1 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|322|129|15.073|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:59.087Z|70ff0380560feb60|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|673|141|20.768|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:32:59.992Z|6182f2d501507e0f|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|673|137|17.726|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:00.375Z|8310a4ddceee2d7 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|13.921|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:00.868Z|65fe142acfcbdf6c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|736|149|18.873|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:07.189Z|15b97be70a617667|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|303|102|49.193|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:08.399Z|7dd4cd2b733eb38b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|300|122|21.389|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:09.197Z|519081b14ed5c3ec|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|300|119|17.222|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:09.963Z|593519ad64f770e4|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|641|119|18.271|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:10.638Z|43877661a35f5db9|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|641|121|17.516|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:11.339Z|6c3e67895d120229|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|704|133|16.607|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:13.457Z|e34665691057089 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|568|96|15.029|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:13.479Z|204cc10a7a93f7c1|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|69|47|9.973|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:13.537Z|4925108c3afe0354|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|213|64|10.907|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:13.556Z|68ea2cb3c77149f1|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_conan%2F|200|4|-|9.939|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:13.581Z|40588f4680b5751f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|67|12.456|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:14.247Z|30f4a2ef84b6831a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|213|64|14.997|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:14.265Z|7bbec4f7dfd29ba5|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_conan%2F|200|4|-|10.671|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:14.284Z|32083c010d988f0a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|67|10.761|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:17.164Z|461578e353132b80|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|538|86|11.721|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:17.221Z|7583dadf41930ce6|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|59|37|10.008|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:20.019Z|f2eabe4abf911cf |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/delete|200|41|56|251.158|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:20.065Z|63ae95dcaff23593|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|16.367|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:20.123Z|83c8f5702837d5c |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|469|88|13.333|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:20.154Z|24b5c4f560d89653|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|11.418|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:20.217Z|59a71a5c87d8af5d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|807|112|15.426|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:20.260Z|36bcb07bc754bb1f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|14.792|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:20.278Z|4edb8d3c67f4e8ff|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|9.543|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:20.297Z|295d90e3664348a6|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|56|9.329|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:21.027Z|6fc9ba1a627b1770|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|568|96|14.591|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:21.051Z|2443383b37e5f25d|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|69|47|8.596|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:21.111Z|225a8f48467fff48|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|213|64|13.727|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:21.127Z|5fd457b6cb032217|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_conan%2F|200|4|-|8.978|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:21.146Z|4e0b5f45be5a88ca|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|67|11.679|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:21.450Z|cdca9ece71c802e |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|568|96|16.988|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:21.470Z|2a4b5c1ef4da54e1|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|69|47|7.447|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:23.528Z|6306625d2e1699ff|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/delete|200|41|66|135.093|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:23.572Z|4d419a99078e42c2|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|18.497|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:23.641Z|56608430bb876f94|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|469|88|35.080|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:23.682Z|573a3a462f6fe24f|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|16.201|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:23.756Z|626dba09b7c6e511|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|547|112|17.862|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:23.814Z|2b5f80f34017e0a7|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|18.658|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:23.835Z|62aeebfc019de74e|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|11.935|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:23.859Z|52830e1637f55f23|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|13.150|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:24.602Z|36c0c67f3c67d413|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|565|95|12.567|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:24.625Z|a15344a04dc2611 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|46|12.234|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:25.378Z|3bba45baf29f9c33|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.508|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:26.654Z|477153fcc40eac18|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/delete|200|41|65|112.545|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:26.700Z|1337569cd3de52c |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|16.796|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:26.797Z|507244cb4cc106e0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|289|112|18.463|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:26.873Z|7a4d59c21e825698|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|19.353|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:26.946Z|28f429f5ddb060f9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|16.299|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:26.987Z|2e3d78130c0e0810|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|14.350|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:27.009Z|65dae679c3457184|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|10.955|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:27.798Z|b71c7c49ef6656e |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|547|89|15.829|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:27.821Z|7fbd394ceb8dc7e5|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|62|40|11.642|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:29.787Z|2e056062acf5933f|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/delete|200|41|59|113.202|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:29.823Z|44be201237d59635|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|14.329|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:29.911Z|7145fa8fb1254d47|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|44|112|13.455|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:29.966Z|568c8359f4c1fcc4|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|13.990|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:30.011Z|5e0d0b386ca19370|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|16.362|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:30.061Z|7fe3bbdb5e6b134f|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|32.139|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:30.087Z|4e700d198b77212c|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|12.640|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:33:50.408Z|716d5f535f33121a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.183|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:15.399Z|53ab2ab2eacedfa8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|32.901|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:40.424Z|35ec8b5c1acd4c83|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|60.451|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:50.773Z|159af513ab5eef74|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|42.373|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:50.850Z|3b318d20e7dc95e1|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|36.961|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:52.599Z|3da6f0310c7415  |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|17.119|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:52.626Z|ab0e558ce98158e |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|13.756|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:52.662Z|763b7a4f65e97467|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|21.888|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:53.173Z|7acb7b0d654d3326|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|455|96|10.636|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:53.197Z|7179ab1f7964b45f|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|64|42|9.128|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:53.258Z|598055a9fdd87133|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|323|62|14.794|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:53.278Z|59794c8b10fcab12|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=example-repo-local&path=|200|4|-|8.986|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:53.298Z|51d9ecad2779ff6b|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|9.559|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:53.922Z|6521f6d64ac38ef9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|323|62|12.812|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:53.939Z|5db756de7bdfd5ad|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=example-repo-local&path=|200|4|-|8.573|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:53.957Z|1375d18762d80d3f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|10.780|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.547Z|186fce420a3342f5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|97.312|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.561Z|357ee6e3065eec79|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|109.893|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.566Z|67506018c2adaead|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|115.608|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.585Z|3668210d3965026a|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|8.726|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.597Z|1c15bd3f1eb4cc43|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|2.199|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.620Z|4f78e3d2a3dede68|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|44.191|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.636Z|237c8f56cf3dc58f|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|11.605|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.658Z|66b0162b07c15596|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|11.582|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.698Z|38352fc823645b0b|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|13.253|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.704Z|5c9c45bdd4f61ad0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|168|19.817|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:56.740Z|3fb4109a9e976a93|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|455|96|14.602|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.092Z|7004a92e78fd0b53|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|46.932|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.107Z|1e24e52b0e01d51f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.107|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.120Z|5124cc8231466a7 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|71.554|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.124Z|1849c08404f56f8c|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|48.943|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.129Z|2675f4202b016246|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|54.118|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.153Z|4fb8018db7d84bc3|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|89.340|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.164Z|5b73697ad6c3263a|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|64|42|16.479|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.256Z|71bb25c03089b02f|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|9.305|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.269Z|507a13f30d8b2cd8|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|9.743|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.421Z|16d13e13f68bb7d9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|323|62|17.675|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.451Z|6109d854641df2ae|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|31.394|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.465Z|1ac9dc66ea50b95e|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|33.661|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.469Z|4cb8a676f16f0f12|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|40.442|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.500Z|78dfefa08c6cdd73|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=example-repo-local&path=|200|4|-|13.890|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:57.522Z|798633538b4e18fb|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|10.485|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:58.184Z|96f3443233e105f |127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|58|-|7.818|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:58.214Z|12609bfd247e70dc|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|23.388|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:58.354Z|7381a7482376ecc2|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|50.514|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:34:59.415Z|654d46c187007db7|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|303|112|14.752|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:00.448Z|1e10df5023221ae2|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|313|122|14.974|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:01.452Z|7eca6b8df133a226|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|739|107|14.300|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:01.476Z|3e31273e41277592|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|80|58|8.948|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:01.540Z|32c8beb63bc1eb43|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|223|75|12.059|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:01.560Z|49c2a2fb1863d020|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F|200|4|-|10.674|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:01.578Z|56cd5dbaa7654cd8|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|77|10.125|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:02.532Z|6fc6136524d7e54 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|223|75|14.421|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:02.548Z|3ea15445ee6caebb|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F|200|4|-|8.884|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:02.568Z|37720eea8d6cf52f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|77|12.260|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:03.535Z|6e28e719991d583c|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|223|75|13.473|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:03.557Z|3dcb95654c10091c|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F|200|4|-|13.373|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:03.574Z|312bff20034e0c66|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|77|8.494|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:04.407Z|2314518ebcebd7ab|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|310|132|15.351|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:05.624Z|40c7705ff5a4e7fa|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|322|129|27.274|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:08.563Z|6521b7a7263ed01a|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|673|141|16.922|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:09.908Z|2f9bd3ced5a4d5e0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|673|137|17.933|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:11.135Z|405d5951b708bef2|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|736|149|15.510|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:22.467Z|3cd276d86340daa1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|26.797|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:35:47.456Z|23d9bb0b21fb96da|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|31.661|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:12.474Z|70cac7fb49cc2b4b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.632|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:31.784Z|61444153085f8c6a|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|47.444|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:31.846Z|65acd633b391d28c|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|30.168|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:37.453Z|6198d742b9c0aaa5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|22.904|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:43.740Z|226d6d227927f2bf|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|128|12.032|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:43.782Z|552f2a12dc45563f|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|101|79|9.635|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:45.315Z|4f47b7264ad6077b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|139|14.808|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:45.346Z|5fec79315509a460|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|114|92|9.628|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:45.413Z|165daa2277467dc0|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|834|106|14.589|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:45.432Z|65dc16f918751097|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2F0%2Fexport%2Fconanfile.py|200|4|-|11.145|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:51.867Z|79a9c96db7276812|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|144|31.241|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:51.892Z|6e8d1f97b61f2f19|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|119|97|10.282|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:51.967Z|18f2cec0117409b6|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|774|111|14.651|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:51.984Z|12892916f20a3232|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2F0%2Fexport%2Fconanmanifest.txt|200|4|-|8.341|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:57.685Z|2d22d72a0d815455|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|128|13.341|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:57.706Z|6f931565a0861507|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|103|81|9.217|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:57.777Z|5f62cfa71acf6a0f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|732|95|19.377|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:57.796Z|1fdb900cdd7a20ad|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2Findex.json|200|4|-|9.209|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:59.334Z|1fcfd234e022034b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|130|14.758|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:59.355Z|6665cabb7e96120b|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|105|83|10.131|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:59.416Z|601043595b9dfe63|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|756|97|14.174|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:59.433Z|27a2e05623a260c9|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2F0%2F.timestamp|200|4|-|8.609|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:59.901Z|301443fe3e61a75e|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|144|12.635|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:59.922Z|7949103362414167|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|119|97|10.046|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:59.979Z|641a9368ae4f79d0|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|774|111|12.154|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:36:59.996Z|7e8b61c9a0066ff3|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2F0%2Fexport%2Fconanmanifest.txt|200|4|-|8.182|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:01.152Z|56bdf8811ba77886|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|139|15.907|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:01.174Z|7e62256a547427a0|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|114|92|10.437|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:01.233Z|6a43989507eb9e56|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|834|106|13.650|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:01.248Z|63d0a596d414e29b|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2F0%2Fexport%2Fconanfile.py|200|4|-|7.260|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:01.810Z|24f3c8d20c9c517d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|144|14.830|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:01.831Z|355ae89439b8adae|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|119|97|8.654|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:01.889Z|359b1149e29f9075|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|774|111|11.118|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:01.921Z|68855c3cb8698ec3|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2F0%2Fexport%2Fconanmanifest.txt|200|4|-|19.699|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:02.428Z|6af7b78496e6b88b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.247|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:27.461Z|61da64d5d7e92aeb|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|38.816|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:29.904Z|46d6e195b46747e9|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|17.045|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:29.912Z|7bbc56a7fa7bce0f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|28.311|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:29.936Z|45a5d71e75fb5976|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|52.388|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.026Z|258c16ae3715f2bb|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|20.323|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.054Z|1c67c70c857fa6d3|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|6.609|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.067Z|57ec60abb244754 |127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|67.018|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.090Z|109edd8283afa3b6|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|11.200|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.110Z|2e7ba93deef32c2 |127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|8.392|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.158Z|68c9870c7af8528 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|21.351|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.162Z|6b4a589256b557f8|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|21.055|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.524Z|e7f9eccb29565b5 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|37.727|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.526Z|795e055a91125c5e|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|33.680|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.539Z|727c13b3481e28e7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.210|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.555Z|7292a849b0fc8ddc|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|56.202|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.557Z|2962a5c9dfa9d22 |127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|44.640|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.560Z|33a4cb0d19c7e340|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|60.917|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.570Z|34879f6f31c57a41|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|303|112|22.875|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.822Z|a7590e2b7440243 |127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|9.644|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.825Z|56d0bd5f435c601b|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|15.982|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.855Z|3020a4c18981c53c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|313|122|24.342|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.969Z|4376a92af6ad8417|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|27.476|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.972Z|7c1d4405f680318a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.094|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.978Z|5cc7ef405755ba52|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|310|132|31.253|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:30.996Z|66b81480ec6439a0|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|52.274|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.045Z|fbc6fafd6495312 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|322|129|32.205|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.083Z|616d12658ca10d79|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|673|141|11.549|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.382Z|517dc69bdc8f6f7 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|962|137|15.845|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.493Z|56933206cea1afe4|127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|58|-|9.231|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.535Z|4136c4d034e9519c|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|31.730|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.544Z|dd13835a39f57a8 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|736|149|12.463|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.658Z|26cef6e051f7f22e|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|144|12.564|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.662Z|222eeb6bca7e6971|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|39.079|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.692Z|f6f75f2a0f969d6 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|119|97|9.625|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.819Z|7c4fc9f61d1d3605|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|845|111|39.399|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:31.846Z|7713b6787c0c8f3 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2F0%2Fexport%2Fconanmanifest.txt|200|4|-|14.133|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:33.677Z|27b82d8951f8d1af|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|406|151|15.759|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:34.410Z|123526237fe2f2c4|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|753|225|17.898|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:35.239Z|593a593a3b0ee4b2|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|188|107.393|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:36.387Z|279ace595a349302|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|188|18.395|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:36.411Z|2e91f5d8c5a5f39 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|163|141|9.793|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:36.483Z|57e666128fb90bea|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|814|155|11.975|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:36.513Z|78986220fd5d05b0|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=hello_conan%2Fhello_test%2F0.1%2Ftesting%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F0%2Fconan_package.tgz|200|4|-|9.934|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:37.260Z|3fb28f2acb7a20b0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|222|88.030|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:37:55.961Z|521c616c677d736e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|24.116|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:38:20.952Z|5e66713b1d85f8e1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.671|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:38:45.961Z|1dbaa00206874a36|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.929|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:39:10.962Z|23e689bd77efa146|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.056|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:39:35.953Z|455269e615ead670|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|28.268|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:40:00.960Z|71da8206ee5b23a3|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.517|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:40:25.955Z|248372bbc2ba4bc |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|33.157|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:40:50.952Z|7b8e57d10ff9f722|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.381|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:41:07.304Z|5f9422b252527dbf|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|61.047|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:41:07.370Z|3846f394ce745719|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|32.776|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:41:16.127Z|5ffabae6dbe346e4|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.884|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:41:43.925Z|518b3e603b4a28a8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|34.734|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:42:07.416Z|5f2fd1fa4e7713db|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|34.171|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:42:31.115Z|6a591cffaeaf087 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|33.370|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:42:56.133Z|71d939436abc33ef|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|50.408|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:43:27.552Z|437160f410f7cde3|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|64.533|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:43:47.525Z|7b81ee8a396d0db1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.355|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:44:11.398Z|6916037751825398|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.340|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:44:36.417Z|59167a051d5cf101|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|35.452|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:45:03.982Z|62df93d2b2d431a2|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|38.428|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:45:27.528Z|4293933d82f6b934|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|31.005|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:45:52.916Z|237477c12554f89d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|45.625|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:46:40.577Z|6bf9765eecb1aeb8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|32.133|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:47:40.001Z|22c703420009bd42|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|36.553|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:48:38.119Z|3e43c4b0fde127f |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|36.834|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:49:38.127Z|57d45e8e08f2170a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|38.349|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:50:43.387Z|66fc521ce525aa8e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.368|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:51:43.333Z|7761757724287323|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.548|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:52:40.007Z|31ce121fefc79aae|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.708|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:53:38.127Z|1797c1ededfe1d7f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.324|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T18:54:38.124Z|6c3e1fac606b2e1c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.811|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T19:10:19.840Z|50e49187865cdd5c|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/globalState|401|12|-|155.966|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T19:10:19.980Z|7bb50f56864aa0eb|127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|72.080|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T19:10:20.310Z|61bcf2f2994895a6|127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|404|74|-|57.574|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T19:10:20.314Z|2991355a00c9770b|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|66.501|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T19:10:20.342Z|536f47f996f813ad|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|218|-|88.207|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.175Z|7f27645a3315f339|127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|446|54|125.500|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.328Z|2cc43c44e71c3263|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|100.748|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.364Z|69812182e96271da|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|140.199|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.440Z|4141debac1182386|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|24.715|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.467Z|2fd3682ff025cf80|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|52.560|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.477Z|17fd2bec327b897d|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|65.537|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.527Z|779d2cf0855bdf15|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|15.259|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.552Z|6b3c8733b6429691|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|46.242|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.560Z|2fcc68faad6aab5b|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|1.970|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.602Z|4e3b0a68c980620b|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|12.051|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.629Z|570a1e4b4361fd55|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|9.472|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.751Z|3db0623bb7efcc1d|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|14.698|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:02.921Z|22cfb03b695b9ce |127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|303|242|126.042|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:10.729Z|26b6d58791c652c |127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|17.195|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:10.774Z|3c1094885ec920b1|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|303|242|49.210|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:11.962Z|3acb2cbcf643d844|127.0.0.1|admin|POST|/api/v1/global-search/builds?jfLoader=true|200|13|89|15.283|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:12.801Z|e019e459bb3b389 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|152|21.588|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:12.809Z|258293f1d428d66f|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|25.686|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:12.928Z|65af9cb51089a344|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|29.251|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:12.946Z|4adc8cb543012dcc|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|43.927|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:12.951Z|7691eb8af82cdbdf|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|34.433|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:12.955Z|698b629fdd86efa6|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|48.108|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:12.973Z|660a799128787260|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|465|102|15.116|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:13.036Z|39856b4fa8e7b03a|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|22.626|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:13.051Z|2574f08f1fecb130|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|28.281|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:13.066Z|3382ad4b0c338c42|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|46|22.299|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:13.110Z|543133c8f8483c39|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|28.924|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:13.118Z|3085a380413e2d1c|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|40.566|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:13.180Z|42341e754a4aaa6b|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|328|66|32.773|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:13.208Z|84e3530cc153016 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=artifactory-build-info&path=|200|4|-|13.401|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:13.233Z|c80c7392c03fda1 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|12.871|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:14.252Z|5f1eb4bc58e2e2f7|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|553|112|16.403|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:15.889Z|6a628276818e05ad|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|308|112|23.424|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:16.639Z|e4bfe6498ef5d53 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|305|127|15.795|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:17.400Z|7377937b256a6e4a|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|876|106|32.004|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:17.451Z|74364dc5041a896b|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|79|57|10.652|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:17.512Z|7ffeef687eabf9e9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|215|74|13.337|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:17.542Z|1b2fd46161cc0c65|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.1%2F|200|4|-|12.008|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:17.564Z|1771fe23010cbb45|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|69|11.330|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:18.048Z|183408931b0980b6|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|317|124|16.448|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:18.851Z|460ebc4abeda5a74|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|136|17.609|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:22.059Z|6057b1a8df11d3b5|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|947|132|21.629|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:23.118Z|697131b9236bb28d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|401|146|19.706|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:24.349Z|19fc6be8b216f675|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|165|17.424|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:24.380Z|1684e8bb698d2524|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|138|116|12.747|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:24.439Z|54ea7addcbaa9f93|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|311|133|14.260|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:24.464Z|27522f1fba280ef1|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.1%2Frelease%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F|200|4|-|11.874|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:24.489Z|3ec535ef2fb034d6|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|165|15.055|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:25.171Z|42ee8c2a9571ab5c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|743|220|18.139|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:26.229Z|3f9754dbeec25e8d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|183|19.890|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:27.472Z|ee5f1283247e6e  |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.394|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:27.713Z|6ed425f19383bdb3|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|217|33.126|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:32.494Z|5609d0ec215e75bd|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|568|96|39.703|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:32.525Z|3535ff3fd7983e45|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|69|47|15.042|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:34.954Z|6bb88eddeb4856c1|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/delete|200|41|66|232.638|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.001Z|4e591784b69bcebd|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|21.414|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.053Z|5c060c910cc3e88b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|469|88|16.440|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.082Z|281f3f59644d40cb|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|12.424|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.165Z|2edc39e83e3f70e6|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|293|112|30.866|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.216Z|737e737220bbe3b0|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|20.037|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.242Z|1e44c7d7ec6cd3cd|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|14.037|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.282Z|7fb4ffa2d5aaeaca|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|23.525|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.900Z|266465e29f93e70f|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|553|91|17.754|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:35.923Z|30f2faa69c034171|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|64|42|9.289|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:38.000Z|2088cf4ba05db3ad|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/delete|200|41|61|216.120|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:38.034Z|5281f4b2ca63dd81|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|13.377|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:38.131Z|20592de26f3f1cc |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|44|112|14.297|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:38.180Z|2760f421958893b1|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|11.685|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:38.222Z|5817c5ffaf6692c5|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|17.399|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:38.249Z|8af9e08710635c6 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|17.496|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:38.277Z|443d194127aede2f|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|17.893|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:54:52.489Z|4f7932e3a882b054|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.619|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.237Z|20ad4f391cc3b5a5|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|57.555|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.314Z|d3bd3020176a8ba |127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|137.798|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.319Z|48c2491798c4ecf1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|148.689|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.353Z|14ee2fda57c08da2|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|15.622|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.375Z|237b286aed38a5c9|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|7.678|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.390Z|5df40883ae8b6848|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|61.843|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.422Z|527e3ca18881bce6|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|20.597|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.465Z|316e27f9175894ed|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|20.451|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.530Z|35e6608834efe2ae|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|25.644|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.532Z|3c82f15a172b5b83|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|23.359|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.592Z|787aec1677d2057c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|469|88|15.861|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.919Z|21daf17ded6303e7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|50.683|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.921Z|3f381287cb1977a4|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|31.099|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.929Z|3f083c82170fd31e|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|51.651|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.935Z|cc6294370e909ba |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|55.428|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.943Z|5f1559fad87617cb|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|54.850|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.946Z|235ced003795337f|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|54.653|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:09.964Z|3af7cab678ed22c3|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|58|36|25.598|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.190Z|4f242e4326eeb22a|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|9.818|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.224Z|3f87060e18e87c97|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|10.674|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.296Z|66219a61ea06bf4a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|255|56|12.226|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.417Z|26693d9f348b40c1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|35.247|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.424Z|3a37fbca5dcec7bc|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|44.798|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.434Z|1d806b7621fc5b7e|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=dat-packages&path=|200|4|-|39.635|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.436Z|4275fd0a6370b3f0|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|48.068|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.492Z|420a99f9c43392a |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|33.114|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.953Z|604d5545a6fc56b1|127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|58|-|10.204|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:10.988Z|6a3b3e304c8229e5|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|30.618|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:11.102Z|3f2c91bb381c815e|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|37.136|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:12.076Z|3300fa8028de9549|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|293|112|21.256|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:12.880Z|7193a638a1245e68|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|553|91|15.474|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:12.912Z|7b7dbdfd960ea570|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|64|42|14.435|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:12.977Z|7925dec1023f606b|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|203|59|14.861|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:13.000Z|41db243390cebf98|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2F|200|4|-|12.267|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:13.023Z|55067f1127abd4fd|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|57|12.524|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:13.520Z|6010be08878f8a6e|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|308|112|11.754|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:14.243Z|37f1a47774d03d84|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|305|127|15.985|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:15.100Z|4936c6364db6bcb |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|317|124|20.495|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:15.843Z|76ea2cdb856e602 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|136|16.328|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:16.544Z|1f562b4207b1a822|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|947|132|17.098|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:17.526Z|410ca24f5eb248b3|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|401|146|18.833|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:18.278Z|611f0ed58cb1a50b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|726|144|18.208|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:55:35.400Z|6b15530c430682ed|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|29.041|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:56:00.428Z|718ed3de43f285b6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|33.914|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:56:25.437Z|4f565bfdc4b2eedb|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|42.235|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:56:50.421Z|46d60b068d433a48|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|36.155|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:57:15.421Z|23c25b288bff4c5e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.390|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:57:40.425Z|3fb0b5a64f208a12|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|50.520|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:05.406Z|3611f925ac405228|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.878|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:16.220Z|22860385fd63cbce|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|42.206|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:16.298Z|7efff84b83a0d5b7|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|38.435|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:19.859Z|f954d4b46c3b8c3 |127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|32.937|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:19.871Z|44fc033315eeeb97|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|45.051|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:19.881Z|134077ecc250dc0b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|54.851|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.006Z|3439057793f6638c|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|56.569|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.029Z|2389aa98a161fff0|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|2.855|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.055Z|78d15dd7dc9733c4|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|107.248|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.072Z|73fcc5ff50fbb564|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|12.292|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.094Z|317933b367cff93f|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|10.764|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.143Z|4040489f63bfafde|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|21.252|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.147Z|72eb0e0da72504ad|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|21.628|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.176Z|21e98ebee9534fc0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|293|112|12.414|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.681Z|51c65200c208cd97|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|96.769|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.709Z|4747ea2a0134744d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|125.584|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.715Z|2bbb3fd0bd575ba9|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|119.259|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.717Z|740f03cf75db649e|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|553|91|24.930|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.722Z|7cce4c5266e0f7b1|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|124.501|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.724Z|eb176b9693b4d54 |127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|127.991|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.738Z|197438188aeaba6f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|142.748|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.911Z|6927f5fc4df55fc3|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|30.667|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.916Z|2e464b3ec8db4db5|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|64|42|28.824|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.925Z|2a8db4630c256fe |127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|31.612|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.964Z|6d858f43f36b7f5e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.127|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:20.971Z|58b913ccc4742771|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|37.192|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:21.048Z|41e2f8c89fd017d1|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|16.403|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:21.052Z|5806600adb1e4270|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|203|59|29.190|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:21.347Z|7704963168fb1b6a|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2F|200|4|-|11.939|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:21.453Z|1ff617230cf96a60|127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|58|-|8.658|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:21.491Z|2357d6455115d188|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|57|22.554|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:21.503Z|382914dc0af90f7e|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|41.390|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:21.649Z|13cad21b04de1888|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|43.022|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:23.206Z|53e2907d1a1194d0|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|203|59|16.517|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:23.226Z|f5058b956551052 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2F|200|4|-|10.147|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:23.246Z|18ccbb1e637dcf14|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|57|11.210|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:24.229Z|7042a261207f41b0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|308|112|12.710|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:25.130Z|79dc1ad8823ddb8b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|567|127|18.775|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:26.050Z|72482ece983ed42c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|876|106|15.814|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:26.074Z|1e6424cb677f8122|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|79|57|10.506|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:26.147Z|7b7237aad096f758|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|215|74|17.416|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:26.167Z|5e126854b6215cfa|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.2%2F|200|4|-|9.626|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:26.187Z|146529c9d96d3ce2|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|69|10.751|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:27.068Z|217a225b222f49b5|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|317|124|17.517|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:28.272Z|1899ec06a9a30f21|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|136|30.135|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:29.310Z|3d68dad1e66ae43b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|116|13.774|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:29.372Z|448e16a0dd625cad|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|89|67|10.486|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:29.439Z|8df1d7fca5b44ad |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|223|84|13.745|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:29.460Z|4102373fbbe82a40|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.2%2Frelease%2F0%2F|200|4|-|9.727|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:29.484Z|7d2cbe5202463ef4|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|77|12.535|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:29.962Z|499d4e5e2b066911|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|947|132|20.167|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:30.980Z|2f02e1831afea981|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|401|146|22.116|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:31.721Z|3c47bce0e45713e5|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|743|220|19.255|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:32.444Z|11e492baca2e0687|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|167|17.795|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:32.479Z|70d17d89cf610a51|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|140|118|12.943|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:32.559Z|6321dbf3e97cd95e|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|274|135|31.152|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:32.590Z|6a54830394a1ae18|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.2%2Frelease%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F0%2F|200|4|-|11.371|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:32.611Z|7488a5fba87c53fc|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|128|10.898|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:33.028Z|79157ac2076da2fb|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|183|23.748|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:35.486Z|307611c2879fe659|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|217|35.427|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:43.003Z|445ee91ced24b774|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|178|156|44.221|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:43.060Z|464350a84ca2e753|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=stable%2Fhello_test%2F0.2%2Frelease%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F0%2Fconan_package.tgz%2Fbin%2Fhello_test.txt|200|4|-|15.115|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:58:45.939Z|3583efdfd9568327|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.525|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:10.959Z|6f3d1ffd9a7c0682|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.878|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:35.932Z|3954973d22430ad5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.980|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:47.783Z|7a71d40f62447e75|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|34.295|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:47.899Z|60c1aeeb82af056a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|151.881|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:47.911Z|742ac1f366d5d7e8|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|157.599|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:47.939Z|34d637f12998ad97|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|17.193|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:47.955Z|399649b897c18bb8|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|6.266|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:47.971Z|6fed8e86a7d4c5a8|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|48.750|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:47.989Z|7a4e15079067d511|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|10.437|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.016Z|4cd0b043b877483f|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|12.367|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.064Z|1dd28a0a23da71b8|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|19.037|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.072Z|59e1d661404bd0b |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|30.125|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.430Z|494c4718c6e92008|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|47.469|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.438Z|36fdc69b16700ad5|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|39.677|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.442Z|3a29d115de5bc224|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|45.911|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.445Z|1b471198e6304d0e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|62.315|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.448Z|14e6685f5db6cab7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|66.995|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.452Z|476b0e4f15cc0b05|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|58.210|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.482Z|46bb1063866694d2|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|293|112|25.820|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.549Z|2bad8b3b3b1ac255|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|29.570|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.592Z|2042434fa3f5c187|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|8.998|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.633Z|4c2c7da82effba56|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|308|112|11.029|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.703Z|7635864ba7c9948 |127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|36.071|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.709Z|7b88e487cb0a8eee|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|38.234|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.731Z|430baa26396a5bcd|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|829|127|37.529|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.737Z|5c5a56868989a20c|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|56.725|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.817Z|22dda1e424420b98|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|317|124|43.310|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:48.858Z|14877801a86b9bb5|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|136|11.550|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.132Z|4349f7e681b9336d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|947|132|14.733|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.239Z|5f3fc6e6e9adfc5d|127.0.0.1|admin|GET|/api/v1/ui/treebrowser/repoOrder|200|58|-|11.431|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.275Z|7a54d9d8889d5a6a|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|30.104|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.289Z|5fabd23b6050442 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|401|146|16.778|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.403Z|caa2248fbebda1d |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|743|220|21.659|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.421Z|6f108d2cb12a8a46|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|54.500|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.450Z|7c8841f96c92a524|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|183|17.696|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.517Z|5c4fe2b9ccf2574b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|217|28.085|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.569Z|671f12591c6b4c56|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|178|156|11.809|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:49.634Z|246bfe5f5137409a|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=stable%2Fhello_test%2F0.2%2Frelease%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F0%2Fconan_package.tgz%2Fbin%2Fhello_test.txt|200|4|-|12.870|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:52.702Z|16cd93e3d93379c6|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|317|124|33.212|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:53.613Z|18c4aa1d91ba0166|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|136|18.235|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:54.519Z|5e7e1fbeeb9f06  |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|116|36.381|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:54.596Z|25fc0836180cfc78|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|89|67|11.187|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:54.666Z|ab4f8dbd48197ec |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|223|84|12.813|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:54.715Z|3a6628c911956ba1|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.3%2Frelease%2F0%2F|200|4|-|33.006|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:54.759Z|6d47bb5ed5a25fe |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|77|23.293|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:55.338Z|3ba90936a5204917|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|947|132|17.833|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:56.354Z|3805436699a58ebb|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|401|146|21.430|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:57.246Z|7fc81630ae75589e|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|165|29.469|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:57.297Z|1a34c6080516fd62|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|138|116|11.790|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:57.355Z|54efc77bdbdd092b|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|311|133|13.582|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:57.377Z|482ce3ab565cf1d |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.3%2Frelease%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F|200|4|-|11.385|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:57.404Z|42dde46f124bb508|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|165|19.003|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:57.862Z|5f1a518bd4ee6814|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|311|133|17.266|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:57.881Z|9c4ac5d0f14b6a9 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.3%2Frelease%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F|200|4|-|10.611|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:57.901Z|101c1c42f25e0a87|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|165|11.535|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:58.533Z|49045a39cbd38ee0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|743|220|18.787|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:59.384Z|1c7181b2d271723d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|167|17.940|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:59.434Z|3d6958427d4c786a|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|140|118|10.190|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:59.497Z|3ab9bc04ae3fad3a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|274|135|15.132|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:59.521Z|1389487a8a490184|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.3%2Frelease%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F0%2F|200|4|-|9.358|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T20:59:59.549Z|7534edfe21080cc0|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|128|15.389|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:00:00.033Z|55922fb87e235409|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|183|19.766|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:00:02.923Z|5033748226d6124a|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|714|102|15.398|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:00:02.972Z|19e2e2b82a69f0  |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|75|53|10.573|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:00:03.037Z|2f804f65df24437 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|217|70|11.279|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:00:03.059Z|35a3d3a28bc957b8|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F|200|4|-|11.061|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:00:03.081Z|157ab7987c17de89|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|72|11.618|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:00:13.704Z|d3e3f3dfaf3b918 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|28.617|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:00:38.696Z|1aec391592ce700a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.044|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:01:03.704Z|364b854690bd674d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|52.480|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:01:28.723Z|55151efc545dea06|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.120|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:01:53.710Z|2975f2f70c235ad7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|35.060|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:02:18.711Z|21576f4717f38897|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|45.499|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:02:22.581Z|6a1b66e4a3aba5c9|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|39.669|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:02:22.644Z|65f3010b2827ec6a|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|29.374|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:02:44.986Z|3099b3d71686d41d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|36.823|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:03:10.982Z|4315d6cf4a59981a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|33.748|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:03:33.977Z|5ae9bf46237a3736|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.872|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:04:01.882Z|5f7893b3287e0b28|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|48.704|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:04:24.005Z|51aa5c1b5018d458|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.471|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:04:50.999Z|35475e0e79ed32d0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.507|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:05:13.988Z|a676c5ab9f7008e |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.033|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:05:38.984Z|4b37d19c9ca3704d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|34.410|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:06:05.024Z|f38b05ea6c71ba6 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.028|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:06:29.005Z|14d039cc5074ef98|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|34.642|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:06:55.251Z|133a54538f9e7079|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.978|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:07:18.989Z|191965df99983f98|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|42.061|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:08:19.993Z|78f92f1a2e3078e |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|57.633|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:08:34.935Z|3d68453938812734|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|17.917|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:09:39.744Z|58cf71e58db38049|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|42.275|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:10:34.964Z|20d449f874108a66|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|42.817|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:11:34.970Z|1607382629b3b929|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.772|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:12:34.966Z|2ea653a015c4161a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.039|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:13:36.512Z|7b429b1f0a938787|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.950|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:14:34.968Z|2d71d8236e0772a9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|51.672|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:15:34.970Z|138751c314ef1282|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|47.388|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:16:34.957Z|3445cc11ffc68428|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|33.883|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:17:37.439Z|2bd6761b68b07507|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|47.239|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:18:37.422Z|7ad6f93f5d26884 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|34.013|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:19:34.980Z|3a365bd4a94d3d65|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|50.743|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:20:39.894Z|67d2f8ac328b7005|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.251|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:21:34.970Z|4186b156bbcf2965|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.016|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:22:39.863Z|33c0c42db6eca17e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|38.088|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:23:39.862Z|1a218b95322f43a6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|36.699|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:24:35.826Z|6c29e55e09c2b9de|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|61.939|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:25:34.980Z|15f7b54bb3cdb27a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|38.854|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:26:34.975Z|2e5a5443dceedb31|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.223|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:27:34.917Z|10e3b8bbab56a946|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|34.259|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:28:37.397Z|322355a225515ab8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.521|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:29:35.401Z|6c94cb367256a005|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|33.664|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:30:39.777Z|ffbcef35679ae48 |127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/globalState|401|12|-|13.055|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:30:39.850Z|55dfb738f5bf933a|127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|13.928|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:30:40.055Z|2957618159f3ad32|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|45.580|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:30:40.067Z|1332cddd4a3cb2da|127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|404|74|-|53.945|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:30:40.085Z|67adce68e79aaaf6|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|218|-|75.129|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.449Z|e0c9fdac2d4f983 |127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|446|54|120.178|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.577Z|3273919818eb0a67|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|86.084|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.586Z|1bf9486cf833275a|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|99.241|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.671Z|4c7de6abab38a8d5|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|20.882|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.675Z|1894355c3852d8fc|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|887|-|31.780|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.690Z|3e024fa12d0adb7e|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|43.967|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.745Z|6c6349951ff56c07|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|402|-|10.999|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.774Z|28b21a55bd034234|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|46|-|3.871|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.775Z|37601ec26b57b50e|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|237|-|41.340|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.807Z|17fbf16522787be2|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|11.404|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.837Z|556173e8c5ac0e17|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|9.547|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.885Z|7b12cac908c1c95d|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|162|20.679|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:52.890Z|153cabcc5d436b6f|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|31.780|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.042Z|7b0d7cb96d6ac877|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|661|-|45.375|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.048Z|5055c62705794287|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|374|-|51.034|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.058Z|49129c2d3ba5def7|127.0.0.1|admin|GET|/api/v1/ui/setMeUp|200|413|-|69.791|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.066Z|494e71b0a8696239|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|65.236|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.085Z|44982c298956ba0a|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|293|112|33.329|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.119Z|4a88567ec4f8d638|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|151|-|16.494|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.144Z|648d26bfc6702238|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|833|-|11.093|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.237Z|6da3692593b8f768|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|575|112|31.452|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.239Z|2c5d19665c8fdc49|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|29.242|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.244Z|6bd29150c8fad183|127.0.0.1|admin|HEAD|/api/v1/ui/userApiKey|404|0|-|31.588|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.284Z|1276ecd425a0d08 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|714|102|19.478|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.310Z|23b32b1aaa323989|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|75|53|15.275|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.412Z|459c74e0e2422ae5|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|219|70|14.059|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.435Z|d9eecb91f27fe69 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F|200|4|-|11.843|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:53.460Z|759600c0254277c1|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|72|15.328|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:55.124Z|32b908d4c473c24 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|306|129|18.286|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:55.949Z|d69064a19473f9e |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|318|125|18.257|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:56.971Z|50bffbfa87412538|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|829|127|19.391|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:58.266Z|550df40eae968255|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|665|137|18.440|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:58.954Z|15260cd9d88099f |127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|950|133|20.741|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:33:59.916Z|66c85ef2b6f52303|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|728|145|14.796|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:00.789Z|60fb075a61497298|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|125|20.165|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:00.820Z|1fab546ce9db17e5|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|98|76|11.117|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:00.879Z|19a043b23214ca78|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|238|93|13.550|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:00.899Z|4398b418b85c6245|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_world%2F0.1%2Frelease%2F0%2Fpackage%2F|200|4|-|9.938|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:00.926Z|50d562aceacb0e1b|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|92|16.637|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:01.631Z|30ff3910297276c5|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|402|147|18.485|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:02.443Z|1ac9450e2d1320ef|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|166|16.009|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:02.469Z|6eb73532ecbdc4bf|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|139|117|9.013|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:02.525Z|5f94261447a9fd80|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|312|134|15.679|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:02.547Z|463ca0141e4eab20|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_world%2F0.1%2Frelease%2F0%2Fpackage%2Fa8bb5ef4b074e359522f1cc39aed2cc665276181%2F|200|4|-|11.513|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:02.574Z|3dfec18b6195e21a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|166|15.074|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:03.061Z|5a66019a0fe3d886|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|312|134|16.668|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:03.082Z|8728b35e5e0784  |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_world%2F0.1%2Frelease%2F0%2Fpackage%2Fa8bb5ef4b074e359522f1cc39aed2cc665276181%2F|200|4|-|9.618|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:03.101Z|28b8ddca0dd19511|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|58|166|9.698|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:04.138Z|7d326543331a40ab|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|745|221|16.922|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:04.928Z|65467f68006e5480|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|184|18.427|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:06.723Z|66e63dac2bf2493f|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|218|30.841|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:08.452Z|1fd77f732565da1c|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|180|158|27.053|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:08.497Z|149aa627b60a231f|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=stable%2Fhello_world%2F0.1%2Frelease%2F0%2Fpackage%2Fa8bb5ef4b074e359522f1cc39aed2cc665276181%2F0%2Fconan_package.tgz%2Fbin%2Fhello_world.txt|200|4|-|12.467|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:10.353Z|38753ab111e373a9|127.0.0.1|admin|POST|/api/v1/ui/archiveViewSource|200|63|179|93.299|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:13.728Z|15bc97cf83545b94|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|876|106|15.537|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:13.790Z|3c798b48e1995d43|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|79|57|14.900|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:13.837Z|a5712221cafdc99 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|216|74|11.267|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:13.854Z|3696be042fd0d4d8|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.3%2F|200|4|-|8.386|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:13.878Z|2c3fbd997a6d1f7c|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|69|16.334|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:15.111Z|7479f3ea5dd058b6|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|216|74|18.475|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:15.132Z|40bde067d014e886|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=dat-packages&path=stable%2Fhello_test%2F0.3%2F|200|4|-|9.605|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:15.151Z|7c3e2d78be13d149|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|69|9.828|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:15.792Z|264de5a4de229575|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|317|124|29.956|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:16.707Z|43c213f93a2e312e|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|663|136|16.964|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:17.632Z|6d863237340b46b0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|947|132|20.058|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:17.709Z|1f6d47a4f217a090|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|24.946|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:18.741Z|2ba538d2f6194039|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|401|146|16.690|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:19.904Z|63722d07739bfb7c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|743|220|16.300|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:20.635Z|3f575d5ec076e513|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|183|17.314|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:22.740Z|6fa3c3bbacb9d222|127.0.0.1|admin|POST|/api/v1/ui/treebrowser|200|-|217|34.130|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:24.470Z|1507e0edab961a29|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|178|156|32.553|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:24.513Z|4555a2d0a9550aad|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=file&repoKey=dat-packages&path=stable%2Fhello_test%2F0.3%2Frelease%2F0%2Fpackage%2Fcc471ed355602ffa7007968c83aa4e7e648a38b5%2F0%2Fconan_package.tgz%2Fbin%2Fhello_test.txt|200|4|-|12.258|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:25.740Z|182b1dd904a422ef|127.0.0.1|admin|POST|/api/v1/ui/archiveViewSource|200|62|177|17.258|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:34:42.695Z|7cdc6c0e16ad5f4b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.763|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:35:07.690Z|43357d6f92cf29a5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|45.835|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:35:36.765Z|307d3cf49c8a9465|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.172|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:36:00.740Z|23acb6eec704c7f2|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|26.412|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:36:23.546Z|3869931360719717|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.068|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:36:49.281Z|35d815fc880748d9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.336|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:37:16.245Z|41c92072c0096190|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|47.327|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:37:44.274Z|71ee3f63aa0c36e |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.429|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:38:05.234Z|5dc2c60ed563fac0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|35.971|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:38:29.262Z|33ce4f99ea29880d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.885|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:38:53.275Z|6b89d3d3c93729e8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|48.656|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:39:19.722Z|62963a1ec90fe92e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|32.804|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:39:42.931Z|5290542b8a93b4c1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|31.093|Edge|90.0.818.56|Mac OS|10.15.7
+2021-05-14T21:40:07.936Z|60bae18afcc4711d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|42.241|Edge|90.0.818.56|Mac OS|10.15.7

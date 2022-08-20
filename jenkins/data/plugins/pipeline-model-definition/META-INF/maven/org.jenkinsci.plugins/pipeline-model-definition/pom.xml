@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkinsci.plugins</groupId>
   <artifactId>pipeline-model-definition</artifactId>
-  <version>1.8.4</version>
+  <version>2.2114.v2654ca_721309</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Declarative</name>
   <description>An opinionated, declarative Pipeline</description>
@@ -36,7 +36,7 @@
   <licenses>
     <license>
       <name>MIT</name>
-      <url>http://opensource.org/licenses/MIT</url>
+      <url>https://opensource.org/licenses/MIT</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -46,10 +46,10 @@
       <name>Andrew Bayer</name>
     </developer>
   </developers>
-  <scm>
-    <connection>scm:git:https://github.com/jenkinsci/pipeline-model-definition-plugin</connection>
+  <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
+    <connection>scm:git:https://github.com/jenkinsci/pipeline-model-definition-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-model-definition-plugin.git</developerConnection>
-    <tag>pipeline-model-definition-1.8.4</tag>
+    <tag>2654ca721309dc727b2d7b76c4383724f599606d</tag>
     <url>https://github.com/jenkinsci/pipeline-model-definition-plugin</url>
   </scm>
   <distributionManagement>
@@ -66,141 +66,134 @@
     <dependency>
       <groupId>org.jenkinsci.plugins</groupId>
       <artifactId>pipeline-model-api</artifactId>
-      <version>1.8.4</version>
+      <version>2.2114.v2654ca_721309</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkinsci.plugins</groupId>
       <artifactId>pipeline-model-extensions</artifactId>
-      <version>1.8.4</version>
+      <version>2.2114.v2654ca_721309</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkinsci.plugins</groupId>
       <artifactId>pipeline-stage-tags-metadata</artifactId>
-      <version>1.8.4</version>
+      <version>2.2114.v2654ca_721309</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>1.20</version>
+      <version>318.va_f3ccb_729b_71</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-cps</artifactId>
-      <version>2.83</version>
+      <version>2729.vea_17b_79ed57a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-api</artifactId>
-      <version>2.40</version>
+      <version>1182.v41475e53ea_43</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-multibranch</artifactId>
-      <version>2.16</version>
+      <version>716.vc692a_e52371b_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-scm-step</artifactId>
-      <version>2.11</version>
+      <version>400.v6b_89a_1317c9a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-basic-steps</artifactId>
-      <version>2.20</version>
+      <version>969.vc4ec3e4854b_f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-durable-task-step</artifactId>
-      <version>2.35</version>
+      <version>1164.v2334ddcf48d0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>pipeline-stage-step</artifactId>
-      <version>2.3</version>
+      <version>293.v200037eefcd5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials-binding</artifactId>
-      <version>1.24</version>
+      <version>523.vd859a_4b_122e6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-support</artifactId>
-      <version>3.5</version>
+      <version>820.vd1a_6cc65ef33</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>scm-api</artifactId>
-      <version>2.6.4</version>
+      <version>608.vfa_f971c5a_a_e9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.jenkins-ci.plugins.workflow</groupId>
-      <artifactId>workflow-cps-global-lib</artifactId>
-      <version>2.17</version>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>pipeline-groovy-lib</artifactId>
+      <version>593.va_a_fc25d520e9</version>
       <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>commons-lang3</artifactId>
-          <groupId>org.apache.commons</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>mailer</artifactId>
-      <version>1.32.1</version>
+      <version>414.vcc4c33714601</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>git-client</artifactId>
-      <version>3.2.1</version>
+      <version>3.11.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>2.3.11</version>
+      <version>1087.1089.v2f1b_9a_b_040e4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>pipeline-input-step</artifactId>
-      <version>2.12</version>
+      <version>449.v77f0e8b_845c4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.190.3</version>
+      <version>2.332.1</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
-      <version>3.1.12</version>
-      <scope>provided</scope>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>net.jcip</groupId>
@@ -212,7 +205,7 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.19</version>
+      <version>1.21</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -221,18 +214,6 @@
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.kohsuke</groupId>
-      <artifactId>access-modifier-annotation</artifactId>
-      <version>1.14</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotation-indexer</artifactId>
-          <groupId>org.jenkins-ci</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
   <repositories>
@@ -252,7 +233,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.17</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

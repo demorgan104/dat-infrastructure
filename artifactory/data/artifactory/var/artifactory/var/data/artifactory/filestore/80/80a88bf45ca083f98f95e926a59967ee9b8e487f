@@ -1,0 +1,7 @@
+{
+  "reference" : "hello_test/0.1@stable/release",
+  "revisions" : [ {
+    "revision" : "0",
+    "time" : "2021-05-14T20:53:28.756+0000"
+  } ]
+}

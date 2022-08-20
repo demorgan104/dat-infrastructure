@@ -1,0 +1,23 @@
+[settings]
+    os=Macos
+
+[requires]
+    hello_test/0.1
+
+[options]
+
+
+[full_settings]
+    os=Macos
+
+[full_requires]
+    hello_test/0.1@stable/release:cc471ed355602ffa7007968c83aa4e7e648a38b5
+
+[full_options]
+
+
+[recipe_hash]
+    dc9d0a18df2673241c92aaf607d5ee4f
+
+[env]
+

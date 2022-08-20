@@ -1,23 +1,22 @@
 Manifest-Version: 1.0
-Archiver-Version: Plexus Archiver
-Created-By: Apache Maven
-Built-By: jglick
-Build-Jdk: 1.8.0_252
-Extension-Name: pipeline-stage-step
-Specification-Title: The Jenkins Plugins Parent POM Project
-Implementation-Title: pipeline-stage-step
-Implementation-Version: 2.5
-Group-Id: org.jenkins-ci.plugins
-Short-Name: pipeline-stage-step
+Hudson-Version: 2.289.1
+Plugin-Dependencies: workflow-api:1143.v2d42f1e9dea_5,workflow-step-ap
+ i:622.vb_8e7c15b_c95a_
+Implementation-Title: Pipeline: Stage Step
 Long-Name: Pipeline: Stage Step
-Url: https://github.com/jenkinsci/pipeline-stage-step-plugin
+Implementation-Version: 293.v200037eefcd5
+Group-Id: org.jenkins-ci.plugins
 Minimum-Java-Version: 1.8
-Plugin-Version: 2.5
-Hudson-Version: 2.176.4
-Jenkins-Version: 2.176.4
-Plugin-Dependencies: workflow-api:2.40,workflow-step-api:2.22
-Plugin-Developers: 
 Plugin-License-Name: MIT License
-Plugin-License-Url: https://opensource.org/licenses/MIT
+Specification-Title: Pipeline: Stage Step
 Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-stage-step-plugin
+Plugin-Version: 293.v200037eefcd5
+Jenkins-Version: 2.289.1
+Url: https://github.com/jenkinsci/pipeline-stage-step-plugin
+Short-Name: pipeline-stage-step
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-Developers: 
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+Specification-Version: 0.0
 

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
  ~ The MIT License
  ~
- ~ Copyright (c) 2016, CloudBees, Inc.
+ ~ Copyright (c) 2016-2021, CloudBees, Inc.
  ~
  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
  ~ of this software and associated documentation files (the "Software"), to deal
@@ -22,12 +22,12 @@
  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  ~ THE SOFTWARE.
  -->
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>bouncycastle-api</artifactId>
-  <version>2.18</version>
+  <version>2.26</version>
   <packaging>hpi</packaging>
   <name>bouncycastle API Plugin</name>
   <description>This plugin provides an stable API to Bouncy Castle related tasks.</description>
@@ -48,9 +48,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/bouncycastle-api-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/bouncycastle-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/bouncycastle-api-plugin.git</developerConnection>
-    <tag>bouncycastle-api-2.18</tag>
+    <tag>bouncycastle-api-2.26</tag>
     <url>https://github.com/jenkinsci/bouncycastle-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -67,8 +67,44 @@
     <dependency>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcpkix-jdk15on</artifactId>
-      <version>1.64</version>
+      <version>1.70</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>1.70</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcutil-jdk15on</artifactId>
+      <version>1.70</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.kohsuke</groupId>
+      <artifactId>access-modifier-suppressions</artifactId>
+      <version>1.27</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.kohsuke</groupId>
+          <artifactId>access-modifier-annotation</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.main</groupId>
+      <artifactId>jenkins-core</artifactId>
+      <version>2.319.1</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -77,9 +113,23 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.jenkins-ci.main</groupId>
-      <artifactId>jenkins-core</artifactId>
-      <version>2.60.3</version>
+      <groupId>net.jcip</groupId>
+      <artifactId>jcip-annotations</artifactId>
+      <version>1.0</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>animal-sniffer-annotations</artifactId>
+      <version>1.21</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.2</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -94,7 +144,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.11</version>
+        <version>3.27</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

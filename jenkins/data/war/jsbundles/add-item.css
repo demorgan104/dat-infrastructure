@@ -25,7 +25,6 @@
   /* Konqueror */
   -moz-user-select: none;
   /* Firefox */
-  -ms-user-select: none;
   /* IE/Edge */
   user-select: none;
 }
@@ -37,7 +36,6 @@
   /* Konqueror */
   -moz-user-select: text;
   /* Firefox */
-  -ms-user-select: text;
   /* IE/Edge */
   user-select: text;
 }
@@ -53,8 +51,10 @@
 /*
  * Tab bar specific rules.
  */
-:root {
-  --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+:root,
+.app-theme-picker__picker[data-theme=none] {
+  --font-family-sans: -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Noto Sans", oxygen, ubuntu, cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-mono: ui-monospace, SFMono-Regular, SF Mono, JetBrainsMono, Consolas, monospace;
   --font-size-base: 1rem;
   --font-size-sm: 0.875rem;
   --font-size-xs: 0.75rem;
@@ -63,20 +63,27 @@
   --line-height-heading: 1.2;
   --white: #fff;
   --very-light-grey: #f8f8f8;
-  --light-grey: #eaeff2;
+  --light-grey: #f2f2f2;
   --medium-grey: #9ba7af;
   --dark-grey: #4d545d;
   --black: #333;
-  --primary: #0b6aa2;
+  --primary: #024cb6;
   --secondary: #4d545d;
-  --success: #138347;
-  --danger: #cc0003;
-  --warning: #ea6b19;
+  --success: var(--green);
+  --danger: var(--red);
+  --warning: var(--orange);
   --focus: #3fb3f7;
+  --focus-btn-primary: rgba(11, 106, 162, 0.5);
+  --focus-btn-secondary: rgba(11, 106, 162, 0.5);
+  --focus-btn-danger: rgba(204, 0, 3, 0.5);
+  --focus-input-border: #063F61;
+  --focus-input-glow: rgba(11, 106, 162, 0.25);
   --primary-hover: #0587d4;
   --primary-active: #095683;
   --danger-hover: #eb383b;
   --danger-active: #b50003;
+  --weather-icon-color: var(--primary);
+  --unstable-build-icon-color: var(--notification-warning-icon-color);
   --background: var(--white);
   --line-green: #acb;
   --medium-translucent: rgba(255, 255, 255, 0.75);
@@ -93,18 +100,11 @@
   --header-bg-classic: #000;
   --header-link-bg-classic-hover: #404040;
   --header-link-bg-classic-active: #404040;
-  --header-bg-v2: var(--primary-hover);
-  --brand-link-color-hover-v2: var(--primary-hover);
-  --brand-link-color-active-v2: var(--primary-active);
-  --header-link-bg-hover-v2: var(--primary-hover);
-  --header-link-bg-active-v2: var(--primary-active);
   --header-item-border-radius: 4px;
   --breadcrumbs-bg: #f8f8f8;
   --breadcrumbs-border: var(--light-grey);
   --breadcrumbs-text-color: #4d545d;
   --breadcrumbs-item-bg-color--hover: var(--light-grey);
-  --monitor-bg-v2: #f8d7da;
-  --monitor-color-v2: #721c24;
   --alert-default-icon-color: #2196f3;
   --alert-default-bg-color: #d1ecf1;
   --alert-default-border-color: #bee5eb;
@@ -135,17 +135,42 @@
   --alert-danger-border-color: #ebccd1;
   --text-color: var(--black);
   --text-color-secondary: var(--secondary);
-  --btn-primary-bg: var(--primary);
-  --btn-primary-bg-hover: var(--primary-hover);
-  --btn-primary-bg-active: var(--primary-active);
+  --btn-font-weight: bold;
+  --btn-text-color: var(--white);
+  --btn-font-size: var(--font-size-xs);
+  --btn-line-height: 1rem;
+  --btn-large-font-size: var(--font-size-sm);
+  --btn-large-line-height: 1.25rem;
+  --button-color--primary: var(--background);
+  --btn-primary-bg: #063F61;
+  --btn-primary-bg-hover: #085685;
+  --btn-primary-bg-active: #0a649b;
   --btn-secondary-color: var(--secondary);
   --btn-secondary-bg: var(--btn-text-color);
   --btn-secondary-border: var(--medium-grey);
-  --btn-text-color: var(--white);
+  --btn-secondary-color--hover: var(--primary);
+  --btn-secondary-bg--hover: var(--btn-secondary-bg);
+  --btn-secondary-border--hover: var(--primary);
+  --btn-secondary-color--focus: var(--primary);
+  --btn-secondary-bg--focus: var(--btn-secondary-bg);
+  --btn-secondary-border--focus: var(--primary);
+  --btn-secondary-color--active: var(--primary-active);
+  --btn-secondary-bg--active: var(--btn-secondary-bg);
+  --btn-secondary-border--active: var(--primary-active);
+  --btn-link-color: var(--primary);
+  --btn-link-font-weight: var(--link-font-weight);
+  --btn-link-color--hover: var(--primary-hover);
   --btn-link-bg--hover: var(--very-light-grey);
+  --btn-link-color--active: var(--primary-active);
   --btn-link-bg--active: var(--light-grey);
   --help-area-bg-color: var(--very-light-grey);
   --configure-job-help-area-bg-color: var(--medium-translucent);
+  --table-background: var(--panel-header-bg-color);
+  --table-header-foreground: black;
+  --table-body-background: white;
+  --table-body-foreground: black;
+  --table-border-radius: 10px;
+  --table-row-border-radius: 4px;
   --even-row-color: var(--very-light-grey);
   --bigtable-border-width: var(--pane-border-width);
   --bigtable-header-bg: var(--dark-grey);
@@ -159,11 +184,14 @@
   --link-color: var(--primary);
   --link-visited-color: var(--link-color);
   --link-color--hover: var(--link-color);
-  --link-color--active: var(--text-color);
+  --link-color--active: var(--link-color);
   --link-text-decoration: none;
   --link-text-decoration--hover: underline;
   --link-text-decoration--active: underline;
   --link-font-weight: 600;
+  --tooltip-background-color: var(--background);
+  --tooltip-foreground-color: var(--text-color);
+  --tooltip-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05), 0 10px 20px rgba(0, 0, 0, 0.2);
   --link-dark-color: var(--text-color);
   --link-dark-visited-color: var(--link-dark-color);
   --link-dark-color--hover: var(--primary-hover);
@@ -181,7 +209,17 @@
   --pane-text-color: var(--text-color);
   --pane-link-color: black;
   --pane-link-color--visited: black;
-  --tab-link-border-radius: 4px;
+  --tabs-background: var(--panel-header-bg-color);
+  --tabs-item-background: transparent;
+  --tabs-item-foreground: var(--text-color);
+  --tabs-item-background--hover: rgba(0, 0, 0, 0.05);
+  --tabs-item-foreground--hover: var(--text-color);
+  --tabs-item-background--active: rgba(0, 0, 0, 0.1);
+  --tabs-item-foreground--active: var(--text-color);
+  --tabs-item-background--selected: white;
+  --tabs-item-foreground--selected: var(--link-color);
+  --tabs-border-radius: calc((10px + 34px) / 2);
+  --tab-link-border-radius: 10px;
   --tab-link-border-width: 2px;
   --tab-link-padding-x: 0.75rem;
   --tab-link-padding-y: 0.375rem;
@@ -206,9 +244,24 @@
   --side-panel-hover-color: var(--panel-border-color);
   --task-link-bg-color--active: var(--panel-border-color);
   --task-link-bg-color--hover: var(--very-light-grey);
+  --section-padding: 1.85rem;
   --input-color: var(--white);
-  --input-border: #ccc;
+  --input-border: #C3CCD1;
+  --input-border-hover: #5C7889;
   --input-hidden-password-bg-color: #f9f9f9;
+  --form-item-max-width: min(65vw, 1600px);
+  --form-item-max-width--medium: min(50vw, 1400px);
+  --form-item-max-width--small: min(35vw, 1200px);
+  --form-label-font-weight: 500;
+  --form-input-padding: 0.5rem;
+  --form-input-border-radius: 6px;
+  --form-input-glow: 0 0 0 10px transparent;
+  --form-input-glow--focus: 0 0 0 5px var(--focus-input-glow);
+  --pre-background: rgba(0, 0, 0, 0.05);
+  --pre-color: var(--text-color);
+  --selection-color: rgba(2, 76, 182, 0.3);
+  --standard-transition: 0.2s ease;
+  --elastic-transition: 0.3s cubic-bezier(0, 0.68, 0.5, 1.5);
   --menu-text-color: black;
   --menu-bg-color: var(--white);
   --menu-selected-color: #b3d4ff;
@@ -222,8 +275,6 @@
   --light-bg-color--hover: rgba(255, 255, 255, 0.65);
   --add-item-btn-decorator-border-color: #acb;
   --add-item-btn-decorator-bg-color: rgba(245, 249, 239, 0.75);
-  --configure-job-bottom-sticker-bg-color: rgba(245, 249, 239, 0.75);
-  --configure-job-bottom-sticker-border-color: var(--line-green);
   --plugin-manager-bg-color-already-upgraded: var(--light-grey);
   --plugin-manager-category-link-bg-color: var(--very-light-grey);
   --plugin-manager-category-link-bg-color--hover: #f2f2f2;
@@ -232,23 +283,26 @@
   --plugin-manager-category-text-color: var(--text-color);
   --plugin-manager-category-link-color--hover: var(--text-color);
   --plugin-manager-unavailable-bg-color: #f4f4f4;
+  --plugin-manager-unavailable-label-color: var(--text-color);
   --auto-complete-bg-color--prehighlight: #b3d4ff;
   --call-to-action-link-color: #000;
   --call-to-action-text-color: var(--alert-info-text-color);
+  --green: #1c9146;
+  --orange: #fe820a;
+  --red: #df001c;
 }
 .jenkins-config-widgets {
   position: relative;
-  border: 1px solid #ccc;
   border: 1px solid var(--input-border);
   border-bottom: none;
-  background: #eee;
-  background: var(--light-bg-color);
+  background: var(--light-grey);
   min-height: 2.5em;
   -moz-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
   -moz-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
   z-index: 5;
+  overflow: hidden;
 }
 .jenkins-config-widgets nav:before,
 .jenkins-config-widgets nav:after {
@@ -261,7 +315,6 @@
 .jenkins-config-widgets .showTabs:hover {
   opacity: 0.8;
   background: #bbb;
-  color: #eee;
   color: var(--light-bg-color);
   text-shadow: none;
 }
@@ -276,19 +329,14 @@
   right: 5px;
   top: 5px;
   cursor: pointer;
-  color: #ccc;
-  color: var(--input-border);
-  text-shadow: #fff;
+  color: var(--medium-grey);
   text-shadow: var(--brightest-bg-color 0 1px 2px);
-  font-size: 0.875rem;
   font-size: var(--font-size-sm);
   padding: 3px 7px;
   display: none;
 }
 .jenkins-config-widgets .form-config.tabBarFrame {
   position: relative;
-  border-bottom: solid 1px #ccc;
-  border-bottom: solid 1px var(--input-border);
 }
 .jenkins-config-widgets .form-config.tabBarFrame .config-section-activators {
   margin: 0;
@@ -298,7 +346,7 @@
 }
 .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab {
   border: solid 1px transparent;
-  color: #999;
+  color: var(--text-color-secondary);
   padding: 7px 10px;
   -moz-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -309,20 +357,17 @@
   text-decoration: none;
 }
 .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab:hover {
-  background: #bbb;
-  color: #fff;
-  color: var(--brightest-bg-color);
+  background: var(--very-light-grey);
+  color: var(--text-color-secondary);
+  border: 1px solid var(--medium-grey);
+  border-bottom: 1px solid var(--bright-bg-color);
 }
 .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab.active {
-  background: #f9f9f9;
-  background: var(--bright-bg-color);
-  color: #333;
+  background: var(--background);
   color: var(--text-color);
   font-weight: bold;
   z-index: 2;
-  border: 1px solid #ccc;
-  border: 1px solid var(--input-border);
-  border-bottom: 1px solid #f9f9f9;
+  border: 1px solid var(--medium-grey);
   border-bottom: 1px solid var(--bright-bg-color);
 }
 .jenkins-config-widgets .form-config.tabBarFrame.mouse-over .noTabs {
@@ -331,12 +376,15 @@
 .jenkins-config-widgets .form-config.tabBarFrame.mouse-over .noTabs:hover {
   opacity: 0.8;
 }
+#jenkins .jenkins-config-container {
+  width: 100vw;
+  max-width: calc(var(--form-item-max-width) + 20px);
+  margin: auto;
+}
 #jenkins .jenkins-config {
-  border: 1px solid #ccc;
   border: 1px solid var(--input-border);
-  padding: 10px;
+  padding: 2rem 2rem 0 2rem;
   border-top: none;
-  background: #f9f9f9;
   background: var(--bright-bg-color);
   -webkit-border-bottom-left-radius: 3px;
   -moz-border-bottom-left-radius: 3px;
@@ -358,16 +406,13 @@
 #jenkins .jenkins-config table tr[nameref^="rowSetStart"],
 #jenkins .jenkins-config table tr[nameref^="cb"],
 #jenkins .jenkins-config table tr[nameref^="radio-block"] {
-  background: rgba(0, 0, 0, 0.025);
   background: var(--shade-hint);
-  border-left: 5px solid rgba(0, 0, 0, 0.1);
   border-left: 5px solid var(--shade);
 }
 #jenkins .jenkins-config table .hetero-list-container,
 #jenkins .jenkins-config table .repeated-container,
 #jenkins .jenkins-config table tr.optional-block-start,
 #jenkins .jenkins-config table tr.radio-block-start {
-  border-left: 5px solid rgba(0, 0, 0, 0.1);
   border-left: 5px solid var(--shade);
   background: none;
 }
@@ -375,64 +420,9 @@
 #jenkins .jenkins-config .config-table .table {
   border-collapse: collapse;
 }
-#jenkins .jenkins-config .config-table input[type='email'].setting-input,
-#jenkins .jenkins-config .config-table input[type='password'].setting-input,
-#jenkins .jenkins-config .config-table input[type='text'].setting-input {
-  height: 2.25em;
-  height: var(--input-line-height);
-  line-height: 2.25em;
-  line-height: var(--input-line-height);
-  padding: 0 5px;
-  border-radius: 3px;
-}
-#jenkins .jenkins-config .config-table select:not([multiple]) {
-  height: 2.25em;
-  height: var(--input-line-height);
-  line-height: 2.25em;
-  line-height: var(--input-line-height);
-}
-#jenkins .jenkins-config .config-table select:not(.select-ajax-pending) {
-  border-radius: 0;
-  background: #fff;
-  background: var(--brightest-bg-color);
-}
-#jenkins .jenkins-config .config-table .bottom-sticker-edge {
-  display: none;
-}
-#jenkins .jenkins-config .config-table .bottom-sticker-inner {
-  padding: 20px 10px 25px 20px;
-  border-top-right-radius: 10px;
-  border: 1px solid #acb;
-  border: 1px solid var(--configure-job-bottom-sticker-border-color);
-  background: rgba(245, 249, 239, 0.75);
-  background: var(--configure-job-bottom-sticker-bg-color);
-}
-#jenkins .jenkins-config .config-table .bottom-sticker,
-#jenkins .jenkins-config .config-table #bottom-sticker {
-  width: auto;
-  margin-left: -10px;
-  overflow: hidden;
-  padding-bottom: 10px;
-  margin: 30px 30px -25px -15px;
-  z-index: 9;
-}
-#jenkins .jenkins-config .config-table .bottom-sticker .cover,
-#jenkins .jenkins-config .config-table #bottom-sticker .cover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-}
-#jenkins .jenkins-config .config-table .help {
-  background: rgba(255, 255, 255, 0.75);
-  background: var(--configure-job-help-area-bg-color);
-}
 #jenkins .jenkins-config .config-table p,
 #jenkins .jenkins-config .config-table .help,
 #jenkins .jenkins-config .config-table .setting-description {
-  font-size: 0.875rem;
   font-size: var(--font-size-sm);
 }
 #jenkins .jenkins-config .config-table tr.help-area,
@@ -445,95 +435,8 @@
 #jenkins .jenkins-config .config-table .tr.help-area .td {
   padding: 0 5px;
 }
-#jenkins .jenkins-config .config-table .repeated-container > .repeated-chunk {
-  padding: 0.75rem;
-}
-#jenkins .jenkins-config .config-table .repeated-chunk.hover {
-  border-color: #69c;
-  border-color: var(--line-blue);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), inset 0 200px 200px -200px #fff;
-  box-shadow: 0 2px 10px var(--shade), inset 0 200px 200px -200px var(--brightest-bg-color);
-  position: relative;
-  z-index: 2;
-}
-#jenkins .jenkins-config .config-table .repeated-chunk.dragging {
-  position: static;
-}
-#jenkins .jenkins-config .config-table .repeated-chunk {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border: 1px solid var(--shade);
-  margin: 2px;
-  position: relative;
-}
-#jenkins .jenkins-config .config-table .repeatable-delete {
-  position: absolute;
-  top: -4px;
-  right: 40px;
-  height: 20px;
-  width: 30px;
-}
-#jenkins .jenkins-config .config-table .repeatable-delete button {
-  text-align: center;
-  text-indent: -9999px;
-  width: 30px !important;
-  height: 18px !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  -moz-border-top-left-radius: 0 !important;
-  border-top-left-radius: 0 !important;
-  -moz-border-top-right-radius: 0 !important;
-  border-top-right-radius: 0 !important;
-  background-color: #cc0003;
-  background-color: var(--danger);
-  color: #eee;
-  color: var(--light-bg-color);
-  border: 1px solid #be3a2b;
-  border: 1px solid var(--danger-line);
-  line-height: 12px !important;
-  display: inline-block;
-  font-size: 8px;
-  min-width: 0;
-  min-height: 0;
-}
-#jenkins .jenkins-config .config-table .repeatable-delete button:focus,
-#jenkins .jenkins-config .config-table .repeatable-delete button:hover {
-  background-color: #a23225;
-  background-color: var(--danger-dark);
-  border-color: #942e22;
-  border-color: var(--danger-dark-line);
-  color: #fff;
-  color: var(--brightest-bg-color);
-}
-#jenkins .jenkins-config .config-table .repeatable-delete button:before {
-  content: 'X';
-  font-weight: bold;
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 2;
-  width: 30px;
-  height: 16px;
-  text-align: center;
-  font-size: 12px;
-  text-indent: 0;
-}
 #jenkins .jenkins-config .config-table span.highlight {
   background-color: #ffff00;
-}
-#jenkins .jenkins-config .config-table .CodeMirror {
-  background: #fff;
-  background: var(--brightest-bg-color);
-}
-#jenkins .jenkins-config .config-table .CodeMirror-scroll {
-  border: 1px solid #ccc !important;
-  border: 1px solid var(--input-border) !important;
-}
-#ygddfdiv {
-  background: #eee;
-  background: var(--light-bg-color);
-  border: 1px solid #69c !important;
-  border: 1px solid var(--line-blue) !important;
-  opacity: 0.5;
 }
 .yui-skin-sam .yuimenu {
   z-index: 9999 !important;
@@ -543,11 +446,9 @@
 }
 #add-item-panel form > .header {
   position: relative;
-  border: 1px solid #ccc;
   border: 1px solid var(--input-border);
   border-bottom: none;
-  background: #eee;
-  background: var(--light-bg-color);
+  background: var(--light-grey);
   -moz-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
   -moz-border-top-right-radius: 3px;
@@ -556,11 +457,9 @@
 }
 #add-item-panel form > .footer {
   position: relative;
-  border: 1px solid #ccc;
   border: 1px solid var(--input-border);
   border-top: none;
-  background: #eee;
-  background: var(--light-bg-color);
+  background: var(--light-grey);
   height: 110px;
 }
 #add-item-panel form > .footer .btn-decorator {
@@ -569,12 +468,12 @@
   padding: 20px 30px;
   width: auto;
   border-top-right-radius: 10px;
-  border: 1px solid #acb;
   border: 1px solid var(--add-item-btn-decorator-border-color);
-  background: rgba(245, 249, 239, 0.75);
   background: var(--add-item-btn-decorator-bg-color);
   text-align: center;
   z-index: 10;
+  display: flex;
+  align-items: center;
 }
 #add-item-panel form > .footer .btn-decorator input[type=checkbox] {
   width: auto;
@@ -590,15 +489,12 @@
 }
 #add-item-panel .item-copy {
   position: relative;
-  border: 1px solid #ccc;
   border: 1px solid var(--input-border);
   border-top: none;
   padding: 20px;
-  background-color: #eee;
-  background-color: var(--light-bg-color);
+  background-color: var(--light-grey);
 }
 #add-item-panel .item-copy p.description {
-  font-size: 1rem;
   font-size: var(--font-size-base);
   margin-top: 0;
 }
@@ -606,37 +502,6 @@
   position: relative;
   padding-left: 58px;
   /* This is needed because <s:textbox /> included YUI styles and we need to override this one */
-  font-family: -apple-system
-,
-BlinkMacSystemFont
-,
-"Segoe UI"
-,
-Roboto
-,
-"Noto Sans"
-,
-Oxygen
-,
-Ubuntu
-,
-Cantarell
-,
-"Fira Sans"
-,
-"Droid Sans"
-,
-"Helvetica Neue"
-,
-Arial
-,
-sans-serif
-,
-"Apple Color Emoji"
-,
-"Segoe UI Emoji"
-,
-"Segoe UI Symbol" !important;
   font-family: var(--font-family-sans) !important;
 }
 #add-item-panel .item-copy .add-item-copy input[type=radio] {
@@ -657,7 +522,6 @@ sans-serif
 #add-item-panel .add-item-copy .input-help {
   color: #666;
   font-style: italic;
-  font-size: 0.875rem;
   font-size: var(--font-size-sm);
   padding-top: 2px;
 }
@@ -677,7 +541,6 @@ sans-serif
   top: 10px;
   height: 48px;
   width: 48px;
-  background: #fff;
   background: var(--input-color);
   border: 1px solid #6699cc;
   border-radius: 50%;
@@ -737,18 +600,14 @@ sans-serif
   box-shadow: inset #003399 0 0 1px, inset #ffffff 0 0 0 1px, 0 5px 3px -2px rgba(0, 0, 0, 0.25), inset -5px -5px 10px 2px #336699, inset -5px -10px 15px 14px #6699cc;
 }
 #add-item-panel input {
-  padding: 5px 10px;
   width: 50%;
   min-width: 300px;
 }
 #add-item-panel .categories {
-  border: 1px solid #ccc;
   border: 1px solid var(--input-border);
-  background-color: #f9f9f9;
-  background-color: var(--bright-bg-color);
+  background-color: var(--very-light-grey);
 }
 #add-item-panel .categories .category {
-  border-bottom: 1px solid #ccc;
   border-bottom: 1px solid var(--input-border);
   padding: 10px;
 }
@@ -788,24 +647,18 @@ sans-serif
 }
 .j-item-options li:hover,
 .j-item-options li:focus {
-  border-color: #ccc;
   border-color: var(--input-border);
-  background: rgba(255, 255, 255, 0.65);
   background: var(--light-bg-color--hover);
   outline: 0;
 }
 .j-item-options li.active {
   cursor: text;
-  background-color: #fff;
   background-color: var(--background);
-  border-color: #ccc;
   border-color: var(--input-border);
-  box-shadow: inset 999rem 0 #fff;
   box-shadow: inset 999rem 0 var(--background);
   -webkit-touch-callout: text;
   -webkit-user-select: text;
   -moz-user-select: text;
-  -ms-user-select: text;
   user-select: text;
   transition: 0.5s;
 }
@@ -816,7 +669,6 @@ sans-serif
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   cursor: pointer;
   border: 1px solid transparent;
@@ -827,10 +679,8 @@ sans-serif
 }
 .j-item-options li label {
   display: block;
-  font-size: 1rem;
   font-size: var(--font-size-base);
   font-weight: bold;
-  color: #333;
   color: var(--text-color);
   padding-bottom: 5px;
   cursor: pointer;

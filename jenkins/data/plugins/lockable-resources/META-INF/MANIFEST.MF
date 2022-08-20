@@ -1,32 +1,26 @@
 Manifest-Version: 1.0
-Archiver-Version: Plexus Archiver
-Created-By: Apache Maven
-Built-By: tobias
-Build-Jdk: 1.8.0_265
-Extension-Name: lockable-resources
-Specification-Title: This plugin allows to define lockable resources (
- such as printers, phones,
-     computers) that can be used by builds. If a build requires an ext
- ernal
-     resource which is already locked, it will wait for the resource t
- o be free.
-Implementation-Title: lockable-resources
-Implementation-Version: 2.10
-Plugin-Class: org.jenkins.plugins.lockableresources.LockableResources
-Group-Id: org.6wind.jenkins
-Short-Name: lockable-resources
+Hudson-Version: 2.289.3
+Plugin-Dependencies: caffeine-api:2.9.3-65.v6a_47d0f4d1fe,workflow-sup
+ port:813.vb_d7c3d2984a_0,mailer:414.vcc4c33714601,matrix-project:772.
+ v494f19991984,script-security:1138.v8e727069a_025,structs:318.va_f3cc
+ b_729b_71
+Implementation-Title: Lockable Resources plugin
 Long-Name: Lockable Resources plugin
-Url: https://github.com/jenkinsci/lockable-resources-plugin
-Compatible-Since-Version: 2.0
-Minimum-Java-Version: 1.8
-Plugin-Version: 2.10
-Hudson-Version: 2.138.4
-Jenkins-Version: 2.138.4
-Plugin-Dependencies: workflow-support:3.4,mailer:1.18,matrix-project:1
- .14,script-security:1.62,structs:1.20
-Plugin-Developers: Tobias Gruetzmacher:TobiX:tobias-git@23.gs,Antonio 
- Muñiz:amuniz:amuniz@cloudbees.com
+Implementation-Version: 2.16
+Group-Id: org.6wind.jenkins
 Plugin-License-Name: MIT
-Plugin-License-Url: https://opensource.org/licenses/MIT
+Specification-Title: Lockable Resources plugin
 Plugin-ScmUrl: https://github.com/jenkinsci/lockable-resources-plugin
+Plugin-Version: 2.16
+Jenkins-Version: 2.289.3
+Url: https://github.com/jenkinsci/lockable-resources-plugin
+Short-Name: lockable-resources
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Compatible-Since-Version: 2.0
+Plugin-Developers: Basil Crow:basil:me@basilcrow.com,Tobias Gruetzmach
+ er:TobiX:tobias-git@23.gs,Antonio Muñiz:amuniz:amuniz@cloudbees.com
+Plugin-Class: org.jenkins.plugins.lockableresources.LockableResources
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+Specification-Version: 2.16
 

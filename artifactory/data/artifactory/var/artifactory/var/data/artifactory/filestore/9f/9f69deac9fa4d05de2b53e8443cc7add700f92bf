@@ -1,0 +1,7 @@
+{
+  "reference" : "hello_world/0.1@stable/release",
+  "revisions" : [ {
+    "revision" : "0",
+    "time" : "2021-05-14T21:33:43.432+0000"
+  } ]
+}

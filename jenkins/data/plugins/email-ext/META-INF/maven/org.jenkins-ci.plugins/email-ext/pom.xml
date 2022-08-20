@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>email-ext</artifactId>
-  <version>2.81</version>
+  <version>2.91</version>
   <packaging>hpi</packaging>
   <name>Email Extension Plugin</name>
   <description>Allows to configure every aspect of email notifications: when an email is sent, who should receive it and what the email says</description>
@@ -26,25 +26,6 @@
         <role>maintainer</role>
         <role>developer</role>
       </roles>
-    </developer>
-    <developer>
-      <id>slide</id>
-      <name>Alex Earl</name>
-      <email>slide.o.mix@gmail.com</email>
-      <roles>
-        <role>maintainer</role>
-        <role>developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>davidvanlaatum</id>
-      <name>David van Laatum</name>
-      <email>david@vanlaatum.id.au</email>
-      <roles>
-        <role>developer</role>
-        <role>maintainer</role>
-      </roles>
-      <timezone>9.5</timezone>
     </developer>
   </developers>
   <contributors>
@@ -75,11 +56,26 @@
         <role>Past Maintainer</role>
       </roles>
     </contributor>
+    <contributor>
+      <name>Alex Earl</name>
+      <email>slide.o.mix@gmail.com</email>
+      <roles>
+        <role>Past Maintainer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>David van Laatum</name>
+      <email>david@vanlaatum.id.au</email>
+      <roles>
+        <role>Past Maintainer</role>
+      </roles>
+      <timezone>9.5</timezone>
+    </contributor>
   </contributors>
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/email-ext-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/email-ext-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/email-ext-plugin.git</developerConnection>
-    <tag>email-ext-2.81</tag>
+    <tag>email-ext-2.91</tag>
     <url>https://github.com/jenkinsci/email-ext-plugin</url>
   </scm>
   <issueManagement>
@@ -98,15 +94,9 @@
   </distributionManagement>
   <dependencies>
     <dependency>
-      <groupId>javax.mail</groupId>
-      <artifactId>mail</artifactId>
-      <version>1.4.7</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
-      <version>1.13.1</version>
+      <version>1.15.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -118,97 +108,101 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>jackson2-api</artifactId>
-      <version>2.12.0</version>
+      <version>2.13.3-285.vc03c0256d517</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>junit</artifactId>
-      <version>1.47</version>
+      <version>1119.1121.vc43d0fc45561</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>matrix-project</artifactId>
-      <version>1.18</version>
+      <version>772.v494f19991984</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>mailer</artifactId>
-      <version>1.32.1</version>
+      <version>435.v79ef3972b_5c7</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jvnet.hudson.plugins</groupId>
-      <artifactId>analysis-core</artifactId>
-      <version>1.54</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>asm</artifactId>
-          <groupId>asm</groupId>
-        </exclusion>
-      </exclusions>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>config-file-provider</artifactId>
-      <version>3.6.2</version>
+      <version>3.10.0</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>token-macro</artifactId>
-      <version>2.13</version>
+      <version>293.v283932a_0a_b_49</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>1.20</version>
+      <version>318.va_f3ccb_729b_71</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>credentials</artifactId>
+      <version>1087.1089.v2f1b_9a_b_040e4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>scm-api</artifactId>
+      <version>608.vfa_f971c5a_a_e9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>2.23</version>
+      <version>625.vd896b_f445a_f8</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-job</artifactId>
-      <version>2.40</version>
+      <version>1189.va_d37a_e9e4eda_</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>script-security</artifactId>
-      <version>1.75</version>
+      <version>1175.v4b_d517d6db_f0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>jakarta-mail-api</artifactId>
+      <version>2.0.0-6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.222.4</version>
+      <version>2.332.1</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
-      <version>3.1.11</version>
-      <scope>provided</scope>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>net.jcip</groupId>
@@ -220,7 +214,7 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.19</version>
+      <version>1.21</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -229,18 +223,6 @@
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.kohsuke</groupId>
-      <artifactId>access-modifier-annotation</artifactId>
-      <version>1.16</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotation-indexer</artifactId>
-          <groupId>org.jenkins-ci</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
   <repositories>
@@ -254,7 +236,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.17</version>
+        <version>3.28</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

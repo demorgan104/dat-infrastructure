@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>git</artifactId>
-  <version>4.6.0</version>
+  <version>4.11.4</version>
   <packaging>hpi</packaging>
-  <name>Jenkins Git plugin</name>
+  <name>Git plugin</name>
   <description>Integrates Jenkins with Git SCM</description>
   <url>https://github.com/jenkinsci/git-plugin/blob/master/README.adoc</url>
   <inceptionYear>2007</inceptionYear>
@@ -30,15 +30,22 @@
       <url>http://rsandell.com</url>
     </developer>
     <developer>
-      <id>fcojfernandez</id>
-      <name>Francisco J. Fernández</name>
-      <email>fjfernandez@cloudbees.com</email>
+      <id>mramonleon</id>
+      <name>M Ramon Leon</name>
+      <email>rleon@cloudbees.com</email>
+    </developer>
+    <developer>
+      <id>olamy</id>
+      <name>Olivier Lamy</name>
+      <email>olamy@apache.org</email>
+      <url>https://about.me/olamy</url>
+      <timezone>Australia/Brisbane</timezone>
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/git-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/git-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/git-plugin.git</developerConnection>
-    <tag>git-4.6.0</tag>
+    <tag>git-4.11.4</tag>
     <url>https://github.com/jenkinsci/git-plugin</url>
   </scm>
   <distributionManagement>
@@ -55,68 +62,68 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>1.20</version>
+      <version>308.v852b473a2b8c</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>git-client</artifactId>
-      <version>3.6.0</version>
+      <version>3.11.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>2.3.14</version>
+      <version>2.6.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>ssh-credentials</artifactId>
-      <version>1.18.1</version>
+      <version>1.19</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>scm-api</artifactId>
-      <version>2.6.4</version>
+      <version>595.vd5a_df5eb_0e39</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>script-security</artifactId>
-      <version>1.76</version>
+      <version>1131.v8b_b_5eda_c328e</version>
       <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>error_prone_annotations</artifactId>
-          <groupId>com.google.errorprone</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>2.23</version>
+      <version>622.vb_8e7c15b_c95a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-scm-step</artifactId>
-      <version>2.11</version>
+      <version>2.13</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>matrix-project</artifactId>
-      <version>1.18</version>
+      <version>1.20</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>mailer</artifactId>
-      <version>1.32.1</version>
+      <version>408.vd726a_1130320</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>credentials-binding</artifactId>
+      <version>1.27.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -129,26 +136,26 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>token-macro</artifactId>
-      <version>2.13</version>
+      <version>267.vcdaea6462991</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>promoted-builds</artifactId>
-      <version>3.7</version>
+      <version>3.10.1</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>com.github.spotbugs</groupId>
       <artifactId>spotbugs-annotations</artifactId>
-      <version>4.2.1</version>
+      <version>4.7.0</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>jsr305</artifactId>
           <groupId>com.google.code.findbugs</groupId>
+          <artifactId>jsr305</artifactId>
         </exclusion>
       </exclusions>
       <optional>true</optional>
@@ -156,15 +163,21 @@
     <dependency>
       <groupId>io.jenkins</groupId>
       <artifactId>configuration-as-code</artifactId>
-      <version>1.46</version>
+      <version>1.55.1</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.222.4</version>
+      <version>2.289.1</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -182,7 +195,7 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.19</version>
+      <version>1.21</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -191,18 +204,6 @@
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.kohsuke</groupId>
-      <artifactId>access-modifier-annotation</artifactId>
-      <version>1.16</version>
-      <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotation-indexer</artifactId>
-          <groupId>org.jenkins-ci</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
   <repositories>
@@ -216,7 +217,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.17</version>
+        <version>3.27</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>
